@@ -1,335 +1,245 @@
 """
 Pipeline de processamento de dados eleitorais.
 
-Fluxo:
-1. Leitura de dados brutos (CSV + XLSX)
-2. Normalização e validação
-3. Merge com coordenadas geográficas
-4. Geração de agregações por local
-5. Exportação em JSON normalizado
+Lê a tabela de seções e o XLSX de coordenadas, que possui linhas
+instrutivas antes do cabeçalho real, e gera JSONs para o dashboard.
 """
 
-import csv
 import logging
+import re
 from pathlib import Path
-from typing import Dict, List, Tuple
+from typing import Any, Dict, List, Tuple
 
 import pandas as pd
-from utils import (
-    DataProcessor, DataValidator, ReportGenerator,
-    get_raw_dir, get_processed_dir
-)
+
+from utils import DataProcessor, DataValidator, ReportGenerator, get_raw_dir, get_processed_dir
 
 logger = logging.getLogger(__name__)
 
 
+def _text(value: Any) -> str:
+    if value is None or (isinstance(value, float) and pd.isna(value)):
+        return ''
+    return str(value).strip()
+
+
+def _number(value: Any, default: int = 0) -> int:
+    try:
+        if pd.isna(value):
+            return default
+        return int(float(str(value).replace(',', '.')))
+    except (TypeError, ValueError):
+        return default
+
+
+def _key(value: Any) -> str:
+    return re.sub(r'[^a-z0-9]', '', _text(value).lower())
+
+
 class SecaoProcessor:
-    """Processador de dados de seções eleitorais."""
-    
     def __init__(self):
         self.secoes_raw = []
         self.secoes_normalized = []
         self.relatorio = {}
-    
+
     def carregar_csv(self, filepath: Path) -> bool:
-        """Carrega arquivo CSV de seções."""
         try:
-            df = pd.read_csv(filepath, encoding='utf-8')
-            logger.info(f"Carregado: {filepath.name} ({len(df)} registros)")
-            
-            # Normalizar nomes de colunas
-            df.columns = [col.lower().strip() for col in df.columns]
-            
+            df = pd.read_csv(filepath, encoding='utf-8-sig')
+            df.columns = [_text(col).lower().strip() for col in df.columns]
+            self.secoes_raw = df.to_dict('records')
+            logger.info('Carregado: %s (%s registros)', filepath.name, len(df))
+            return True
+        except UnicodeDecodeError:
+            df = pd.read_csv(filepath, encoding='latin-1')
+            df.columns = [_text(col).lower().strip() for col in df.columns]
             self.secoes_raw = df.to_dict('records')
             return True
-        except Exception as e:
-            logger.error(f"Erro ao carregar {filepath}: {e}")
+        except Exception as exc:
+            logger.error('Erro ao carregar %s: %s', filepath, exc)
             return False
-    
+
     def processar(self) -> Tuple[List[Dict], Dict]:
-        """Processa seções e retorna dados normalizados."""
-        
         self.secoes_normalized = []
-        warnings = []
         erros = []
-        
         for idx, sec in enumerate(self.secoes_raw):
             try:
-                sec_norm = self._normalizar_secao(sec, idx)
-                
-                if sec_norm:
-                    self.secoes_normalized.append(sec_norm)
+                normalized = self._normalizar_secao(sec, idx)
+                if normalized:
+                    self.secoes_normalized.append(normalized)
                 else:
-                    erros.append(f"Seção {idx}: Falha na normalização")
-                    
-            except Exception as e:
-                erros.append(f"Seção {idx}: {str(e)}")
-                logger.warning(f"Erro ao processar seção {idx}: {e}")
-        
+                    erros.append(f'Seção {idx}: falha na normalização')
+            except Exception as exc:
+                erros.append(f'Seção {idx}: {exc}')
         self.relatorio = ReportGenerator.gerar_relatorio_processamento(
-            arquivo="tabela_detalhada_secoes_viamao.csv",
-            total_registros=len(self.secoes_raw),
-            registros_ok=len(self.secoes_normalized),
-            warnings=warnings,
-            erros=erros
+            'tabela_detalhada_secoes_viamao.csv', len(self.secoes_raw),
+            len(self.secoes_normalized), erros=erros
         )
-        
-        logger.info(f"Processadas {len(self.secoes_normalized)}/{len(self.secoes_raw)} seções")
+        logger.info('Processadas %s/%s seções', len(self.secoes_normalized), len(self.secoes_raw))
         return self.secoes_normalized, self.relatorio
-    
+
     def _normalizar_secao(self, sec: Dict, idx: int) -> Dict:
-        """Normaliza registro de seção."""
-        
-        # Extrair campos
-        secao_num = int(sec.get('secao') or sec.get('numero_secao') or idx)
-        votos_denise = int(sec.get('votos_denise') or sec.get('denise') or 0)
-        votos_helenir = int(sec.get('votos_helenir') or sec.get('helenir') or 0)
-        total = votos_denise + votos_helenir
-        
-        # Validar votos
-        if not (DataValidator.validate_voto(votos_denise) and 
-                DataValidator.validate_voto(votos_helenir)):
+        secao_num = _number(sec.get('secao') or sec.get('numero_secao'), idx)
+        votos_denise = _number(sec.get('votos_denise') or sec.get('denise'))
+        votos_helenir = _number(sec.get('votos_helenir') or sec.get('helenir'))
+        if not (DataValidator.validate_voto(votos_denise) and DataValidator.validate_voto(votos_helenir)):
             return None
-        
-        # Calcular percentuais
-        pct_denise = DataProcessor.calcular_percentual(votos_denise, total) if total > 0 else 0.0
-        pct_helenir = DataProcessor.calcular_percentual(votos_helenir, total) if total > 0 else 0.0
-        
+        total = votos_denise + votos_helenir
         return {
-            "secao_numero": secao_num,
-            "zona_eleitoral": int(sec.get('zona_eleitoral') or sec.get('zona') or 0),
-            "bairro": str(sec.get('bairro') or 'N/A').strip(),
-            "local": str(sec.get('local') or sec.get('nome_local') or 'N/A').strip(),
-            "endereco": str(sec.get('endereco') or 'N/A').strip(),
-            "votos": {
-                "denise": votos_denise,
-                "helenir": votos_helenir,
-                "total": total
+            'secao_numero': secao_num,
+            'zona_eleitoral': _number(sec.get('zona_eleitoral') or sec.get('zona')),
+            'bairro': _text(sec.get('bairro')) or 'N/A',
+            'local': _text(sec.get('local') or sec.get('nome_local')) or 'N/A',
+            'endereco': _text(sec.get('endereco')) or 'N/A',
+            'votos': {'denise': votos_denise, 'helenir': votos_helenir, 'total': total},
+            'percentuais': {
+                'denise': DataProcessor.calcular_percentual(votos_denise, total),
+                'helenir': DataProcessor.calcular_percentual(votos_helenir, total),
             },
-            "percentuais": {
-                "denise": pct_denise,
-                "helenir": pct_helenir
-            },
-            "abstencoes": None,
-            "metadata": {
-                "processado_em": pd.Timestamp.utcnow().isoformat() + "Z",
-                "status": "OK"
-            }
+            'abstencoes': None,
+            'metadata': {'status': 'OK'},
         }
 
 
 class LocaisProcessor:
-    """Processador de dados de locais de votação."""
-    
     def __init__(self):
         self.locais_raw = []
         self.locais_normalized = []
         self.relatorio = {}
-    
+
     def carregar_xlsx(self, filepath: Path) -> bool:
-        """Carrega arquivo XLSX de locais."""
         try:
-            df = pd.read_excel(filepath)
-            logger.info(f"Carregado: {filepath.name} ({len(df)} registros)")
-            
-            # Normalizar nomes de colunas
-            df.columns = [col.lower().strip() for col in df.columns]
-            
+            # O arquivo tem título/instruções antes do cabeçalho real.
+            raw = pd.read_excel(filepath, header=None)
+            header_index = None
+            for index, row in raw.iterrows():
+                values = [_key(value) for value in row.tolist()]
+                if any('nomedolocal' in value for value in values) or (
+                    'latitude' in values and 'longitude' in values
+                ):
+                    header_index = index
+                    break
+
+            if header_index is None:
+                raise ValueError('Cabeçalho com Nome do Local/Latitude/Longitude não encontrado')
+
+            headers = [_text(value) for value in raw.iloc[header_index].tolist()]
+            df = raw.iloc[header_index + 1:].copy()
+            df.columns = headers
+            df = df.dropna(how='all')
+
+            # Remove colunas sem nome e cria aliases estáveis.
+            df = df.loc[:, [column for column in df.columns if column]]
+            aliases = {}
+            for column in df.columns:
+                normalized = _key(column)
+                if 'nomedolocal' in normalized:
+                    aliases[column] = 'local'
+                elif normalized in ('latitude', 'lat'):
+                    aliases[column] = 'latitude'
+                elif normalized in ('longitude', 'lon', 'long'):
+                    aliases[column] = 'longitude'
+                elif normalized in ('ze', 'zona', 'zonaeleitoral'):
+                    aliases[column] = 'zona'
+                elif 'secoes' in normalized or 'secao' in normalized:
+                    aliases[column] = 'secoes'
+            df = df.rename(columns=aliases)
             self.locais_raw = df.to_dict('records')
+            logger.info('Carregado: %s (%s registros; cabeçalho na linha %s)', filepath.name, len(df), header_index)
             return True
-        except Exception as e:
-            logger.error(f"Erro ao carregar {filepath}: {e}")
+        except Exception as exc:
+            logger.error('Erro ao carregar %s: %s', filepath, exc)
             return False
-    
+
     def processar(self, secoes_normalized: List[Dict] = None) -> Tuple[List[Dict], Dict]:
-        """Processa locais e retorna dados normalizados."""
-        
         self.locais_normalized = []
-        warnings = []
-        erros = []
-        
-        # Criar mapa de seções por local
-        secoes_por_local = {}
-        if secoes_normalized:
-            for sec in secoes_normalized:
-                local_key = sec['local'].lower().strip()
-                if local_key not in secoes_por_local:
-                    secoes_por_local[local_key] = {
-                        'votos_denise': 0,
-                        'votos_helenir': 0,
-                        'total_votos': 0,
-                        'secoes': [],
-                        'info': sec
-                    }
-                secoes_por_local[local_key]['votos_denise'] += sec['votos']['denise']
-                secoes_por_local[local_key]['votos_helenir'] += sec['votos']['helenir']
-                secoes_por_local[local_key]['total_votos'] += sec['votos']['total']
-                secoes_por_local[local_key]['secoes'].append(sec['secao_numero'])
-        
+        warnings, erros = [], []
+        por_local: Dict[str, Dict] = {}
+        for sec in secoes_normalized or []:
+            name = _text(sec.get('local')).casefold()
+            if not name:
+                continue
+            entry = por_local.setdefault(name, {'votos_denise': 0, 'votos_helenir': 0, 'total_votos': 0, 'secoes': []})
+            entry['votos_denise'] += sec['votos']['denise']
+            entry['votos_helenir'] += sec['votos']['helenir']
+            entry['total_votos'] += sec['votos']['total']
+            entry['secoes'].append(sec['secao_numero'])
+
         for idx, local in enumerate(self.locais_raw):
             try:
-                local_norm = self._normalizar_local(local, idx, secoes_por_local)
-                
-                if local_norm:
-                    self.locais_normalized.append(local_norm)
+                normalized = self._normalizar_local(local, idx, por_local)
+                if normalized:
+                    self.locais_normalized.append(normalized)
                 else:
-                    warnings.append(f"Local {idx}: Falha na normalização")
-                    
-            except Exception as e:
-                erros.append(f"Local {idx}: {str(e)}")
-                logger.warning(f"Erro ao processar local {idx}: {e}")
-        
+                    warnings.append(f'Local {idx}: coordenadas ou nome inválido')
+            except Exception as exc:
+                erros.append(f'Local {idx}: {exc}')
+
         self.relatorio = ReportGenerator.gerar_relatorio_processamento(
-            arquivo="locais_votacao.xlsx",
-            total_registros=len(self.locais_raw),
-            registros_ok=len(self.locais_normalized),
-            warnings=warnings,
-            erros=erros
+            'locais_votacao (78).xlsx', len(self.locais_raw),
+            len(self.locais_normalized), warnings, erros
         )
-        
-        logger.info(f"Processados {len(self.locais_normalized)}/{len(self.locais_raw)} locais")
+        logger.info('Processados %s/%s locais', len(self.locais_normalized), len(self.locais_raw))
         return self.locais_normalized, self.relatorio
-    
-    def _normalizar_local(self, local: Dict, idx: int, 
-                          secoes_por_local: Dict = None) -> Dict:
-        """Normaliza registro de local."""
-        
-        # Extrair coordenadas
-        lat = float(local.get('latitude') or local.get('lat') or 0)
-        lon = float(local.get('longitude') or local.get('lon') or 0)
-        
+
+    def _normalizar_local(self, local: Dict, idx: int, por_local: Dict) -> Dict:
+        name = _text(local.get('local')) or 'N/A'
+        try:
+            lat = float(str(local.get('latitude')).replace(',', '.'))
+            lon = float(str(local.get('longitude')).replace(',', '.'))
+        except (TypeError, ValueError):
+            return None
         if not DataValidator.validate_coordenada(lat, lon):
             return None
-        
-        # Parse de seções
-        secoes_str = str(local.get('secoes') or local.get('secao') or '')
-        secoes = DataProcessor.parse_secoes_field(secoes_str)
-        
-        # Verificar se tem múltiplas seções (anomalia)
-        anomalias = []
-        if len(secoes) > 1:
-            anomalias.append("multiplas_secoes_em_um_registro")
-        
-        # Buscar agregações
-        agregado = {
-            'votos_denise': 0,
-            'votos_helenir': 0,
-            'total_votos': 0,
-            'num_secoes': len(secoes)
-        }
-        
-        if secoes_por_local:
-            local_key = str(local.get('local') or 'N/A').lower().strip()
-            if local_key in secoes_por_local:
-                agg = secoes_por_local[local_key]
-                agregado['votos_denise'] = agg['votos_denise']
-                agregado['votos_helenir'] = agg['votos_helenir']
-                agregado['total_votos'] = agg['total_votos']
-        
-        # Calcular intensidade
-        intensidade = 0.5
-        if agregado['total_votos'] > 0:
-            # Usar o máximo entre as candidatas
-            max_votos = max(agregado['votos_denise'], agregado['votos_helenir'])
-            intensidade = min(1.0, max_votos / (agregado['total_votos'] + 1))
-        
+
+        key = name.casefold()
+        agregado = por_local.get(key, {'votos_denise': 0, 'votos_helenir': 0, 'total_votos': 0, 'secoes': []})
+        secoes_xlsx = DataProcessor.parse_secoes_field(local.get('secoes'))
+        secoes = sorted(set(secoes_xlsx or agregado['secoes']))
+        anomalias = ['multiplas_secoes_em_um_registro'] if len(secoes_xlsx) > 1 else []
+        total = agregado['total_votos']
         return {
-            "id": f"loc_{idx:03d}",
-            "nome": str(local.get('local') or 'N/A').strip(),
-            "endereco": str(local.get('endereco') or 'N/A').strip(),
-            "zona_eleitoral": int(local.get('zona') or 0),
-            "bairro": str(local.get('bairro') or 'N/A').strip(),
-            "coordenadas": {
-                "latitude": lat,
-                "longitude": lon
+            'id': f'loc_{idx:03d}', 'nome': name,
+            'endereco': _text(local.get('endereco')) or 'N/A',
+            'zona_eleitoral': _number(local.get('zona')),
+            'bairro': _text(local.get('bairro')) or 'N/A',
+            'coordenadas': {'latitude': lat, 'longitude': lon},
+            'secoes': secoes,
+            'agregado': {
+                'votos_denise': agregado['votos_denise'],
+                'votos_helenir': agregado['votos_helenir'],
+                'total_votos': total,
+                'num_secoes': len(secoes),
             },
-            "secoes": sorted(secoes),
-            "agregado": agregado,
-            "marcador": {
-                "tamanho": "medium",
-                "intensidade": round(intensidade, 2),
-                "cor": "#FF6B6B" if agregado['votos_denise'] > agregado['votos_helenir'] else "#4ECDC4"
-            },
-            "qualidade_dados": {
-                "anomalias": anomalias,
-                "status": "OK" if not anomalias else "WARNING"
-            }
+            'qualidade_dados': {'anomalias': anomalias, 'status': 'WARNING' if anomalias else 'OK'},
         }
 
 
 class DataPipeline:
-    """Pipeline de processamento completo."""
-    
     def __init__(self, raw_dir: Path = None, processed_dir: Path = None):
         self.raw_dir = raw_dir or get_raw_dir()
         self.processed_dir = processed_dir or get_processed_dir()
         self.processed_dir.mkdir(parents=True, exist_ok=True)
-    
+
     def executar(self) -> bool:
-        """Executa pipeline completo."""
-        
-        logger.info("=" * 60)
-        logger.info("Iniciando pipeline de processamento de dados")
-        logger.info("=" * 60)
-        
-        try:
-            # 1. Processar seções
-            logger.info("\n[1/2] Processando seções...")
-            sec_processor = SecaoProcessor()
-            csv_path = self.raw_dir / 'tabela_detalhada_secoes_viamao.csv'
-            
-            if not sec_processor.carregar_csv(csv_path):
-                logger.error("Falha ao carregar arquivo de seções")
-                return False
-            
-            secoes_norm, sec_relatorio = sec_processor.processar()
-            
-            # Salvar seções
-            DataProcessor.save_json(
-                {"secoes": secoes_norm},
-                self.processed_dir / 'secoes_normalized.json'
-            )
-            DataProcessor.save_json(
-                sec_relatorio,
-                self.processed_dir / 'relatorio_secoes.json'
-            )
-            
-            # 2. Processar locais
-            logger.info("\n[2/2] Processando locais...")
-            loc_processor = LocaisProcessor()
-            xlsx_path = self.raw_dir / 'locais_votacao (78).xlsx'
-            
-            if not loc_processor.carregar_xlsx(xlsx_path):
-                logger.error("Falha ao carregar arquivo de locais")
-                return False
-            
-            locais_norm, loc_relatorio = loc_processor.processar(secoes_norm)
-            
-            # Salvar locais
-            DataProcessor.save_json(
-                {"locais": locais_norm},
-                self.processed_dir / 'locais_normalized.json'
-            )
-            DataProcessor.save_json(
-                loc_relatorio,
-                self.processed_dir / 'relatorio_locais.json'
-            )
-            
-            # Relatório final
-            logger.info("\n" + "=" * 60)
-            logger.info("✓ Pipeline concluído com sucesso!")
-            logger.info(f"  - {len(secoes_norm)} seções processadas")
-            logger.info(f"  - {len(locais_norm)} locais processados")
-            logger.info("=" * 60 + "\n")
-            
-            return True
-            
-        except Exception as e:
-            logger.error(f"Erro no pipeline: {e}")
+        sec = SecaoProcessor()
+        csv_path = self.raw_dir / 'tabela_detalhada_secoes_viamao.csv'
+        xlsx_path = self.raw_dir / 'locais_votacao (78).xlsx'
+        if not sec.carregar_csv(csv_path):
             return False
+        secoes, relatorio_secoes = sec.processar()
+        DataProcessor.save_json({'secoes': secoes}, self.processed_dir / 'secoes_normalized.json')
+        DataProcessor.save_json(relatorio_secoes, self.processed_dir / 'relatorio_secoes.json')
+
+        locais_processor = LocaisProcessor()
+        if not locais_processor.carregar_xlsx(xlsx_path):
+            return False
+        locais, relatorio_locais = locais_processor.processar(secoes)
+        DataProcessor.save_json({'locais': locais}, self.processed_dir / 'locais_normalized.json')
+        DataProcessor.save_json(relatorio_locais, self.processed_dir / 'relatorio_locais.json')
+        logger.info('Pipeline concluído: %s seções e %s locais', len(secoes), len(locais))
+        return True
 
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.INFO)
-    pipeline = DataPipeline()
-    pipeline.executar()
+    DataPipeline().executar()
