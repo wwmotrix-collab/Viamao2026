@@ -69,8 +69,22 @@ def get_data_dir() -> Path:
 
 
 def get_raw_dir() -> Path:
-    return get_data_dir() / 'raw'
+    root_dir = Path(__file__).resolve().parent.parent
+    default_dir = get_data_dir() / 'raw'
+    if default_dir.exists():
+        return default_dir
+
+    raw_candidates = [
+        root_dir / 'tabela_detalhada_secoes_viamao.csv',
+        root_dir / 'locais_votacao (78).xlsx',
+        root_dir / 'viamao_2024.csv',
+    ]
+    if any(candidate.exists() for candidate in raw_candidates):
+        return root_dir
+    return default_dir
 
 
 def get_processed_dir() -> Path:
-    return get_data_dir() / 'processed'
+    processed_path = get_data_dir() / 'processed'
+    processed_path.mkdir(parents=True, exist_ok=True)
+    return processed_path
