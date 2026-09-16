@@ -1,0 +1,60 @@
+# Dashboard Viamão 2026
+
+## HTML base do dashboard
+
+```html
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Viamão 2026 Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <h1>Viamão 2026</h1>
+      <div class="filters">
+        <select id="filtro-zona">
+          <option value="all">Todas as zonas</option>
+        </select>
+        <select id="filtro-bairro">
+          <option value="all">Todos os bairros</option>
+        </select>
+        <select id="filtro-local">
+          <option value="all">Todos os locais</option>
+        </select>
+        <select id="filtro-candidata">
+          <option value="total">Denise + Helenir</option>
+          <option value="denise">Denise</option>
+          <option value="helenir">Helenir</option>
+        </select>
+      </div>
+    </header>
+
+    <main class="dashboard">
+      <section class="panel map-panel">
+        <h2>Mapa por local de votação</h2>
+        <iframe id="mapa-frame" title="Mapa de locais" src="mapa_locais.html"></iframe>
+      </section>
+
+      <aside class="panel stats-panel">
+        <h2>Resumo</h2>
+        <div class="kpis">
+          <div class="kpi"><span>Total de seções</span><strong id="total-secoes">0</strong></div>
+          <div class="kpi"><span>Denise</span><strong id="votos-denise">0</strong></div>
+          <div class="kpi"><span>Helenir</span><strong id="votos-helenir">0</strong></div>
+          <div class="kpi"><span>Locais</span><strong id="total-locais">0</strong></div>
+        </div>
+
+        <div class="lista-secoes">
+          <h3>Seções semelhantes</h3>
+          <ul id="lista-secoes"></ul>
+        </div>
+      </aside>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
+```
