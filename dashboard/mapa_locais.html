@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Viamão 2026 — Mapa de Locais</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <style>
+      :root {
+        --bg: #0b1220;
+        --panel: rgba(15, 23, 42, 0.9);
+        --panel-soft: rgba(15, 23, 42, 0.7);
+        --border: rgba(148, 163, 184, 0.25);
+        --text: #ebf2ff;
+        --muted: #a9b9d1;
+        --blue: #2a7de1;
+        --green: #2fcf74;
+        --red: #ff6b6b;
+        --orange: #ff9f43;
+        --shadow: rgba(2, 6, 23, 0.5);
+      }
+
+      * { box-sizing: border-box; }
+
+      html, body {
+        margin: 0;
+        height: 100%;
+        background: var(--bg);
+        color: var(--text);
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      body {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .topbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 12px 16px;
+        background: linear-gradient(135deg, #0f172a 0%, #15243d 55%, #1d2f4d 100%);
+        border-bottom: 1px solid var(--border);
+        box-shadow: 0 8px 28px var(--shadow);
+        z-index: 1000;
+      }
+
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+
+      .brand-mark {
+        width: 36px;
+        height: 36px;
+        border-radius: 10px;
+        background: linear-gradient(135deg, #1a4ea3 0%, #203b75 55%, #bc3d2d 100%);
+        display: grid;
+        place-items: center;
+        font-weight: 700;
+        font-size: 20px;
+      }
+
+      .brand-title {
+        font-size: 1.05rem;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+      }
+
+      .brand-sub {
+        color: var(--muted);
+        font-size: 0.72rem;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+      }
+
+      .status {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 7px 12px;
+        border-radius: 999px;
+        background: rgba(15, 23, 42, 0.7);
+        border: 1px solid var(--border);
+        font-size: 0.8rem;
+        color: var(--muted);
+      }
+
+      .dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: var(--green);
+        box-shadow: 0 0 0 3px rgba(47, 207, 116, 0.2);
+      }
+
+      .map-wrap {
+        position: relative;
+        flex: 1;
+        min-height: 0;
+      }
+
+      #map {
+        position: absolute;
+        inset: 0;
+      }
+
+      .legend {
+        position: absolute;
+        left: 16px;
+        top: 16px;
+        z-index: 500;
+        max-width: 300px;
+        background: var(--panel-soft);
+        backdrop-filter: blur(12px);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        box-shadow: 0 18px 32px var(--shadow);
+        padding: 12px 14px;
+      }
+
+      .legend h2 {
+        margin: 0 0 10px;
+        font-size: 0.9rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--muted);
+      }
+
+      .stats {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 8px;
+      }
+
+      .stat {
+        background: rgba(15, 23, 42, 0.7);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 10px 12px;
+      }
+
+      .stat-label {
+        display: block;
+        color: var(--muted);
+        font-size: 0.68rem;
+        margin-bottom: 2px;
+      }
+
+      .stat-value {
+        font-size: 1.15rem;
+        font-weight: 700;
+      }
+
+      .legend-list {
+        margin-top: 12px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+
+      .chip {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 0.72rem;
+        color: var(--muted);
+        background: rgba(148, 163, 184, 0.08);
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        padding: 6px 10px;
+      }
+
+      .chip i {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+      }
+
+      .leaflet-container {
+        background: #07111f;
+      }
+
+      .leaflet-popup-content-wrapper,
+      .leaflet-popup-tip {
+        background: #112033;
+        color: var(--text);
+      }
+
+      .leaflet-popup-content {
+        margin: 12px 14px;
+        line-height: 1.5;
+        min-width: 230px;
+      }
+
+      .popup-title {
+        font-weight: 700;
+        font-size: 1rem;
+        margin-bottom: 6px;
+      }
+
+      .popup-meta {
+        color: var(--muted);
+        font-size: 0.78rem;
+      }
+
+      .popup-row {
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+        padding-top: 6px;
+        border-top: 1px solid rgba(148, 163, 184, 0.2);
+        margin-top: 8px;
+      }
+
+      @media (max-width: 700px) {
+        .legend {
+          right: 12px;
+          left: 12px;
+          max-width: none;
+        }
+
+        .status {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-mark">V</div>
+        <div>
+          <div class="brand-title">Viamão 2026</div>
+          <div class="brand-sub">Locais de votação</div>
+        </div>
+      </div>
+      <div class="status">
+        <span class="dot"></span>
+        <span>dados ativos</span>
+      </div>
+    </header>
+
+    <div class="map-wrap">
+      <div id="map" aria-label="Mapa de locais de votação de Viamão"></div>
+
+      <aside class="legend">
+        <h2>Resumo do mapa</h2>
+        <div class="stats">
+          <div class="stat">
+            <span class="stat-label">Locais</span>
+            <span class="stat-value" id="total-locais">0</span>
+          </div>
+          <div class="stat">
+            <span class="stat-label">Seções</span>
+            <span class="stat-value" id="total-secoes">0</span>
+          </div>
+          <div class="stat">
+            <span class="stat-label">Denise</span>
+            <span class="stat-value" id="total-denise">0</span>
+          </div>
+          <div class="stat">
+            <span class="stat-label">Helenir</span>
+            <span class="stat-value" id="total-helenir">0</span>
+          </div>
+        </div>
+
+        <div class="legend-list">
+          <span class="chip"><i style="background:#2a7de1"></i> Denise</span>
+          <span class="chip"><i style="background:#2fcf74"></i> Helenir</span>
+          <span class="chip"><i style="background:#ff9f43"></i> Local</span>
+        </div>
+      </aside>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+      const map = L.map('map', {
+        zoomControl: true,
+        attributionControl: true
+      }).setView([-30.084, -51.023], 11);
+
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; OpenStreetMap contributors'
+      }).addTo(map);
+
+      const totalLocaisEl = document.getElementById('total-locais');
+      const totalSecoesEl = document.getElementById('total-secoes');
+      const totalDeniseEl = document.getElementById('total-denise');
+      const totalHelenirEl = document.getElementById('total-helenir');
+
+      async function carregarDados() {
+        const candidates = [
+          '../data/processed/locais_normalized.json',
+          '../data/locais_normalized.json',
+          '../data/processed/secoes_normalized.json',
+          '../data/secoes_normalized.json'
+        ];
+
+        for (const path of candidates) {
+          try {
+            const res = await fetch(path, { cache: 'no-store' });
+            if (!res.ok) continue;
+            const data = await res.json();
+            if (data && Array.isArray(data.locais)) return data.locais;
+            if (data && Array.isArray(data.secoes)) return null;
+          } catch (_) {
+            continue;
+          }
+        }
+
+        return [];
+      }
+
+      function popupHtml(local) {
+        const nome = local.nome || 'Local de votação';
+        const bairro = local.bairro || 'N/A';
+        const zona = local.zona_eleitoral || 'N/A';
+        const secoes = Array.isArray(local.secoes) ? local.secoes.join(', ') : 'N/A';
+        const agre = local.agregado || {};
+        const denise = agre.votos_denise || 0;
+        const helenir = agre.votos_helenir || 0;
+        const total = agre.total_votos || 0;
+
+        return `
+          <div class="popup-title">${nome}</div>
+          <div class="popup-meta">Bairro: ${bairro}</div>
+          <div class="popup-meta">Zona: ${zona}</div>
+          <div class="popup-meta">Seções: ${secoes}</div>
+          <div class="popup-row"><span>Denise</span><strong>${denise}</strong></div>
+          <div class="popup-row"><span>Helenir</span><strong>${helenir}</strong></div>
+          <div class="popup-row"><span>Total</span><strong>${total}</strong></div>
+        `;
+      }
+
+      function colorByWinner(local) {
+        const agre = local.agregado || {};
+        const denise = agre.votos_denise || 0;
+        const helenir = agre.votos_helenir || 0;
+        return denise >= helenir ? '#2a7de1' : '#2fcf74';
+      }
+
+      function radiusByVotes(local) {
+        const agre = local.agregado || {};
+        const total = agre.total_votos || 0;
+        return Math.max(8, Math.min(26, total / 10));
+      }
+
+      async function init() {
+        const locais = await carregarDados();
+
+        if (!locais || !locais.length) {
+          totalLocaisEl.textContent = '0';
+          totalSecoesEl.textContent = '0';
+          totalDeniseEl.textContent = '0';
+          totalHelenirEl.textContent = '0';
+
+          const msg = L.popup().setLatLng([-30.084, -51.023]).setContent('<div style="color:#fff;">Nenhum dado de locais encontrado. Execute o pipeline para gerar <code>data/processed/locais_normalized.json</code>.</div>');
+          msg.addTo(map);
+          return;
+        }
+
+        const totalSecoes = locais.reduce((acc, local) => acc + ((Array.isArray(local.secoes) ? local.secoes.length : 0)), 0);
+        const totalDenise = locais.reduce((acc, local) => acc + ((local.agregado && local.agregado.votos_denise) || 0), 0);
+        const totalHelenir = locais.reduce((acc, local) => acc + ((local.agregado && local.agregado.votos_helenir) || 0), 0);
+
+        totalLocaisEl.textContent = String(locais.length);
+        totalSecoesEl.textContent = String(totalSecoes);
+        totalDeniseEl.textContent = String(totalDenise);
+        totalHelenirEl.textContent = String(totalHelenir);
+
+        const layerGroup = L.layerGroup().addTo(map);
+
+        locais.forEach((local) => {
+          const coords = local.coordenadas || {};
+          const lat = Number(coords.latitude);
+          const lon = Number(coords.longitude);
+
+          if (!Number.isFinite(lat) || !Number.isFinite(lon)) return;
+
+          const circle = L.circleMarker([lat, lon], {
+            radius: radiusByVotes(local),
+            color: colorByWinner(local),
+            weight: 1.2,
+            fillColor: colorByWinner(local),
+            fillOpacity: 0.8
+          }).bindPopup(popupHtml(local));
+
+          circle.addTo(layerGroup);
+        });
+
+        if (locais.length) {
+          const bounds = L.latLngBounds(locais.map(local => [Number(local.coordenadas.latitude), Number(local.coordenadas.longitude)]));
+          map.fitBounds(bounds.pad(0.35));
+        }
+      }
+
+      init();
+    </script>
+  </body>
+</html>
