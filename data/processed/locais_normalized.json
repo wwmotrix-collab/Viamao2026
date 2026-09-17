@@ -1,0 +1,1465 @@
+{
+  "locais": [
+    {
+      "id": "loc_000",
+      "nome": "EEEM NISIA FLORESTA",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.017165,
+        "longitude": -51.02297
+      },
+      "secoes": [
+        4,
+        138,
+        167,
+        191,
+        211,
+        234,
+        248,
+        287,
+        395,
+        449
+      ],
+      "agregado": {
+        "votos_denise": 9,
+        "votos_helenir": 8,
+        "total_votos": 17,
+        "num_secoes": 10
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_001",
+      "nome": "EEEM AÇORIANOS",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.084357,
+        "longitude": -51.039468
+      },
+      "secoes": [
+        12,
+        24,
+        67,
+        116,
+        157,
+        188,
+        201,
+        265,
+        306,
+        333,
+        362,
+        370,
+        398,
+        500,
+        517
+      ],
+      "agregado": {
+        "votos_denise": 45,
+        "votos_helenir": 43,
+        "total_votos": 88,
+        "num_secoes": 15
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_003",
+      "nome": "COLÉGIO ESTADUAL CECILIA MEIRELES",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.067019,
+        "longitude": -51.033797
+      },
+      "secoes": [
+        27,
+        173,
+        330,
+        390,
+        426,
+        516
+      ],
+      "agregado": {
+        "votos_denise": 11,
+        "votos_helenir": 5,
+        "total_votos": 16,
+        "num_secoes": 6
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_004",
+      "nome": "COLÉGIO MARISTA GRAÇAS",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.077044,
+        "longitude": -51.049392
+      },
+      "secoes": [],
+      "agregado": {
+        "votos_denise": 0,
+        "votos_helenir": 0,
+        "total_votos": 0,
+        "num_secoes": 0
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_005",
+      "nome": "EEEM CÉLIA FLORES DE LAVRA PINTO",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.075869,
+        "longitude": -51.015362
+      },
+      "secoes": [],
+      "agregado": {
+        "votos_denise": 0,
+        "votos_helenir": 0,
+        "total_votos": 0,
+        "num_secoes": 0
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_006",
+      "nome": "EMEF FARROUPILHA",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.092509,
+        "longitude": -51.0636702
+      },
+      "secoes": [
+        1,
+        60,
+        72,
+        88,
+        104,
+        127,
+        137,
+        170,
+        183,
+        206,
+        341,
+        396,
+        438,
+        574,
+        582
+      ],
+      "agregado": {
+        "votos_denise": 41,
+        "votos_helenir": 27,
+        "total_votos": 68,
+        "num_secoes": 15
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_007",
+      "nome": "EMEF LUCIANA DE ABREU",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.059519,
+        "longitude": -51.080825
+      },
+      "secoes": [],
+      "agregado": {
+        "votos_denise": 0,
+        "votos_helenir": 0,
+        "total_votos": 0,
+        "num_secoes": 0
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_008",
+      "nome": "EEEM SETEMBRINA",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.079746,
+        "longitude": -51.021969
+      },
+      "secoes": [
+        26,
+        37,
+        62,
+        98,
+        139,
+        168,
+        199,
+        225,
+        322,
+        351,
+        411
+      ],
+      "agregado": {
+        "votos_denise": 29,
+        "votos_helenir": 32,
+        "total_votos": 61,
+        "num_secoes": 11
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_009",
+      "nome": "COLÉGIO ADVENTISTA DE VIAMÃO",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.081384,
+        "longitude": -51.022362
+      },
+      "secoes": [
+        13,
+        29,
+        118,
+        269,
+        331,
+        368,
+        416
+      ],
+      "agregado": {
+        "votos_denise": 10,
+        "votos_helenir": 13,
+        "total_votos": 23,
+        "num_secoes": 7
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_010",
+      "nome": "EMEF APOLINÁRIO ALVES DOS SANTOS",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.140027,
+        "longitude": -50.87875
+      },
+      "secoes": [
+        226,
+        375,
+        392,
+        393,
+        502,
+        521,
+        577,
+        587
+      ],
+      "agregado": {
+        "votos_denise": 9,
+        "votos_helenir": 12,
+        "total_votos": 21,
+        "num_secoes": 8
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_012",
+      "nome": "EE GOVERNADOR WALTER JOBIM",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.061443,
+        "longitude": -51.111149
+      },
+      "secoes": [],
+      "agregado": {
+        "votos_denise": 0,
+        "votos_helenir": 0,
+        "total_votos": 0,
+        "num_secoes": 0
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_014",
+      "nome": "EMEF RICARDO FAICKER NUNES",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.05418,
+        "longitude": -51.096956
+      },
+      "secoes": [],
+      "agregado": {
+        "votos_denise": 0,
+        "votos_helenir": 0,
+        "total_votos": 0,
+        "num_secoes": 0
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_015",
+      "nome": "EMEF NOSSA SENHORA DA CONCEIÇÃO",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.084303,
+        "longitude": -51.051666
+      },
+      "secoes": [
+        46,
+        148,
+        215,
+        377
+      ],
+      "agregado": {
+        "votos_denise": 5,
+        "votos_helenir": 7,
+        "total_votos": 12,
+        "num_secoes": 4
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_017",
+      "nome": "EMEF MONTE ALEGRE / CAIC",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.056924,
+        "longitude": -51.097605
+      },
+      "secoes": [],
+      "agregado": {
+        "votos_denise": 0,
+        "votos_helenir": 0,
+        "total_votos": 0,
+        "num_secoes": 0
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_018",
+      "nome": "EEEM MINUANO",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.088589,
+        "longitude": -51.086101
+      },
+      "secoes": [
+        535,
+        538,
+        539,
+        541,
+        542
+      ],
+      "agregado": {
+        "votos_denise": 8,
+        "votos_helenir": 3,
+        "total_votos": 11,
+        "num_secoes": 5
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_019",
+      "nome": "EMEF LAURO PEREIRA RODRIGUES",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.049919,
+        "longitude": -51.081274
+      },
+      "secoes": [],
+      "agregado": {
+        "votos_denise": 0,
+        "votos_helenir": 0,
+        "total_votos": 0,
+        "num_secoes": 0
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_020",
+      "nome": "EMEF SANTA CECÍLIA",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.061304,
+        "longitude": -51.088857
+      },
+      "secoes": [],
+      "agregado": {
+        "votos_denise": 0,
+        "votos_helenir": 0,
+        "total_votos": 0,
+        "num_secoes": 0
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_021",
+      "nome": "EMEF HUMBERTO DE CAMPOS",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.092019,
+        "longitude": -51.08075
+      },
+      "secoes": [
+        543,
+        544,
+        545,
+        546,
+        547,
+        548,
+        549
+      ],
+      "agregado": {
+        "votos_denise": 8,
+        "votos_helenir": 7,
+        "total_votos": 15,
+        "num_secoes": 7
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_022",
+      "nome": "EEEF ANTÔNIO DE SOUZA NETO",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.080141,
+        "longitude": -51.002546
+      },
+      "secoes": [
+        20,
+        134,
+        212,
+        294,
+        387,
+        410,
+        503
+      ],
+      "agregado": {
+        "votos_denise": 17,
+        "votos_helenir": 14,
+        "total_votos": 31,
+        "num_secoes": 7
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_023",
+      "nome": "EMEF SANTA MARIA",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.096135,
+        "longitude": -51.058022
+      },
+      "secoes": [
+        43,
+        120,
+        192,
+        305,
+        342,
+        366,
+        446
+      ],
+      "agregado": {
+        "votos_denise": 18,
+        "votos_helenir": 11,
+        "total_votos": 29,
+        "num_secoes": 7
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_024",
+      "nome": "EEEM ORIETA",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.093755,
+        "longitude": -51.069763
+      },
+      "secoes": [
+        550,
+        551,
+        552,
+        553,
+        554,
+        555,
+        556
+      ],
+      "agregado": {
+        "votos_denise": 25,
+        "votos_helenir": 14,
+        "total_votos": 39,
+        "num_secoes": 7
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_025",
+      "nome": "EMEF ARAÇÁ",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.129618,
+        "longitude": -51.092604
+      },
+      "secoes": [],
+      "agregado": {
+        "votos_denise": 0,
+        "votos_helenir": 0,
+        "total_votos": 0,
+        "num_secoes": 0
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_026",
+      "nome": "EMEF MONTEIRO LOBATO",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": 30.005506,
+        "longitude": -51.033552
+      },
+      "secoes": [
+        18,
+        286,
+        575
+      ],
+      "agregado": {
+        "votos_denise": 8,
+        "votos_helenir": 3,
+        "total_votos": 11,
+        "num_secoes": 3
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_027",
+      "nome": "EMEF PADRE REUS",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.080129,
+        "longitude": -51.079912
+      },
+      "secoes": [],
+      "agregado": {
+        "votos_denise": 0,
+        "votos_helenir": 0,
+        "total_votos": 0,
+        "num_secoes": 0
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_028",
+      "nome": "EMEF RECANTO DA LAGOA",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.098774,
+        "longitude": -51.055791
+      },
+      "secoes": [
+        567,
+        568,
+        569,
+        570,
+        571,
+        572
+      ],
+      "agregado": {
+        "votos_denise": 19,
+        "votos_helenir": 9,
+        "total_votos": 28,
+        "num_secoes": 6
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_029",
+      "nome": "EMEF SANTA ISABEL",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.065362,
+        "longitude": -51.106177
+      },
+      "secoes": [],
+      "agregado": {
+        "votos_denise": 0,
+        "votos_helenir": 0,
+        "total_votos": 0,
+        "num_secoes": 0
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_030",
+      "nome": "EMEF JARDIM VIAMAR",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.056258,
+        "longitude": -51.021826
+      },
+      "secoes": [
+        302,
+        381,
+        425,
+        448,
+        523,
+        580
+      ],
+      "agregado": {
+        "votos_denise": 16,
+        "votos_helenir": 14,
+        "total_votos": 30,
+        "num_secoes": 6
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_031",
+      "nome": "EMEF HUMBERTO DE A CASTELO BRANCO",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.085357,
+        "longitude": -51.028943
+      },
+      "secoes": [],
+      "agregado": {
+        "votos_denise": 0,
+        "votos_helenir": 0,
+        "total_votos": 0,
+        "num_secoes": 0
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_032",
+      "nome": "EMEF FREDERICO DIHL",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.086097,
+        "longitude": -51.033975
+      },
+      "secoes": [
+        256,
+        316,
+        359,
+        407,
+        511,
+        583
+      ],
+      "agregado": {
+        "votos_denise": 14,
+        "votos_helenir": 17,
+        "total_votos": 31,
+        "num_secoes": 6
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_033",
+      "nome": "EMEF PRESIDENTE GETÚLIO VARGAS",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.112122,
+        "longitude": -51.060773
+      },
+      "secoes": [],
+      "agregado": {
+        "votos_denise": 0,
+        "votos_helenir": 0,
+        "total_votos": 0,
+        "num_secoes": 0
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_034",
+      "nome": "EEEF RUI BARBOSA",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.120321,
+        "longitude": -50.844589
+      },
+      "secoes": [],
+      "agregado": {
+        "votos_denise": 0,
+        "votos_helenir": 0,
+        "total_votos": 0,
+        "num_secoes": 0
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_035",
+      "nome": "EMEF CEL. AUGUSTO FRAGA",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.116946,
+        "longitude": -50.825054
+      },
+      "secoes": [],
+      "agregado": {
+        "votos_denise": 0,
+        "votos_helenir": 0,
+        "total_votos": 0,
+        "num_secoes": 0
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_036",
+      "nome": "EMEF DR. GLÊNIO PERES",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.084357,
+        "longitude": -51.067054
+      },
+      "secoes": [],
+      "agregado": {
+        "votos_denise": 0,
+        "votos_helenir": 0,
+        "total_votos": 0,
+        "num_secoes": 0
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_037",
+      "nome": "EMEF BRASÍLIA",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.077841,
+        "longitude": -51.16078
+      },
+      "secoes": [],
+      "agregado": {
+        "votos_denise": 0,
+        "votos_helenir": 0,
+        "total_votos": 0,
+        "num_secoes": 0
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_038",
+      "nome": "EMEF ALBERTO SANTOS DUMONT",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.080547,
+        "longitude": -51.091994
+      },
+      "secoes": [],
+      "agregado": {
+        "votos_denise": 0,
+        "votos_helenir": 0,
+        "total_votos": 0,
+        "num_secoes": 0
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_039",
+      "nome": "EMEF CRISTIANO VIEIRA DA SILVA",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.113184,
+        "longitude": -50.792898
+      },
+      "secoes": [
+        33,
+        52,
+        130,
+        349,
+        445
+      ],
+      "agregado": {
+        "votos_denise": 11,
+        "votos_helenir": 10,
+        "total_votos": 21,
+        "num_secoes": 5
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_040",
+      "nome": "EMEF SÃO JORGE",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.084879,
+        "longitude": -51.088719
+      },
+      "secoes": [
+        557,
+        558,
+        560
+      ],
+      "agregado": {
+        "votos_denise": 4,
+        "votos_helenir": 4,
+        "total_votos": 8,
+        "num_secoes": 3
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_041",
+      "nome": "EMEF DOM DIOGO DE SOUZA",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.087036,
+        "longitude": -51.019069
+      },
+      "secoes": [
+        524,
+        573,
+        581
+      ],
+      "agregado": {
+        "votos_denise": 11,
+        "votos_helenir": 6,
+        "total_votos": 17,
+        "num_secoes": 3
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_042",
+      "nome": "EE FRANCISCO CANQUERINI",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.107032,
+        "longitude": -50.684487
+      },
+      "secoes": [
+        32,
+        129
+      ],
+      "agregado": {
+        "votos_denise": 3,
+        "votos_helenir": 4,
+        "total_votos": 7,
+        "num_secoes": 2
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_043",
+      "nome": "EMEF JOSÉ LOUREIRO DA SILVA",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.15076,
+        "longitude": -51.076014
+      },
+      "secoes": [],
+      "agregado": {
+        "votos_denise": 0,
+        "votos_helenir": 0,
+        "total_votos": 0,
+        "num_secoes": 0
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_044",
+      "nome": "EEEF CANADÁ",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.092571,
+        "longitude": -50.972678
+      },
+      "secoes": [
+        9,
+        174
+      ],
+      "agregado": {
+        "votos_denise": 5,
+        "votos_helenir": 7,
+        "total_votos": 12,
+        "num_secoes": 2
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_045",
+      "nome": "EE JOÃO BARBOSA",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.126051,
+        "longitude": -51.054938
+      },
+      "secoes": [],
+      "agregado": {
+        "votos_denise": 0,
+        "votos_helenir": 0,
+        "total_votos": 0,
+        "num_secoes": 0
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_046",
+      "nome": "EMEF PROFESSOR BARRETO VIANA",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.093231,
+        "longitude": -51.015949
+      },
+      "secoes": [
+        512,
+        586
+      ],
+      "agregado": {
+        "votos_denise": 3,
+        "votos_helenir": 2,
+        "total_votos": 5,
+        "num_secoes": 2
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_047",
+      "nome": "CENTRO DE FORMAÇÃO PROFISSIONAL WALTER GRAF",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": 30.083886,
+        "longitude": -51.096197
+      },
+      "secoes": [
+        177,
+        324,
+        355
+      ],
+      "agregado": {
+        "votos_denise": 5,
+        "votos_helenir": 7,
+        "total_votos": 12,
+        "num_secoes": 3
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_048",
+      "nome": "SALÃO PAROQUIAL DA IGREJA MATRIZ",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.081697,
+        "longitude": -51.023951
+      },
+      "secoes": [],
+      "agregado": {
+        "votos_denise": 0,
+        "votos_helenir": 0,
+        "total_votos": 0,
+        "num_secoes": 0
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_049",
+      "nome": "EMEI POSSIDÔNIO DA CUNHA",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.072238,
+        "longitude": -51.016723
+      },
+      "secoes": [
+        105,
+        152,
+        181
+      ],
+      "agregado": {
+        "votos_denise": 8,
+        "votos_helenir": 9,
+        "total_votos": 17,
+        "num_secoes": 3
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_050",
+      "nome": "EMEF PRESIDENTE JOÃO GOULART",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.093545,
+        "longitude": -51.088891
+      },
+      "secoes": [],
+      "agregado": {
+        "votos_denise": 0,
+        "votos_helenir": 0,
+        "total_votos": 0,
+        "num_secoes": 0
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_051",
+      "nome": "EMEF ZEFERINO LOPES DE CASTRO",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.160619,
+        "longitude": -50.915742
+      },
+      "secoes": [
+        48,
+        268
+      ],
+      "agregado": {
+        "votos_denise": 9,
+        "votos_helenir": 4,
+        "total_votos": 13,
+        "num_secoes": 2
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_052",
+      "nome": "EMEF FREI PACÍFICO",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.346416,
+        "longitude": 50.996456
+      },
+      "secoes": [],
+      "agregado": {
+        "votos_denise": 0,
+        "votos_helenir": 0,
+        "total_votos": 0,
+        "num_secoes": 0
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_053",
+      "nome": "EMEI CARLOS CHAGAS",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.066741,
+        "longitude": -51.10313
+      },
+      "secoes": [],
+      "agregado": {
+        "votos_denise": 0,
+        "votos_helenir": 0,
+        "total_votos": 0,
+        "num_secoes": 0
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_054",
+      "nome": "EMEF GUERREIRO LIMA",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.030606,
+        "longitude": -51.050824
+      },
+      "secoes": [
+        585
+      ],
+      "agregado": {
+        "votos_denise": 2,
+        "votos_helenir": 1,
+        "total_votos": 3,
+        "num_secoes": 1
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_055",
+      "nome": "EMEF NOSSA SENHORA APARECIDA",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.064631,
+        "longitude": -51.116949
+      },
+      "secoes": [],
+      "agregado": {
+        "votos_denise": 0,
+        "votos_helenir": 0,
+        "total_votos": 0,
+        "num_secoes": 0
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_057",
+      "nome": "EMEF CELINA WESTPHALEN WEISSHEIMER",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.141347,
+        "longitude": -51.080472
+      },
+      "secoes": [],
+      "agregado": {
+        "votos_denise": 0,
+        "votos_helenir": 0,
+        "total_votos": 0,
+        "num_secoes": 0
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_058",
+      "nome": "EMEF ÉRICO VERISSIMO",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.081584,
+        "longitude": -51.110777
+      },
+      "secoes": [],
+      "agregado": {
+        "votos_denise": 0,
+        "votos_helenir": 0,
+        "total_votos": 0,
+        "num_secoes": 0
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_059",
+      "nome": "EMEF CORACY PRATES DA VEIGA",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -29.991247,
+        "longitude": -50.962314
+      },
+      "secoes": [
+        11
+      ],
+      "agregado": {
+        "votos_denise": 8,
+        "votos_helenir": 0,
+        "total_votos": 8,
+        "num_secoes": 1
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_060",
+      "nome": "EE DR LIBERATO SALZANO",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.206046,
+        "longitude": -50.998446
+      },
+      "secoes": [],
+      "agregado": {
+        "votos_denise": 0,
+        "votos_helenir": 0,
+        "total_votos": 0,
+        "num_secoes": 0
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_061",
+      "nome": "EMEF QUATORZE DE SETEMBRO",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.219339,
+        "longitude": -50.927558
+      },
+      "secoes": [],
+      "agregado": {
+        "votos_denise": 0,
+        "votos_helenir": 0,
+        "total_votos": 0,
+        "num_secoes": 0
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    },
+    {
+      "id": "loc_062",
+      "nome": "SALÃO PAROQUIAL SANTO ANTÔNIO",
+      "endereco": "N/A",
+      "zona_eleitoral": 0,
+      "bairro": "N/A",
+      "coordenadas": {
+        "latitude": -30.123063,
+        "longitude": -51.103459
+      },
+      "secoes": [],
+      "agregado": {
+        "votos_denise": 0,
+        "votos_helenir": 0,
+        "total_votos": 0,
+        "num_secoes": 0
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK"
+      }
+    }
+  ]
+}

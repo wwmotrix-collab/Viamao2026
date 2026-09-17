@@ -1,0 +1,7724 @@
+{
+  "secoes": [
+    {
+      "secao_numero": 32,
+      "zona_eleitoral": 59,
+      "bairro": "Capão da Porteira",
+      "local": "EE FRANCISCO CANQUERINI",
+      "endereco": "RS 040, KM 50 - PDA. 133, CAPÃO DA PORTEIRA",
+      "votos": {
+        "denise": 2,
+        "helenir": 3,
+        "total": 5
+      },
+      "percentuais": {
+        "denise": 40.0,
+        "helenir": 60.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 129,
+      "zona_eleitoral": 59,
+      "bairro": "Capão da Porteira",
+      "local": "EE FRANCISCO CANQUERINI",
+      "endereco": "RS 040, KM 50 - PDA. 133, CAPÃO DA PORTEIRA",
+      "votos": {
+        "denise": 1,
+        "helenir": 1,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 177,
+      "zona_eleitoral": 59,
+      "bairro": "Centro",
+      "local": "CENTRO DE FORMAÇÃO PROFISSIONAL WALTER GRAF",
+      "endereco": "RUA MARECHAL DEODORO, 220, CENTRO",
+      "votos": {
+        "denise": 2,
+        "helenir": 1,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 66.67,
+        "helenir": 33.33
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 324,
+      "zona_eleitoral": 59,
+      "bairro": "Centro",
+      "local": "CENTRO DE FORMAÇÃO PROFISSIONAL WALTER GRAF",
+      "endereco": "RUA MARECHAL DEODORO, 220, CENTRO",
+      "votos": {
+        "denise": 3,
+        "helenir": 4,
+        "total": 7
+      },
+      "percentuais": {
+        "denise": 42.86,
+        "helenir": 57.14
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 355,
+      "zona_eleitoral": 59,
+      "bairro": "Centro",
+      "local": "CENTRO DE FORMAÇÃO PROFISSIONAL WALTER GRAF",
+      "endereco": "RUA MARECHAL DEODORO, 220, CENTRO",
+      "votos": {
+        "denise": 0,
+        "helenir": 2,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 0.0,
+        "helenir": 100.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 13,
+      "zona_eleitoral": 59,
+      "bairro": "Centro",
+      "local": "COLÉGIO ADVENTISTA DE VIAMÃO",
+      "endereco": "RUA GENERAL CÂMARA, 226, CENTRO",
+      "votos": {
+        "denise": 1,
+        "helenir": 2,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 33.33,
+        "helenir": 66.67
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 29,
+      "zona_eleitoral": 59,
+      "bairro": "Centro",
+      "local": "COLÉGIO ADVENTISTA DE VIAMÃO",
+      "endereco": "RUA GENERAL CÂMARA, 226, CENTRO",
+      "votos": {
+        "denise": 2,
+        "helenir": 1,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 66.67,
+        "helenir": 33.33
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 118,
+      "zona_eleitoral": 59,
+      "bairro": "Centro",
+      "local": "COLÉGIO ADVENTISTA DE VIAMÃO",
+      "endereco": "RUA GENERAL CÂMARA, 226, CENTRO",
+      "votos": {
+        "denise": 1,
+        "helenir": 3,
+        "total": 4
+      },
+      "percentuais": {
+        "denise": 25.0,
+        "helenir": 75.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 269,
+      "zona_eleitoral": 59,
+      "bairro": "Centro",
+      "local": "COLÉGIO ADVENTISTA DE VIAMÃO",
+      "endereco": "RUA GENERAL CÂMARA, 226, CENTRO",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 331,
+      "zona_eleitoral": 59,
+      "bairro": "Centro",
+      "local": "COLÉGIO ADVENTISTA DE VIAMÃO",
+      "endereco": "RUA GENERAL CÂMARA, 226, CENTRO",
+      "votos": {
+        "denise": 1,
+        "helenir": 2,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 33.33,
+        "helenir": 66.67
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 368,
+      "zona_eleitoral": 59,
+      "bairro": "Centro",
+      "local": "COLÉGIO ADVENTISTA DE VIAMÃO",
+      "endereco": "RUA GENERAL CÂMARA, 226, CENTRO",
+      "votos": {
+        "denise": 1,
+        "helenir": 2,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 33.33,
+        "helenir": 66.67
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 416,
+      "zona_eleitoral": 59,
+      "bairro": "Centro",
+      "local": "COLÉGIO ADVENTISTA DE VIAMÃO",
+      "endereco": "RUA GENERAL CÂMARA, 226, CENTRO",
+      "votos": {
+        "denise": 3,
+        "helenir": 3,
+        "total": 6
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 27,
+      "zona_eleitoral": 59,
+      "bairro": "Centro",
+      "local": "COLÉGIO ESTADUAL CECILIA MEIRELES",
+      "endereco": "RUA ALCIDES MAIA, 390, CENTRO",
+      "votos": {
+        "denise": 2,
+        "helenir": 0,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 173,
+      "zona_eleitoral": 59,
+      "bairro": "Centro",
+      "local": "COLÉGIO ESTADUAL CECILIA MEIRELES",
+      "endereco": "RUA ALCIDES MAIA, 390, CENTRO",
+      "votos": {
+        "denise": 2,
+        "helenir": 2,
+        "total": 4
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 330,
+      "zona_eleitoral": 59,
+      "bairro": "Centro",
+      "local": "COLÉGIO ESTADUAL CECILIA MEIRELES",
+      "endereco": "RUA ALCIDES MAIA, 390, CENTRO",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 390,
+      "zona_eleitoral": 59,
+      "bairro": "Centro",
+      "local": "COLÉGIO ESTADUAL CECILIA MEIRELES",
+      "endereco": "RUA ALCIDES MAIA, 390, CENTRO",
+      "votos": {
+        "denise": 3,
+        "helenir": 2,
+        "total": 5
+      },
+      "percentuais": {
+        "denise": 60.0,
+        "helenir": 40.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 426,
+      "zona_eleitoral": 59,
+      "bairro": "Centro",
+      "local": "COLÉGIO ESTADUAL CECILIA MEIRELES",
+      "endereco": "RUA ALCIDES MAIA, 390, CENTRO",
+      "votos": {
+        "denise": 2,
+        "helenir": 1,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 66.67,
+        "helenir": 33.33
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 516,
+      "zona_eleitoral": 59,
+      "bairro": "Centro",
+      "local": "COLÉGIO ESTADUAL CECILIA MEIRELES",
+      "endereco": "RUA ALCIDES MAIA, 390, CENTRO",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 41,
+      "zona_eleitoral": 59,
+      "bairro": "Centro",
+      "local": "COLÉGIO STELLA MARIS",
+      "endereco": "AVENIDA CEL MÁRIO ANTUNES DA VEIGA, 453, CENTRO",
+      "votos": {
+        "denise": 2,
+        "helenir": 1,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 66.67,
+        "helenir": 33.33
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 135,
+      "zona_eleitoral": 59,
+      "bairro": "Centro",
+      "local": "COLÉGIO STELLA MARIS",
+      "endereco": "AVENIDA CEL MÁRIO ANTUNES DA VEIGA, 453, CENTRO",
+      "votos": {
+        "denise": 3,
+        "helenir": 2,
+        "total": 5
+      },
+      "percentuais": {
+        "denise": 60.0,
+        "helenir": 40.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 239,
+      "zona_eleitoral": 59,
+      "bairro": "Centro",
+      "local": "COLÉGIO STELLA MARIS",
+      "endereco": "AVENIDA CEL MÁRIO ANTUNES DA VEIGA, 453, CENTRO",
+      "votos": {
+        "denise": 3,
+        "helenir": 3,
+        "total": 6
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 361,
+      "zona_eleitoral": 59,
+      "bairro": "Centro",
+      "local": "COLÉGIO STELLA MARIS",
+      "endereco": "AVENIDA CEL MÁRIO ANTUNES DA VEIGA, 453, CENTRO",
+      "votos": {
+        "denise": 3,
+        "helenir": 4,
+        "total": 7
+      },
+      "percentuais": {
+        "denise": 42.86,
+        "helenir": 57.14
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 389,
+      "zona_eleitoral": 59,
+      "bairro": "Centro",
+      "local": "COLÉGIO STELLA MARIS",
+      "endereco": "AVENIDA CEL MÁRIO ANTUNES DA VEIGA, 453, CENTRO",
+      "votos": {
+        "denise": 3,
+        "helenir": 2,
+        "total": 5
+      },
+      "percentuais": {
+        "denise": 60.0,
+        "helenir": 40.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 412,
+      "zona_eleitoral": 59,
+      "bairro": "Centro",
+      "local": "COLÉGIO STELLA MARIS",
+      "endereco": "AVENIDA CEL MÁRIO ANTUNES DA VEIGA, 453, CENTRO",
+      "votos": {
+        "denise": 1,
+        "helenir": 2,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 33.33,
+        "helenir": 66.67
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 434,
+      "zona_eleitoral": 59,
+      "bairro": "Centro",
+      "local": "COLÉGIO STELLA MARIS",
+      "endereco": "AVENIDA CEL MÁRIO ANTUNES DA VEIGA, 453, CENTRO",
+      "votos": {
+        "denise": 3,
+        "helenir": 1,
+        "total": 4
+      },
+      "percentuais": {
+        "denise": 75.0,
+        "helenir": 25.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 70,
+      "zona_eleitoral": 59,
+      "bairro": "Centro",
+      "local": "SALÃO PAROQUIAL DA IGREJA NOSSA SENHORA DA CONCEIÇÃO",
+      "endereco": "PRAÇA CÔNEGO BERNARDO MACHADO DOS SANTOS, 53, CENTRO",
+      "votos": {
+        "denise": 2,
+        "helenir": 0,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 144,
+      "zona_eleitoral": 59,
+      "bairro": "Centro",
+      "local": "SALÃO PAROQUIAL DA IGREJA NOSSA SENHORA DA CONCEIÇÃO",
+      "endereco": "PRAÇA CÔNEGO BERNARDO MACHADO DOS SANTOS, 53, CENTRO",
+      "votos": {
+        "denise": 3,
+        "helenir": 4,
+        "total": 7
+      },
+      "percentuais": {
+        "denise": 42.86,
+        "helenir": 57.14
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 164,
+      "zona_eleitoral": 59,
+      "bairro": "Centro",
+      "local": "SALÃO PAROQUIAL DA IGREJA NOSSA SENHORA DA CONCEIÇÃO",
+      "endereco": "PRAÇA CÔNEGO BERNARDO MACHADO DOS SANTOS, 53, CENTRO",
+      "votos": {
+        "denise": 3,
+        "helenir": 1,
+        "total": 4
+      },
+      "percentuais": {
+        "denise": 75.0,
+        "helenir": 25.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 585,
+      "zona_eleitoral": 59,
+      "bairro": "Cocão",
+      "local": "EMEF GUERREIRO LIMA",
+      "endereco": "RUA ITAPIRANGA, S/N, COCÃO",
+      "votos": {
+        "denise": 2,
+        "helenir": 1,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 66.67,
+        "helenir": 33.33
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 4,
+      "zona_eleitoral": 59,
+      "bairro": "Elsa",
+      "local": "EEEM NISIA FLORESTA",
+      "endereco": "RUA PEDRO JOSÉ MAURÍCIO, S/N, ELSA",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 138,
+      "zona_eleitoral": 59,
+      "bairro": "Elsa",
+      "local": "EEEM NISIA FLORESTA",
+      "endereco": "RUA PEDRO JOSÉ MAURÍCIO, S/N, ELSA",
+      "votos": {
+        "denise": 0,
+        "helenir": 2,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 0.0,
+        "helenir": 100.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 167,
+      "zona_eleitoral": 59,
+      "bairro": "Elsa",
+      "local": "EEEM NISIA FLORESTA",
+      "endereco": "RUA PEDRO JOSÉ MAURÍCIO, S/N, ELSA",
+      "votos": {
+        "denise": 3,
+        "helenir": 1,
+        "total": 4
+      },
+      "percentuais": {
+        "denise": 75.0,
+        "helenir": 25.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 191,
+      "zona_eleitoral": 59,
+      "bairro": "Elsa",
+      "local": "EEEM NISIA FLORESTA",
+      "endereco": "RUA PEDRO JOSÉ MAURÍCIO, S/N, ELSA",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 211,
+      "zona_eleitoral": 59,
+      "bairro": "Elsa",
+      "local": "EEEM NISIA FLORESTA",
+      "endereco": "RUA PEDRO JOSÉ MAURÍCIO, S/N, ELSA",
+      "votos": {
+        "denise": 0,
+        "helenir": 1,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 0.0,
+        "helenir": 100.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 234,
+      "zona_eleitoral": 59,
+      "bairro": "Elsa",
+      "local": "EEEM NISIA FLORESTA",
+      "endereco": "RUA PEDRO JOSÉ MAURÍCIO, S/N, ELSA",
+      "votos": {
+        "denise": 2,
+        "helenir": 0,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 248,
+      "zona_eleitoral": 59,
+      "bairro": "Elsa",
+      "local": "EEEM NISIA FLORESTA",
+      "endereco": "RUA PEDRO JOSÉ MAURÍCIO, S/N, ELSA",
+      "votos": {
+        "denise": 1,
+        "helenir": 1,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 287,
+      "zona_eleitoral": 59,
+      "bairro": "Elsa",
+      "local": "EEEM NISIA FLORESTA",
+      "endereco": "RUA PEDRO JOSÉ MAURÍCIO, S/N, ELSA",
+      "votos": {
+        "denise": 0,
+        "helenir": 2,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 0.0,
+        "helenir": 100.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 395,
+      "zona_eleitoral": 59,
+      "bairro": "Elsa",
+      "local": "EEEM NISIA FLORESTA",
+      "endereco": "RUA PEDRO JOSÉ MAURÍCIO, S/N, ELSA",
+      "votos": {
+        "denise": 0,
+        "helenir": 1,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 0.0,
+        "helenir": 100.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 449,
+      "zona_eleitoral": 59,
+      "bairro": "Elsa",
+      "local": "EEEM NISIA FLORESTA",
+      "endereco": "RUA PEDRO JOSÉ MAURÍCIO, S/N, ELSA",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 302,
+      "zona_eleitoral": 59,
+      "bairro": "Elsa",
+      "local": "EMEF JARDIM VIAMAR",
+      "endereco": "RUA UMBÚ, S/N, ELSA",
+      "votos": {
+        "denise": 5,
+        "helenir": 4,
+        "total": 9
+      },
+      "percentuais": {
+        "denise": 55.56,
+        "helenir": 44.44
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 381,
+      "zona_eleitoral": 59,
+      "bairro": "Elsa",
+      "local": "EMEF JARDIM VIAMAR",
+      "endereco": "RUA UMBÚ, S/N, ELSA",
+      "votos": {
+        "denise": 4,
+        "helenir": 2,
+        "total": 6
+      },
+      "percentuais": {
+        "denise": 66.67,
+        "helenir": 33.33
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 425,
+      "zona_eleitoral": 59,
+      "bairro": "Elsa",
+      "local": "EMEF JARDIM VIAMAR",
+      "endereco": "RUA UMBÚ, S/N, ELSA",
+      "votos": {
+        "denise": 1,
+        "helenir": 1,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 448,
+      "zona_eleitoral": 59,
+      "bairro": "Elsa",
+      "local": "EMEF JARDIM VIAMAR",
+      "endereco": "RUA UMBÚ, S/N, ELSA",
+      "votos": {
+        "denise": 3,
+        "helenir": 0,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 523,
+      "zona_eleitoral": 59,
+      "bairro": "Elsa",
+      "local": "EMEF JARDIM VIAMAR",
+      "endereco": "RUA UMBÚ, S/N, ELSA",
+      "votos": {
+        "denise": 3,
+        "helenir": 6,
+        "total": 9
+      },
+      "percentuais": {
+        "denise": 33.33,
+        "helenir": 66.67
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 580,
+      "zona_eleitoral": 59,
+      "bairro": "Elsa",
+      "local": "EMEF JARDIM VIAMAR",
+      "endereco": "RUA UMBÚ, S/N, ELSA",
+      "votos": {
+        "denise": 0,
+        "helenir": 1,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 0.0,
+        "helenir": 100.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 18,
+      "zona_eleitoral": 59,
+      "bairro": "Elsa",
+      "local": "EMEF MONTEIRO LOBATO",
+      "endereco": "RUA DO ARPOADOR, 37, ELSA",
+      "votos": {
+        "denise": 4,
+        "helenir": 2,
+        "total": 6
+      },
+      "percentuais": {
+        "denise": 66.67,
+        "helenir": 33.33
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 286,
+      "zona_eleitoral": 59,
+      "bairro": "Elsa",
+      "local": "EMEF MONTEIRO LOBATO",
+      "endereco": "RUA DO ARPOADOR, 37, ELSA",
+      "votos": {
+        "denise": 3,
+        "helenir": 1,
+        "total": 4
+      },
+      "percentuais": {
+        "denise": 75.0,
+        "helenir": 25.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 575,
+      "zona_eleitoral": 59,
+      "bairro": "Elsa",
+      "local": "EMEF MONTEIRO LOBATO",
+      "endereco": "RUA DO ARPOADOR, 37, ELSA",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 20,
+      "zona_eleitoral": 59,
+      "bairro": "Estalagem",
+      "local": "EEEF ANTÔNIO DE SOUZA NETO",
+      "endereco": "RUA GUSTAVO ADOLFO ALBRECH, S/N, ESTALAGEM",
+      "votos": {
+        "denise": 3,
+        "helenir": 3,
+        "total": 6
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 134,
+      "zona_eleitoral": 59,
+      "bairro": "Estalagem",
+      "local": "EEEF ANTÔNIO DE SOUZA NETO",
+      "endereco": "RUA GUSTAVO ADOLFO ALBRECH, S/N, ESTALAGEM",
+      "votos": {
+        "denise": 0,
+        "helenir": 2,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 0.0,
+        "helenir": 100.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 212,
+      "zona_eleitoral": 59,
+      "bairro": "Estalagem",
+      "local": "EEEF ANTÔNIO DE SOUZA NETO",
+      "endereco": "RUA GUSTAVO ADOLFO ALBRECH, S/N, ESTALAGEM",
+      "votos": {
+        "denise": 2,
+        "helenir": 2,
+        "total": 4
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 294,
+      "zona_eleitoral": 59,
+      "bairro": "Estalagem",
+      "local": "EEEF ANTÔNIO DE SOUZA NETO",
+      "endereco": "RUA GUSTAVO ADOLFO ALBRECH, S/N, ESTALAGEM",
+      "votos": {
+        "denise": 2,
+        "helenir": 1,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 66.67,
+        "helenir": 33.33
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 387,
+      "zona_eleitoral": 59,
+      "bairro": "Estalagem",
+      "local": "EEEF ANTÔNIO DE SOUZA NETO",
+      "endereco": "RUA GUSTAVO ADOLFO ALBRECH, S/N, ESTALAGEM",
+      "votos": {
+        "denise": 3,
+        "helenir": 2,
+        "total": 5
+      },
+      "percentuais": {
+        "denise": 60.0,
+        "helenir": 40.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 410,
+      "zona_eleitoral": 59,
+      "bairro": "Estalagem",
+      "local": "EEEF ANTÔNIO DE SOUZA NETO",
+      "endereco": "RUA GUSTAVO ADOLFO ALBRECH, S/N, ESTALAGEM",
+      "votos": {
+        "denise": 4,
+        "helenir": 3,
+        "total": 7
+      },
+      "percentuais": {
+        "denise": 57.14,
+        "helenir": 42.86
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 503,
+      "zona_eleitoral": 59,
+      "bairro": "Estalagem",
+      "local": "EEEF ANTÔNIO DE SOUZA NETO",
+      "endereco": "RUA GUSTAVO ADOLFO ALBRECH, S/N, ESTALAGEM",
+      "votos": {
+        "denise": 3,
+        "helenir": 1,
+        "total": 4
+      },
+      "percentuais": {
+        "denise": 75.0,
+        "helenir": 25.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 21,
+      "zona_eleitoral": 59,
+      "bairro": "Estalagem",
+      "local": "EEEM PROFESSORA CÉLIA FLORES LAVRA PINTO",
+      "endereco": "TRAVESSA ADOLFO SAMPAIO BITENCOURT, 225, ESTALAGEM",
+      "votos": {
+        "denise": 4,
+        "helenir": 2,
+        "total": 6
+      },
+      "percentuais": {
+        "denise": 66.67,
+        "helenir": 33.33
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 71,
+      "zona_eleitoral": 59,
+      "bairro": "Estalagem",
+      "local": "EEEM PROFESSORA CÉLIA FLORES LAVRA PINTO",
+      "endereco": "TRAVESSA ADOLFO SAMPAIO BITENCOURT, 225, ESTALAGEM",
+      "votos": {
+        "denise": 0,
+        "helenir": 1,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 0.0,
+        "helenir": 100.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 214,
+      "zona_eleitoral": 59,
+      "bairro": "Estalagem",
+      "local": "EEEM PROFESSORA CÉLIA FLORES LAVRA PINTO",
+      "endereco": "TRAVESSA ADOLFO SAMPAIO BITENCOURT, 225, ESTALAGEM",
+      "votos": {
+        "denise": 3,
+        "helenir": 3,
+        "total": 6
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 270,
+      "zona_eleitoral": 59,
+      "bairro": "Estalagem",
+      "local": "EEEM PROFESSORA CÉLIA FLORES LAVRA PINTO",
+      "endereco": "TRAVESSA ADOLFO SAMPAIO BITENCOURT, 225, ESTALAGEM",
+      "votos": {
+        "denise": 2,
+        "helenir": 1,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 66.67,
+        "helenir": 33.33
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 343,
+      "zona_eleitoral": 59,
+      "bairro": "Estalagem",
+      "local": "EEEM PROFESSORA CÉLIA FLORES LAVRA PINTO",
+      "endereco": "TRAVESSA ADOLFO SAMPAIO BITENCOURT, 225, ESTALAGEM",
+      "votos": {
+        "denise": 1,
+        "helenir": 3,
+        "total": 4
+      },
+      "percentuais": {
+        "denise": 25.0,
+        "helenir": 75.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 433,
+      "zona_eleitoral": 59,
+      "bairro": "Estalagem",
+      "local": "EEEM PROFESSORA CÉLIA FLORES LAVRA PINTO",
+      "endereco": "TRAVESSA ADOLFO SAMPAIO BITENCOURT, 225, ESTALAGEM",
+      "votos": {
+        "denise": 3,
+        "helenir": 3,
+        "total": 6
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 11,
+      "zona_eleitoral": 59,
+      "bairro": "Estância Grande",
+      "local": "EMEF CORACY PRATES DA VEIGA",
+      "endereco": "ESTRADA PASSO DO MELO, S/N, ESTÂNCIA GRANDE",
+      "votos": {
+        "denise": 8,
+        "helenir": 0,
+        "total": 8
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 6,
+      "zona_eleitoral": 59,
+      "bairro": "Fiuza",
+      "local": "EMEF MARECHAL HUMBERTO DE ALENCAR CASTELO BRANCO",
+      "endereco": "RUA PRESIDENTE CASTELO BRANCO, 151, FIUZA",
+      "votos": {
+        "denise": 3,
+        "helenir": 2,
+        "total": 5
+      },
+      "percentuais": {
+        "denise": 60.0,
+        "helenir": 40.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 8,
+      "zona_eleitoral": 59,
+      "bairro": "Fiuza",
+      "local": "EMEF MARECHAL HUMBERTO DE ALENCAR CASTELO BRANCO",
+      "endereco": "RUA PRESIDENTE CASTELO BRANCO, 151, FIUZA",
+      "votos": {
+        "denise": 3,
+        "helenir": 4,
+        "total": 7
+      },
+      "percentuais": {
+        "denise": 42.86,
+        "helenir": 57.14
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 112,
+      "zona_eleitoral": 59,
+      "bairro": "Fiuza",
+      "local": "EMEF MARECHAL HUMBERTO DE ALENCAR CASTELO BRANCO",
+      "endereco": "RUA PRESIDENTE CASTELO BRANCO, 151, FIUZA",
+      "votos": {
+        "denise": 2,
+        "helenir": 2,
+        "total": 4
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 136,
+      "zona_eleitoral": 59,
+      "bairro": "Fiuza",
+      "local": "EMEF MARECHAL HUMBERTO DE ALENCAR CASTELO BRANCO",
+      "endereco": "RUA PRESIDENTE CASTELO BRANCO, 151, FIUZA",
+      "votos": {
+        "denise": 3,
+        "helenir": 4,
+        "total": 7
+      },
+      "percentuais": {
+        "denise": 42.86,
+        "helenir": 57.14
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 186,
+      "zona_eleitoral": 59,
+      "bairro": "Fiuza",
+      "local": "EMEF MARECHAL HUMBERTO DE ALENCAR CASTELO BRANCO",
+      "endereco": "RUA PRESIDENTE CASTELO BRANCO, 151, FIUZA",
+      "votos": {
+        "denise": 2,
+        "helenir": 1,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 66.67,
+        "helenir": 33.33
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 237,
+      "zona_eleitoral": 59,
+      "bairro": "Fiuza",
+      "local": "EMEF MARECHAL HUMBERTO DE ALENCAR CASTELO BRANCO",
+      "endereco": "RUA PRESIDENTE CASTELO BRANCO, 151, FIUZA",
+      "votos": {
+        "denise": 2,
+        "helenir": 2,
+        "total": 4
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 406,
+      "zona_eleitoral": 59,
+      "bairro": "Fiuza",
+      "local": "EMEF MARECHAL HUMBERTO DE ALENCAR CASTELO BRANCO",
+      "endereco": "RUA PRESIDENTE CASTELO BRANCO, 151, FIUZA",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 512,
+      "zona_eleitoral": 59,
+      "bairro": "Fiuza",
+      "local": "EMEF PROFESSOR BARRETO VIANA",
+      "endereco": "RUA TULIPA, 37, FIUZA",
+      "votos": {
+        "denise": 1,
+        "helenir": 1,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 586,
+      "zona_eleitoral": 59,
+      "bairro": "Fiuza",
+      "local": "EMEF PROFESSOR BARRETO VIANA",
+      "endereco": "RUA TULIPA, 37, FIUZA",
+      "votos": {
+        "denise": 2,
+        "helenir": 1,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 66.67,
+        "helenir": 33.33
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 5,
+      "zona_eleitoral": 59,
+      "bairro": "Krahe",
+      "local": "COLÉGIO MARISTA NOSSA SENHORA DAS GRAÇAS",
+      "endereco": "AVENIDA SENADOR SALGADO FILHO, 8326, KRAHE",
+      "votos": {
+        "denise": 1,
+        "helenir": 2,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 33.33,
+        "helenir": 66.67
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 25,
+      "zona_eleitoral": 59,
+      "bairro": "Krahe",
+      "local": "COLÉGIO MARISTA NOSSA SENHORA DAS GRAÇAS",
+      "endereco": "AVENIDA SENADOR SALGADO FILHO, 8326, KRAHE",
+      "votos": {
+        "denise": 2,
+        "helenir": 5,
+        "total": 7
+      },
+      "percentuais": {
+        "denise": 28.57,
+        "helenir": 71.43
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 92,
+      "zona_eleitoral": 59,
+      "bairro": "Krahe",
+      "local": "COLÉGIO MARISTA NOSSA SENHORA DAS GRAÇAS",
+      "endereco": "AVENIDA SENADOR SALGADO FILHO, 8326, KRAHE",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 102,
+      "zona_eleitoral": 59,
+      "bairro": "Krahe",
+      "local": "COLÉGIO MARISTA NOSSA SENHORA DAS GRAÇAS",
+      "endereco": "AVENIDA SENADOR SALGADO FILHO, 8326, KRAHE",
+      "votos": {
+        "denise": 2,
+        "helenir": 1,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 66.67,
+        "helenir": 33.33
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 143,
+      "zona_eleitoral": 59,
+      "bairro": "Krahe",
+      "local": "COLÉGIO MARISTA NOSSA SENHORA DAS GRAÇAS",
+      "endereco": "AVENIDA SENADOR SALGADO FILHO, 8326, KRAHE",
+      "votos": {
+        "denise": 0,
+        "helenir": 1,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 0.0,
+        "helenir": 100.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 153,
+      "zona_eleitoral": 59,
+      "bairro": "Krahe",
+      "local": "COLÉGIO MARISTA NOSSA SENHORA DAS GRAÇAS",
+      "endereco": "AVENIDA SENADOR SALGADO FILHO, 8326, KRAHE",
+      "votos": {
+        "denise": 1,
+        "helenir": 1,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 184,
+      "zona_eleitoral": 59,
+      "bairro": "Krahe",
+      "local": "COLÉGIO MARISTA NOSSA SENHORA DAS GRAÇAS",
+      "endereco": "AVENIDA SENADOR SALGADO FILHO, 8326, KRAHE",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 209,
+      "zona_eleitoral": 59,
+      "bairro": "Krahe",
+      "local": "COLÉGIO MARISTA NOSSA SENHORA DAS GRAÇAS",
+      "endereco": "AVENIDA SENADOR SALGADO FILHO, 8326, KRAHE",
+      "votos": {
+        "denise": 2,
+        "helenir": 2,
+        "total": 4
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 236,
+      "zona_eleitoral": 59,
+      "bairro": "Krahe",
+      "local": "COLÉGIO MARISTA NOSSA SENHORA DAS GRAÇAS",
+      "endereco": "AVENIDA SENADOR SALGADO FILHO, 8326, KRAHE",
+      "votos": {
+        "denise": 1,
+        "helenir": 2,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 33.33,
+        "helenir": 66.67
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 310,
+      "zona_eleitoral": 59,
+      "bairro": "Krahe",
+      "local": "COLÉGIO MARISTA NOSSA SENHORA DAS GRAÇAS",
+      "endereco": "AVENIDA SENADOR SALGADO FILHO, 8326, KRAHE",
+      "votos": {
+        "denise": 2,
+        "helenir": 2,
+        "total": 4
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 353,
+      "zona_eleitoral": 59,
+      "bairro": "Krahe",
+      "local": "COLÉGIO MARISTA NOSSA SENHORA DAS GRAÇAS",
+      "endereco": "AVENIDA SENADOR SALGADO FILHO, 8326, KRAHE",
+      "votos": {
+        "denise": 2,
+        "helenir": 3,
+        "total": 5
+      },
+      "percentuais": {
+        "denise": 40.0,
+        "helenir": 60.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 382,
+      "zona_eleitoral": 59,
+      "bairro": "Krahe",
+      "local": "COLÉGIO MARISTA NOSSA SENHORA DAS GRAÇAS",
+      "endereco": "AVENIDA SENADOR SALGADO FILHO, 8326, KRAHE",
+      "votos": {
+        "denise": 1,
+        "helenir": 1,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 399,
+      "zona_eleitoral": 59,
+      "bairro": "Krahe",
+      "local": "COLÉGIO MARISTA NOSSA SENHORA DAS GRAÇAS",
+      "endereco": "AVENIDA SENADOR SALGADO FILHO, 8326, KRAHE",
+      "votos": {
+        "denise": 1,
+        "helenir": 1,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 432,
+      "zona_eleitoral": 59,
+      "bairro": "Krahe",
+      "local": "COLÉGIO MARISTA NOSSA SENHORA DAS GRAÇAS",
+      "endereco": "AVENIDA SENADOR SALGADO FILHO, 8326, KRAHE",
+      "votos": {
+        "denise": 2,
+        "helenir": 2,
+        "total": 4
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 519,
+      "zona_eleitoral": 59,
+      "bairro": "Krahe",
+      "local": "COLÉGIO MARISTA NOSSA SENHORA DAS GRAÇAS",
+      "endereco": "AVENIDA SENADOR SALGADO FILHO, 8326, KRAHE",
+      "votos": {
+        "denise": 3,
+        "helenir": 2,
+        "total": 5
+      },
+      "percentuais": {
+        "denise": 60.0,
+        "helenir": 40.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 12,
+      "zona_eleitoral": 59,
+      "bairro": "Krahe",
+      "local": "EEEM AÇORIANOS",
+      "endereco": "RUA ALMEIDA ROSA, 151, KRAHE",
+      "votos": {
+        "denise": 3,
+        "helenir": 4,
+        "total": 7
+      },
+      "percentuais": {
+        "denise": 42.86,
+        "helenir": 57.14
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 24,
+      "zona_eleitoral": 59,
+      "bairro": "Krahe",
+      "local": "EEEM AÇORIANOS",
+      "endereco": "RUA ALMEIDA ROSA, 151, KRAHE",
+      "votos": {
+        "denise": 2,
+        "helenir": 4,
+        "total": 6
+      },
+      "percentuais": {
+        "denise": 33.33,
+        "helenir": 66.67
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 67,
+      "zona_eleitoral": 59,
+      "bairro": "Krahe",
+      "local": "EEEM AÇORIANOS",
+      "endereco": "RUA ALMEIDA ROSA, 151, KRAHE",
+      "votos": {
+        "denise": 3,
+        "helenir": 2,
+        "total": 5
+      },
+      "percentuais": {
+        "denise": 60.0,
+        "helenir": 40.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 116,
+      "zona_eleitoral": 59,
+      "bairro": "Krahe",
+      "local": "EEEM AÇORIANOS",
+      "endereco": "RUA ALMEIDA ROSA, 151, KRAHE",
+      "votos": {
+        "denise": 4,
+        "helenir": 4,
+        "total": 8
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 157,
+      "zona_eleitoral": 59,
+      "bairro": "Krahe",
+      "local": "EEEM AÇORIANOS",
+      "endereco": "RUA ALMEIDA ROSA, 151, KRAHE",
+      "votos": {
+        "denise": 3,
+        "helenir": 2,
+        "total": 5
+      },
+      "percentuais": {
+        "denise": 60.0,
+        "helenir": 40.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 188,
+      "zona_eleitoral": 59,
+      "bairro": "Krahe",
+      "local": "EEEM AÇORIANOS",
+      "endereco": "RUA ALMEIDA ROSA, 151, KRAHE",
+      "votos": {
+        "denise": 2,
+        "helenir": 2,
+        "total": 4
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 201,
+      "zona_eleitoral": 59,
+      "bairro": "Krahe",
+      "local": "EEEM AÇORIANOS",
+      "endereco": "RUA ALMEIDA ROSA, 151, KRAHE",
+      "votos": {
+        "denise": 4,
+        "helenir": 3,
+        "total": 7
+      },
+      "percentuais": {
+        "denise": 57.14,
+        "helenir": 42.86
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 265,
+      "zona_eleitoral": 59,
+      "bairro": "Krahe",
+      "local": "EEEM AÇORIANOS",
+      "endereco": "RUA ALMEIDA ROSA, 151, KRAHE",
+      "votos": {
+        "denise": 1,
+        "helenir": 2,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 33.33,
+        "helenir": 66.67
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 306,
+      "zona_eleitoral": 59,
+      "bairro": "Krahe",
+      "local": "EEEM AÇORIANOS",
+      "endereco": "RUA ALMEIDA ROSA, 151, KRAHE",
+      "votos": {
+        "denise": 4,
+        "helenir": 4,
+        "total": 8
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 333,
+      "zona_eleitoral": 59,
+      "bairro": "Krahe",
+      "local": "EEEM AÇORIANOS",
+      "endereco": "RUA ALMEIDA ROSA, 151, KRAHE",
+      "votos": {
+        "denise": 2,
+        "helenir": 1,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 66.67,
+        "helenir": 33.33
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 362,
+      "zona_eleitoral": 59,
+      "bairro": "Krahe",
+      "local": "EEEM AÇORIANOS",
+      "endereco": "RUA ALMEIDA ROSA, 151, KRAHE",
+      "votos": {
+        "denise": 3,
+        "helenir": 2,
+        "total": 5
+      },
+      "percentuais": {
+        "denise": 60.0,
+        "helenir": 40.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 370,
+      "zona_eleitoral": 59,
+      "bairro": "Krahe",
+      "local": "EEEM AÇORIANOS",
+      "endereco": "RUA ALMEIDA ROSA, 151, KRAHE",
+      "votos": {
+        "denise": 3,
+        "helenir": 4,
+        "total": 7
+      },
+      "percentuais": {
+        "denise": 42.86,
+        "helenir": 57.14
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 398,
+      "zona_eleitoral": 59,
+      "bairro": "Krahe",
+      "local": "EEEM AÇORIANOS",
+      "endereco": "RUA ALMEIDA ROSA, 151, KRAHE",
+      "votos": {
+        "denise": 3,
+        "helenir": 1,
+        "total": 4
+      },
+      "percentuais": {
+        "denise": 75.0,
+        "helenir": 25.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 500,
+      "zona_eleitoral": 59,
+      "bairro": "Krahe",
+      "local": "EEEM AÇORIANOS",
+      "endereco": "RUA ALMEIDA ROSA, 151, KRAHE",
+      "votos": {
+        "denise": 4,
+        "helenir": 3,
+        "total": 7
+      },
+      "percentuais": {
+        "denise": 57.14,
+        "helenir": 42.86
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 517,
+      "zona_eleitoral": 59,
+      "bairro": "Krahe",
+      "local": "EEEM AÇORIANOS",
+      "endereco": "RUA ALMEIDA ROSA, 151, KRAHE",
+      "votos": {
+        "denise": 4,
+        "helenir": 5,
+        "total": 9
+      },
+      "percentuais": {
+        "denise": 44.44,
+        "helenir": 55.56
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 256,
+      "zona_eleitoral": 59,
+      "bairro": "Krahe",
+      "local": "EMEF FREDERICO DIHL",
+      "endereco": "RUA ALEXANDRE BRAGA, S/N, KRAHE",
+      "votos": {
+        "denise": 3,
+        "helenir": 4,
+        "total": 7
+      },
+      "percentuais": {
+        "denise": 42.86,
+        "helenir": 57.14
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 316,
+      "zona_eleitoral": 59,
+      "bairro": "Krahe",
+      "local": "EMEF FREDERICO DIHL",
+      "endereco": "RUA ALEXANDRE BRAGA, S/N, KRAHE",
+      "votos": {
+        "denise": 2,
+        "helenir": 2,
+        "total": 4
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 359,
+      "zona_eleitoral": 59,
+      "bairro": "Krahe",
+      "local": "EMEF FREDERICO DIHL",
+      "endereco": "RUA ALEXANDRE BRAGA, S/N, KRAHE",
+      "votos": {
+        "denise": 2,
+        "helenir": 4,
+        "total": 6
+      },
+      "percentuais": {
+        "denise": 33.33,
+        "helenir": 66.67
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 407,
+      "zona_eleitoral": 59,
+      "bairro": "Krahe",
+      "local": "EMEF FREDERICO DIHL",
+      "endereco": "RUA ALEXANDRE BRAGA, S/N, KRAHE",
+      "votos": {
+        "denise": 5,
+        "helenir": 6,
+        "total": 11
+      },
+      "percentuais": {
+        "denise": 45.45,
+        "helenir": 54.55
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 511,
+      "zona_eleitoral": 59,
+      "bairro": "Krahe",
+      "local": "EMEF FREDERICO DIHL",
+      "endereco": "RUA ALEXANDRE BRAGA, S/N, KRAHE",
+      "votos": {
+        "denise": 0,
+        "helenir": 1,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 0.0,
+        "helenir": 100.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 583,
+      "zona_eleitoral": 59,
+      "bairro": "Krahe",
+      "local": "EMEF FREDERICO DIHL",
+      "endereco": "RUA ALEXANDRE BRAGA, S/N, KRAHE",
+      "votos": {
+        "denise": 2,
+        "helenir": 0,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 46,
+      "zona_eleitoral": 59,
+      "bairro": "Krahe",
+      "local": "EMEF NOSSA SENHORA DA CONCEIÇÃO",
+      "endereco": "AVENIDA JARDIM LISBOA, 266, KRAHE",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 148,
+      "zona_eleitoral": 59,
+      "bairro": "Krahe",
+      "local": "EMEF NOSSA SENHORA DA CONCEIÇÃO",
+      "endereco": "AVENIDA JARDIM LISBOA, 266, KRAHE",
+      "votos": {
+        "denise": 2,
+        "helenir": 3,
+        "total": 5
+      },
+      "percentuais": {
+        "denise": 40.0,
+        "helenir": 60.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 215,
+      "zona_eleitoral": 59,
+      "bairro": "Krahe",
+      "local": "EMEF NOSSA SENHORA DA CONCEIÇÃO",
+      "endereco": "AVENIDA JARDIM LISBOA, 266, KRAHE",
+      "votos": {
+        "denise": 1,
+        "helenir": 4,
+        "total": 5
+      },
+      "percentuais": {
+        "denise": 20.0,
+        "helenir": 80.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 377,
+      "zona_eleitoral": 59,
+      "bairro": "Krahe",
+      "local": "EMEF NOSSA SENHORA DA CONCEIÇÃO",
+      "endereco": "AVENIDA JARDIM LISBOA, 266, KRAHE",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 525,
+      "zona_eleitoral": 59,
+      "bairro": "Martinica",
+      "local": "EEEF ADONIS DOS SANTOS",
+      "endereco": "RUA TORRES, S/N, MARTINICA",
+      "votos": {
+        "denise": 2,
+        "helenir": 1,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 66.67,
+        "helenir": 33.33
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 526,
+      "zona_eleitoral": 59,
+      "bairro": "Martinica",
+      "local": "EEEF ADONIS DOS SANTOS",
+      "endereco": "RUA TORRES, S/N, MARTINICA",
+      "votos": {
+        "denise": 2,
+        "helenir": 1,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 66.67,
+        "helenir": 33.33
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 528,
+      "zona_eleitoral": 59,
+      "bairro": "Martinica",
+      "local": "EEEF ADONIS DOS SANTOS",
+      "endereco": "RUA TORRES, S/N, MARTINICA",
+      "votos": {
+        "denise": 3,
+        "helenir": 2,
+        "total": 5
+      },
+      "percentuais": {
+        "denise": 60.0,
+        "helenir": 40.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 529,
+      "zona_eleitoral": 59,
+      "bairro": "Martinica",
+      "local": "EEEF ADONIS DOS SANTOS",
+      "endereco": "RUA TORRES, S/N, MARTINICA",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 531,
+      "zona_eleitoral": 59,
+      "bairro": "Martinica",
+      "local": "EEEF ADONIS DOS SANTOS",
+      "endereco": "RUA TORRES, S/N, MARTINICA",
+      "votos": {
+        "denise": 2,
+        "helenir": 1,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 66.67,
+        "helenir": 33.33
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 533,
+      "zona_eleitoral": 59,
+      "bairro": "Martinica",
+      "local": "EEEF ADONIS DOS SANTOS",
+      "endereco": "RUA TORRES, S/N, MARTINICA",
+      "votos": {
+        "denise": 3,
+        "helenir": 1,
+        "total": 4
+      },
+      "percentuais": {
+        "denise": 75.0,
+        "helenir": 25.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 534,
+      "zona_eleitoral": 59,
+      "bairro": "Martinica",
+      "local": "EEEF ADONIS DOS SANTOS",
+      "endereco": "RUA TORRES, S/N, MARTINICA",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 550,
+      "zona_eleitoral": 59,
+      "bairro": "Martinica",
+      "local": "EEEM ORIETA",
+      "endereco": "RUA PEDRO MOREIRA LOBATO, 120, MARTINICA",
+      "votos": {
+        "denise": 3,
+        "helenir": 1,
+        "total": 4
+      },
+      "percentuais": {
+        "denise": 75.0,
+        "helenir": 25.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 551,
+      "zona_eleitoral": 59,
+      "bairro": "Martinica",
+      "local": "EEEM ORIETA",
+      "endereco": "RUA PEDRO MOREIRA LOBATO, 120, MARTINICA",
+      "votos": {
+        "denise": 5,
+        "helenir": 4,
+        "total": 9
+      },
+      "percentuais": {
+        "denise": 55.56,
+        "helenir": 44.44
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 552,
+      "zona_eleitoral": 59,
+      "bairro": "Martinica",
+      "local": "EEEM ORIETA",
+      "endereco": "RUA PEDRO MOREIRA LOBATO, 120, MARTINICA",
+      "votos": {
+        "denise": 3,
+        "helenir": 3,
+        "total": 6
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 553,
+      "zona_eleitoral": 59,
+      "bairro": "Martinica",
+      "local": "EEEM ORIETA",
+      "endereco": "RUA PEDRO MOREIRA LOBATO, 120, MARTINICA",
+      "votos": {
+        "denise": 4,
+        "helenir": 2,
+        "total": 6
+      },
+      "percentuais": {
+        "denise": 66.67,
+        "helenir": 33.33
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 554,
+      "zona_eleitoral": 59,
+      "bairro": "Martinica",
+      "local": "EEEM ORIETA",
+      "endereco": "RUA PEDRO MOREIRA LOBATO, 120, MARTINICA",
+      "votos": {
+        "denise": 2,
+        "helenir": 1,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 66.67,
+        "helenir": 33.33
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 555,
+      "zona_eleitoral": 59,
+      "bairro": "Martinica",
+      "local": "EEEM ORIETA",
+      "endereco": "RUA PEDRO MOREIRA LOBATO, 120, MARTINICA",
+      "votos": {
+        "denise": 5,
+        "helenir": 3,
+        "total": 8
+      },
+      "percentuais": {
+        "denise": 62.5,
+        "helenir": 37.5
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 556,
+      "zona_eleitoral": 59,
+      "bairro": "Martinica",
+      "local": "EEEM ORIETA",
+      "endereco": "RUA PEDRO MOREIRA LOBATO, 120, MARTINICA",
+      "votos": {
+        "denise": 3,
+        "helenir": 0,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 45,
+      "zona_eleitoral": 59,
+      "bairro": "Morro Grande",
+      "local": "EMEF CORONEL AUGUSTO FRAGA",
+      "endereco": "RS 040, KM 33 - PDA. 100, MORRO GRANDE",
+      "votos": {
+        "denise": 1,
+        "helenir": 1,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 404,
+      "zona_eleitoral": 59,
+      "bairro": "Morro Grande",
+      "local": "EMEF CORONEL AUGUSTO FRAGA",
+      "endereco": "RS 040, KM 33 - PDA. 100, MORRO GRANDE",
+      "votos": {
+        "denise": 2,
+        "helenir": 3,
+        "total": 5
+      },
+      "percentuais": {
+        "denise": 40.0,
+        "helenir": 60.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 9,
+      "zona_eleitoral": 59,
+      "bairro": "Passo do Vigário",
+      "local": "EEEF CANADÁ",
+      "endereco": "RUA JOSÉ GARIBALDI, 5500 -ROD. PASSO DO VIGÁRIO, PASSO DO VIGÁRIO",
+      "votos": {
+        "denise": 3,
+        "helenir": 4,
+        "total": 7
+      },
+      "percentuais": {
+        "denise": 42.86,
+        "helenir": 57.14
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 174,
+      "zona_eleitoral": 59,
+      "bairro": "Passo do Vigário",
+      "local": "EEEF CANADÁ",
+      "endereco": "RUA JOSÉ GARIBALDI, 5500 -ROD. PASSO DO VIGÁRIO, PASSO DO VIGÁRIO",
+      "votos": {
+        "denise": 2,
+        "helenir": 3,
+        "total": 5
+      },
+      "percentuais": {
+        "denise": 40.0,
+        "helenir": 60.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 524,
+      "zona_eleitoral": 59,
+      "bairro": "Passo do Vigário",
+      "local": "EMEF DOM DIOGO DE SOUZA",
+      "endereco": "RUA DOIS (CONDADO DE VALENÇA), S/N, PASSO DO VIGÁRIO",
+      "votos": {
+        "denise": 5,
+        "helenir": 3,
+        "total": 8
+      },
+      "percentuais": {
+        "denise": 62.5,
+        "helenir": 37.5
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 573,
+      "zona_eleitoral": 59,
+      "bairro": "Passo do Vigário",
+      "local": "EMEF DOM DIOGO DE SOUZA",
+      "endereco": "RUA DOIS (CONDADO DE VALENÇA), S/N, PASSO DO VIGÁRIO",
+      "votos": {
+        "denise": 3,
+        "helenir": 0,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 581,
+      "zona_eleitoral": 59,
+      "bairro": "Passo do Vigário",
+      "local": "EMEF DOM DIOGO DE SOUZA",
+      "endereco": "RUA DOIS (CONDADO DE VALENÇA), S/N, PASSO DO VIGÁRIO",
+      "votos": {
+        "denise": 3,
+        "helenir": 3,
+        "total": 6
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 567,
+      "zona_eleitoral": 59,
+      "bairro": "Santo Onofre",
+      "local": "EMEF RECANTO DA LAGOA",
+      "endereco": "RUA LAGOA MIRIM, S/N, SANTO ONOFRE",
+      "votos": {
+        "denise": 2,
+        "helenir": 1,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 66.67,
+        "helenir": 33.33
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 568,
+      "zona_eleitoral": 59,
+      "bairro": "Santo Onofre",
+      "local": "EMEF RECANTO DA LAGOA",
+      "endereco": "RUA LAGOA MIRIM, S/N, SANTO ONOFRE",
+      "votos": {
+        "denise": 3,
+        "helenir": 2,
+        "total": 5
+      },
+      "percentuais": {
+        "denise": 60.0,
+        "helenir": 40.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 569,
+      "zona_eleitoral": 59,
+      "bairro": "Santo Onofre",
+      "local": "EMEF RECANTO DA LAGOA",
+      "endereco": "RUA LAGOA MIRIM, S/N, SANTO ONOFRE",
+      "votos": {
+        "denise": 5,
+        "helenir": 2,
+        "total": 7
+      },
+      "percentuais": {
+        "denise": 71.43,
+        "helenir": 28.57
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 570,
+      "zona_eleitoral": 59,
+      "bairro": "Santo Onofre",
+      "local": "EMEF RECANTO DA LAGOA",
+      "endereco": "RUA LAGOA MIRIM, S/N, SANTO ONOFRE",
+      "votos": {
+        "denise": 4,
+        "helenir": 2,
+        "total": 6
+      },
+      "percentuais": {
+        "denise": 66.67,
+        "helenir": 33.33
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 571,
+      "zona_eleitoral": 59,
+      "bairro": "Santo Onofre",
+      "local": "EMEF RECANTO DA LAGOA",
+      "endereco": "RUA LAGOA MIRIM, S/N, SANTO ONOFRE",
+      "votos": {
+        "denise": 2,
+        "helenir": 1,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 66.67,
+        "helenir": 33.33
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 572,
+      "zona_eleitoral": 59,
+      "bairro": "Santo Onofre",
+      "local": "EMEF RECANTO DA LAGOA",
+      "endereco": "RUA LAGOA MIRIM, S/N, SANTO ONOFRE",
+      "votos": {
+        "denise": 3,
+        "helenir": 1,
+        "total": 4
+      },
+      "percentuais": {
+        "denise": 75.0,
+        "helenir": 25.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 43,
+      "zona_eleitoral": 59,
+      "bairro": "Santo Onofre",
+      "local": "EMEF SANTA MARIA",
+      "endereco": "ESTRADA DOS CUNHA, 820, SANTO ONOFRE",
+      "votos": {
+        "denise": 2,
+        "helenir": 1,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 66.67,
+        "helenir": 33.33
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 120,
+      "zona_eleitoral": 59,
+      "bairro": "Santo Onofre",
+      "local": "EMEF SANTA MARIA",
+      "endereco": "ESTRADA DOS CUNHA, 820, SANTO ONOFRE",
+      "votos": {
+        "denise": 6,
+        "helenir": 2,
+        "total": 8
+      },
+      "percentuais": {
+        "denise": 75.0,
+        "helenir": 25.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 192,
+      "zona_eleitoral": 59,
+      "bairro": "Santo Onofre",
+      "local": "EMEF SANTA MARIA",
+      "endereco": "ESTRADA DOS CUNHA, 820, SANTO ONOFRE",
+      "votos": {
+        "denise": 1,
+        "helenir": 1,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 305,
+      "zona_eleitoral": 59,
+      "bairro": "Santo Onofre",
+      "local": "EMEF SANTA MARIA",
+      "endereco": "ESTRADA DOS CUNHA, 820, SANTO ONOFRE",
+      "votos": {
+        "denise": 2,
+        "helenir": 1,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 66.67,
+        "helenir": 33.33
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 342,
+      "zona_eleitoral": 59,
+      "bairro": "Santo Onofre",
+      "local": "EMEF SANTA MARIA",
+      "endereco": "ESTRADA DOS CUNHA, 820, SANTO ONOFRE",
+      "votos": {
+        "denise": 1,
+        "helenir": 1,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 366,
+      "zona_eleitoral": 59,
+      "bairro": "Santo Onofre",
+      "local": "EMEF SANTA MARIA",
+      "endereco": "ESTRADA DOS CUNHA, 820, SANTO ONOFRE",
+      "votos": {
+        "denise": 3,
+        "helenir": 3,
+        "total": 6
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 446,
+      "zona_eleitoral": 59,
+      "bairro": "Santo Onofre",
+      "local": "EMEF SANTA MARIA",
+      "endereco": "ESTRADA DOS CUNHA, 820, SANTO ONOFRE",
+      "votos": {
+        "denise": 3,
+        "helenir": 2,
+        "total": 5
+      },
+      "percentuais": {
+        "denise": 60.0,
+        "helenir": 40.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 271,
+      "zona_eleitoral": 59,
+      "bairro": "São Lucas",
+      "local": "EMEF DOUTOR GLÊNIO PERES",
+      "endereco": "RUA FRANCISCO MANOEL DA SILVA, 625, SÃO LUCAS",
+      "votos": {
+        "denise": 2,
+        "helenir": 2,
+        "total": 4
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 338,
+      "zona_eleitoral": 59,
+      "bairro": "São Lucas",
+      "local": "EMEF DOUTOR GLÊNIO PERES",
+      "endereco": "RUA FRANCISCO MANOEL DA SILVA, 625, SÃO LUCAS",
+      "votos": {
+        "denise": 3,
+        "helenir": 1,
+        "total": 4
+      },
+      "percentuais": {
+        "denise": 75.0,
+        "helenir": 25.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 391,
+      "zona_eleitoral": 59,
+      "bairro": "São Lucas",
+      "local": "EMEF DOUTOR GLÊNIO PERES",
+      "endereco": "RUA FRANCISCO MANOEL DA SILVA, 625, SÃO LUCAS",
+      "votos": {
+        "denise": 1,
+        "helenir": 1,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 505,
+      "zona_eleitoral": 59,
+      "bairro": "São Lucas",
+      "local": "EMEF DOUTOR GLÊNIO PERES",
+      "endereco": "RUA FRANCISCO MANOEL DA SILVA, 625, SÃO LUCAS",
+      "votos": {
+        "denise": 2,
+        "helenir": 2,
+        "total": 4
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 578,
+      "zona_eleitoral": 59,
+      "bairro": "São Lucas",
+      "local": "EMEF DOUTOR GLÊNIO PERES",
+      "endereco": "RUA FRANCISCO MANOEL DA SILVA, 625, SÃO LUCAS",
+      "votos": {
+        "denise": 4,
+        "helenir": 3,
+        "total": 7
+      },
+      "percentuais": {
+        "denise": 57.14,
+        "helenir": 42.86
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 1,
+      "zona_eleitoral": 59,
+      "bairro": "São Lucas",
+      "local": "EMEF FARROUPILHA",
+      "endereco": "AVENIDA SENADOR SALGADO FILHO, 6031 - PDA. 46, SÃO LUCAS",
+      "votos": {
+        "denise": 4,
+        "helenir": 1,
+        "total": 5
+      },
+      "percentuais": {
+        "denise": 80.0,
+        "helenir": 20.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 60,
+      "zona_eleitoral": 59,
+      "bairro": "São Lucas",
+      "local": "EMEF FARROUPILHA",
+      "endereco": "AVENIDA SENADOR SALGADO FILHO, 6031 - PDA. 46, SÃO LUCAS",
+      "votos": {
+        "denise": 4,
+        "helenir": 4,
+        "total": 8
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 72,
+      "zona_eleitoral": 59,
+      "bairro": "São Lucas",
+      "local": "EMEF FARROUPILHA",
+      "endereco": "AVENIDA SENADOR SALGADO FILHO, 6031 - PDA. 46, SÃO LUCAS",
+      "votos": {
+        "denise": 1,
+        "helenir": 1,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 88,
+      "zona_eleitoral": 59,
+      "bairro": "São Lucas",
+      "local": "EMEF FARROUPILHA",
+      "endereco": "AVENIDA SENADOR SALGADO FILHO, 6031 - PDA. 46, SÃO LUCAS",
+      "votos": {
+        "denise": 2,
+        "helenir": 1,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 66.67,
+        "helenir": 33.33
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 104,
+      "zona_eleitoral": 59,
+      "bairro": "São Lucas",
+      "local": "EMEF FARROUPILHA",
+      "endereco": "AVENIDA SENADOR SALGADO FILHO, 6031 - PDA. 46, SÃO LUCAS",
+      "votos": {
+        "denise": 5,
+        "helenir": 5,
+        "total": 10
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 127,
+      "zona_eleitoral": 59,
+      "bairro": "São Lucas",
+      "local": "EMEF FARROUPILHA",
+      "endereco": "AVENIDA SENADOR SALGADO FILHO, 6031 - PDA. 46, SÃO LUCAS",
+      "votos": {
+        "denise": 2,
+        "helenir": 3,
+        "total": 5
+      },
+      "percentuais": {
+        "denise": 40.0,
+        "helenir": 60.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 137,
+      "zona_eleitoral": 59,
+      "bairro": "São Lucas",
+      "local": "EMEF FARROUPILHA",
+      "endereco": "AVENIDA SENADOR SALGADO FILHO, 6031 - PDA. 46, SÃO LUCAS",
+      "votos": {
+        "denise": 2,
+        "helenir": 1,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 66.67,
+        "helenir": 33.33
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 170,
+      "zona_eleitoral": 59,
+      "bairro": "São Lucas",
+      "local": "EMEF FARROUPILHA",
+      "endereco": "AVENIDA SENADOR SALGADO FILHO, 6031 - PDA. 46, SÃO LUCAS",
+      "votos": {
+        "denise": 2,
+        "helenir": 0,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 183,
+      "zona_eleitoral": 59,
+      "bairro": "São Lucas",
+      "local": "EMEF FARROUPILHA",
+      "endereco": "AVENIDA SENADOR SALGADO FILHO, 6031 - PDA. 46, SÃO LUCAS",
+      "votos": {
+        "denise": 4,
+        "helenir": 4,
+        "total": 8
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 206,
+      "zona_eleitoral": 59,
+      "bairro": "São Lucas",
+      "local": "EMEF FARROUPILHA",
+      "endereco": "AVENIDA SENADOR SALGADO FILHO, 6031 - PDA. 46, SÃO LUCAS",
+      "votos": {
+        "denise": 1,
+        "helenir": 1,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 341,
+      "zona_eleitoral": 59,
+      "bairro": "São Lucas",
+      "local": "EMEF FARROUPILHA",
+      "endereco": "AVENIDA SENADOR SALGADO FILHO, 6031 - PDA. 46, SÃO LUCAS",
+      "votos": {
+        "denise": 2,
+        "helenir": 1,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 66.67,
+        "helenir": 33.33
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 396,
+      "zona_eleitoral": 59,
+      "bairro": "São Lucas",
+      "local": "EMEF FARROUPILHA",
+      "endereco": "AVENIDA SENADOR SALGADO FILHO, 6031 - PDA. 46, SÃO LUCAS",
+      "votos": {
+        "denise": 5,
+        "helenir": 1,
+        "total": 6
+      },
+      "percentuais": {
+        "denise": 83.33,
+        "helenir": 16.67
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 438,
+      "zona_eleitoral": 59,
+      "bairro": "São Lucas",
+      "local": "EMEF FARROUPILHA",
+      "endereco": "AVENIDA SENADOR SALGADO FILHO, 6031 - PDA. 46, SÃO LUCAS",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 574,
+      "zona_eleitoral": 59,
+      "bairro": "São Lucas",
+      "local": "EMEF FARROUPILHA",
+      "endereco": "AVENIDA SENADOR SALGADO FILHO, 6031 - PDA. 46, SÃO LUCAS",
+      "votos": {
+        "denise": 3,
+        "helenir": 3,
+        "total": 6
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 582,
+      "zona_eleitoral": 59,
+      "bairro": "São Lucas",
+      "local": "EMEF FARROUPILHA",
+      "endereco": "AVENIDA SENADOR SALGADO FILHO, 6031 - PDA. 46, SÃO LUCAS",
+      "votos": {
+        "denise": 3,
+        "helenir": 1,
+        "total": 4
+      },
+      "percentuais": {
+        "denise": 75.0,
+        "helenir": 25.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 543,
+      "zona_eleitoral": 59,
+      "bairro": "São Lucas",
+      "local": "EMEF HUMBERTO DE CAMPOS",
+      "endereco": "RUA OURO PRETO, 150 - PDA. 42, SÃO LUCAS",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 544,
+      "zona_eleitoral": 59,
+      "bairro": "São Lucas",
+      "local": "EMEF HUMBERTO DE CAMPOS",
+      "endereco": "RUA OURO PRETO, 150 - PDA. 42, SÃO LUCAS",
+      "votos": {
+        "denise": 2,
+        "helenir": 1,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 66.67,
+        "helenir": 33.33
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 545,
+      "zona_eleitoral": 59,
+      "bairro": "São Lucas",
+      "local": "EMEF HUMBERTO DE CAMPOS",
+      "endereco": "RUA OURO PRETO, 150 - PDA. 42, SÃO LUCAS",
+      "votos": {
+        "denise": 2,
+        "helenir": 1,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 66.67,
+        "helenir": 33.33
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 546,
+      "zona_eleitoral": 59,
+      "bairro": "São Lucas",
+      "local": "EMEF HUMBERTO DE CAMPOS",
+      "endereco": "RUA OURO PRETO, 150 - PDA. 42, SÃO LUCAS",
+      "votos": {
+        "denise": 1,
+        "helenir": 1,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 547,
+      "zona_eleitoral": 59,
+      "bairro": "São Lucas",
+      "local": "EMEF HUMBERTO DE CAMPOS",
+      "endereco": "RUA OURO PRETO, 150 - PDA. 42, SÃO LUCAS",
+      "votos": {
+        "denise": 0,
+        "helenir": 1,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 0.0,
+        "helenir": 100.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 548,
+      "zona_eleitoral": 59,
+      "bairro": "São Lucas",
+      "local": "EMEF HUMBERTO DE CAMPOS",
+      "endereco": "RUA OURO PRETO, 150 - PDA. 42, SÃO LUCAS",
+      "votos": {
+        "denise": 1,
+        "helenir": 1,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 549,
+      "zona_eleitoral": 59,
+      "bairro": "São Lucas",
+      "local": "EMEF HUMBERTO DE CAMPOS",
+      "endereco": "RUA OURO PRETO, 150 - PDA. 42, SÃO LUCAS",
+      "votos": {
+        "denise": 1,
+        "helenir": 2,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 33.33,
+        "helenir": 66.67
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 105,
+      "zona_eleitoral": 59,
+      "bairro": "TarumÃ",
+      "local": "EMEI POSSIDÔNIO DA CUNHA",
+      "endereco": "RUA VOLUNTÁRIOS DA PÁTRIA, 209, TARUMÃ",
+      "votos": {
+        "denise": 3,
+        "helenir": 4,
+        "total": 7
+      },
+      "percentuais": {
+        "denise": 42.86,
+        "helenir": 57.14
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 152,
+      "zona_eleitoral": 59,
+      "bairro": "TarumÃ",
+      "local": "EMEI POSSIDÔNIO DA CUNHA",
+      "endereco": "RUA VOLUNTÁRIOS DA PÁTRIA, 209, TARUMÃ",
+      "votos": {
+        "denise": 2,
+        "helenir": 4,
+        "total": 6
+      },
+      "percentuais": {
+        "denise": 33.33,
+        "helenir": 66.67
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 181,
+      "zona_eleitoral": 59,
+      "bairro": "TarumÃ",
+      "local": "EMEI POSSIDÔNIO DA CUNHA",
+      "endereco": "RUA VOLUNTÁRIOS DA PÁTRIA, 209, TARUMÃ",
+      "votos": {
+        "denise": 3,
+        "helenir": 1,
+        "total": 4
+      },
+      "percentuais": {
+        "denise": 75.0,
+        "helenir": 25.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 26,
+      "zona_eleitoral": 59,
+      "bairro": "Tarumã",
+      "local": "EEEM SETEMBRINA",
+      "endereco": "AV. BENTO GONÇALVES, 1452, TARUMÃ",
+      "votos": {
+        "denise": 1,
+        "helenir": 6,
+        "total": 7
+      },
+      "percentuais": {
+        "denise": 14.29,
+        "helenir": 85.71
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 37,
+      "zona_eleitoral": 59,
+      "bairro": "Tarumã",
+      "local": "EEEM SETEMBRINA",
+      "endereco": "AV. BENTO GONÇALVES, 1452, TARUMÃ",
+      "votos": {
+        "denise": 1,
+        "helenir": 4,
+        "total": 5
+      },
+      "percentuais": {
+        "denise": 20.0,
+        "helenir": 80.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 62,
+      "zona_eleitoral": 59,
+      "bairro": "Tarumã",
+      "local": "EEEM SETEMBRINA",
+      "endereco": "AV. BENTO GONÇALVES, 1452, TARUMÃ",
+      "votos": {
+        "denise": 4,
+        "helenir": 1,
+        "total": 5
+      },
+      "percentuais": {
+        "denise": 80.0,
+        "helenir": 20.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 98,
+      "zona_eleitoral": 59,
+      "bairro": "Tarumã",
+      "local": "EEEM SETEMBRINA",
+      "endereco": "AV. BENTO GONÇALVES, 1452, TARUMÃ",
+      "votos": {
+        "denise": 3,
+        "helenir": 1,
+        "total": 4
+      },
+      "percentuais": {
+        "denise": 75.0,
+        "helenir": 25.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 139,
+      "zona_eleitoral": 59,
+      "bairro": "Tarumã",
+      "local": "EEEM SETEMBRINA",
+      "endereco": "AV. BENTO GONÇALVES, 1452, TARUMÃ",
+      "votos": {
+        "denise": 4,
+        "helenir": 0,
+        "total": 4
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 168,
+      "zona_eleitoral": 59,
+      "bairro": "Tarumã",
+      "local": "EEEM SETEMBRINA",
+      "endereco": "AV. BENTO GONÇALVES, 1452, TARUMÃ",
+      "votos": {
+        "denise": 1,
+        "helenir": 2,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 33.33,
+        "helenir": 66.67
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 199,
+      "zona_eleitoral": 59,
+      "bairro": "Tarumã",
+      "local": "EEEM SETEMBRINA",
+      "endereco": "AV. BENTO GONÇALVES, 1452, TARUMÃ",
+      "votos": {
+        "denise": 3,
+        "helenir": 4,
+        "total": 7
+      },
+      "percentuais": {
+        "denise": 42.86,
+        "helenir": 57.14
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 225,
+      "zona_eleitoral": 59,
+      "bairro": "Tarumã",
+      "local": "EEEM SETEMBRINA",
+      "endereco": "AV. BENTO GONÇALVES, 1452, TARUMÃ",
+      "votos": {
+        "denise": 4,
+        "helenir": 8,
+        "total": 12
+      },
+      "percentuais": {
+        "denise": 33.33,
+        "helenir": 66.67
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 322,
+      "zona_eleitoral": 59,
+      "bairro": "Tarumã",
+      "local": "EEEM SETEMBRINA",
+      "endereco": "AV. BENTO GONÇALVES, 1452, TARUMÃ",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 351,
+      "zona_eleitoral": 59,
+      "bairro": "Tarumã",
+      "local": "EEEM SETEMBRINA",
+      "endereco": "AV. BENTO GONÇALVES, 1452, TARUMÃ",
+      "votos": {
+        "denise": 6,
+        "helenir": 5,
+        "total": 11
+      },
+      "percentuais": {
+        "denise": 54.55,
+        "helenir": 45.45
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 411,
+      "zona_eleitoral": 59,
+      "bairro": "Tarumã",
+      "local": "EEEM SETEMBRINA",
+      "endereco": "AV. BENTO GONÇALVES, 1452, TARUMÃ",
+      "votos": {
+        "denise": 1,
+        "helenir": 1,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 535,
+      "zona_eleitoral": 59,
+      "bairro": "Viamópolis",
+      "local": "EEEM MINUANO",
+      "endereco": "RUA TIRANDENTES, 200, VIAMÓPOLIS",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 538,
+      "zona_eleitoral": 59,
+      "bairro": "Viamópolis",
+      "local": "EEEM MINUANO",
+      "endereco": "RUA TIRANDENTES, 200, VIAMÓPOLIS",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 539,
+      "zona_eleitoral": 59,
+      "bairro": "Viamópolis",
+      "local": "EEEM MINUANO",
+      "endereco": "RUA TIRANDENTES, 200, VIAMÓPOLIS",
+      "votos": {
+        "denise": 2,
+        "helenir": 0,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 541,
+      "zona_eleitoral": 59,
+      "bairro": "Viamópolis",
+      "local": "EEEM MINUANO",
+      "endereco": "RUA TIRANDENTES, 200, VIAMÓPOLIS",
+      "votos": {
+        "denise": 1,
+        "helenir": 1,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 542,
+      "zona_eleitoral": 59,
+      "bairro": "Viamópolis",
+      "local": "EEEM MINUANO",
+      "endereco": "RUA TIRANDENTES, 200, VIAMÓPOLIS",
+      "votos": {
+        "denise": 3,
+        "helenir": 2,
+        "total": 5
+      },
+      "percentuais": {
+        "denise": 60.0,
+        "helenir": 40.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 557,
+      "zona_eleitoral": 59,
+      "bairro": "Viamópolis",
+      "local": "EMEF SÃO JORGE",
+      "endereco": "RUA AMÉRICO JOSÉ GOULART, S/N, VIAMÓPOLIS",
+      "votos": {
+        "denise": 1,
+        "helenir": 1,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 558,
+      "zona_eleitoral": 59,
+      "bairro": "Viamópolis",
+      "local": "EMEF SÃO JORGE",
+      "endereco": "RUA AMÉRICO JOSÉ GOULART, S/N, VIAMÓPOLIS",
+      "votos": {
+        "denise": 1,
+        "helenir": 2,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 33.33,
+        "helenir": 66.67
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 560,
+      "zona_eleitoral": 59,
+      "bairro": "Viamópolis",
+      "local": "EMEF SÃO JORGE",
+      "endereco": "RUA AMÉRICO JOSÉ GOULART, S/N, VIAMÓPOLIS",
+      "votos": {
+        "denise": 2,
+        "helenir": 1,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 66.67,
+        "helenir": 33.33
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 418,
+      "zona_eleitoral": 59,
+      "bairro": "Viamópolis",
+      "local": "EMEI PADRE REUS",
+      "endereco": "AVENIDA PRESIDENTE VARGAS, 1002, VIAMÓPOLIS",
+      "votos": {
+        "denise": 2,
+        "helenir": 0,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 561,
+      "zona_eleitoral": 59,
+      "bairro": "Viamópolis",
+      "local": "EMEI PADRE REUS",
+      "endereco": "AVENIDA PRESIDENTE VARGAS, 1002, VIAMÓPOLIS",
+      "votos": {
+        "denise": 2,
+        "helenir": 2,
+        "total": 4
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 562,
+      "zona_eleitoral": 59,
+      "bairro": "Viamópolis",
+      "local": "EMEI PADRE REUS",
+      "endereco": "AVENIDA PRESIDENTE VARGAS, 1002, VIAMÓPOLIS",
+      "votos": {
+        "denise": 2,
+        "helenir": 0,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 563,
+      "zona_eleitoral": 59,
+      "bairro": "Viamópolis",
+      "local": "EMEI PADRE REUS",
+      "endereco": "AVENIDA PRESIDENTE VARGAS, 1002, VIAMÓPOLIS",
+      "votos": {
+        "denise": 2,
+        "helenir": 1,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 66.67,
+        "helenir": 33.33
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 564,
+      "zona_eleitoral": 59,
+      "bairro": "Viamópolis",
+      "local": "EMEI PADRE REUS",
+      "endereco": "AVENIDA PRESIDENTE VARGAS, 1002, VIAMÓPOLIS",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 565,
+      "zona_eleitoral": 59,
+      "bairro": "Viamópolis",
+      "local": "EMEI PADRE REUS",
+      "endereco": "AVENIDA PRESIDENTE VARGAS, 1002, VIAMÓPOLIS",
+      "votos": {
+        "denise": 2,
+        "helenir": 1,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 66.67,
+        "helenir": 33.33
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 566,
+      "zona_eleitoral": 59,
+      "bairro": "Viamópolis",
+      "local": "EMEI PADRE REUS",
+      "endereco": "AVENIDA PRESIDENTE VARGAS, 1002, VIAMÓPOLIS",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 34,
+      "zona_eleitoral": 59,
+      "bairro": "Águas Claras",
+      "local": "EEEM RUI BARBOSA",
+      "endereco": "RS 040, KM 32 - PDA. 94, ÁGUAS CLARAS",
+      "votos": {
+        "denise": 1,
+        "helenir": 1,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 380,
+      "zona_eleitoral": 59,
+      "bairro": "Águas Claras",
+      "local": "EEEM RUI BARBOSA",
+      "endereco": "RS 040, KM 32 - PDA. 94, ÁGUAS CLARAS",
+      "votos": {
+        "denise": 1,
+        "helenir": 1,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 415,
+      "zona_eleitoral": 59,
+      "bairro": "Águas Claras",
+      "local": "EEEM RUI BARBOSA",
+      "endereco": "RS 040, KM 32 - PDA. 94, ÁGUAS CLARAS",
+      "votos": {
+        "denise": 1,
+        "helenir": 1,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 508,
+      "zona_eleitoral": 59,
+      "bairro": "Águas Claras",
+      "local": "EEEM RUI BARBOSA",
+      "endereco": "RS 040, KM 32 - PDA. 94, ÁGUAS CLARAS",
+      "votos": {
+        "denise": 1,
+        "helenir": 1,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 226,
+      "zona_eleitoral": 59,
+      "bairro": "Águas Claras",
+      "local": "EMEF APOLINÁRIO ALVES DOS SANTOS",
+      "endereco": "RS 040, KM 27 - PDA. 85, ÁGUAS CLARAS",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 375,
+      "zona_eleitoral": 59,
+      "bairro": "Águas Claras",
+      "local": "EMEF APOLINÁRIO ALVES DOS SANTOS",
+      "endereco": "RS 040, KM 27 - PDA. 85, ÁGUAS CLARAS",
+      "votos": {
+        "denise": 2,
+        "helenir": 2,
+        "total": 4
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 392,
+      "zona_eleitoral": 59,
+      "bairro": "Águas Claras",
+      "local": "EMEF APOLINÁRIO ALVES DOS SANTOS",
+      "endereco": "RS 040, KM 27 - PDA. 85, ÁGUAS CLARAS",
+      "votos": {
+        "denise": 0,
+        "helenir": 1,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 0.0,
+        "helenir": 100.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 393,
+      "zona_eleitoral": 59,
+      "bairro": "Águas Claras",
+      "local": "EMEF APOLINÁRIO ALVES DOS SANTOS",
+      "endereco": "RS 040, KM 27 - PDA. 85, ÁGUAS CLARAS",
+      "votos": {
+        "denise": 0,
+        "helenir": 1,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 0.0,
+        "helenir": 100.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 502,
+      "zona_eleitoral": 59,
+      "bairro": "Águas Claras",
+      "local": "EMEF APOLINÁRIO ALVES DOS SANTOS",
+      "endereco": "RS 040, KM 27 - PDA. 85, ÁGUAS CLARAS",
+      "votos": {
+        "denise": 1,
+        "helenir": 2,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 33.33,
+        "helenir": 66.67
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 521,
+      "zona_eleitoral": 59,
+      "bairro": "Águas Claras",
+      "local": "EMEF APOLINÁRIO ALVES DOS SANTOS",
+      "endereco": "RS 040, KM 27 - PDA. 85, ÁGUAS CLARAS",
+      "votos": {
+        "denise": 1,
+        "helenir": 1,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 577,
+      "zona_eleitoral": 59,
+      "bairro": "Águas Claras",
+      "local": "EMEF APOLINÁRIO ALVES DOS SANTOS",
+      "endereco": "RS 040, KM 27 - PDA. 85, ÁGUAS CLARAS",
+      "votos": {
+        "denise": 1,
+        "helenir": 3,
+        "total": 4
+      },
+      "percentuais": {
+        "denise": 25.0,
+        "helenir": 75.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 587,
+      "zona_eleitoral": 59,
+      "bairro": "Águas Claras",
+      "local": "EMEF APOLINÁRIO ALVES DOS SANTOS",
+      "endereco": "RS 040, KM 27 - PDA. 85, ÁGUAS CLARAS",
+      "votos": {
+        "denise": 3,
+        "helenir": 2,
+        "total": 5
+      },
+      "percentuais": {
+        "denise": 60.0,
+        "helenir": 40.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 33,
+      "zona_eleitoral": 59,
+      "bairro": "Águas Claras",
+      "local": "EMEF CRISTIANO VIEIRA DA SILVA",
+      "endereco": "RS 040, KM 36 - ESTRADA DAS LOMBAS - PDA. 109, ÁGUAS CLARAS",
+      "votos": {
+        "denise": 1,
+        "helenir": 1,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 52,
+      "zona_eleitoral": 59,
+      "bairro": "Águas Claras",
+      "local": "EMEF CRISTIANO VIEIRA DA SILVA",
+      "endereco": "RS 040, KM 36 - ESTRADA DAS LOMBAS - PDA. 109, ÁGUAS CLARAS",
+      "votos": {
+        "denise": 3,
+        "helenir": 3,
+        "total": 6
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 130,
+      "zona_eleitoral": 59,
+      "bairro": "Águas Claras",
+      "local": "EMEF CRISTIANO VIEIRA DA SILVA",
+      "endereco": "RS 040, KM 36 - ESTRADA DAS LOMBAS - PDA. 109, ÁGUAS CLARAS",
+      "votos": {
+        "denise": 2,
+        "helenir": 2,
+        "total": 4
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 349,
+      "zona_eleitoral": 59,
+      "bairro": "Águas Claras",
+      "local": "EMEF CRISTIANO VIEIRA DA SILVA",
+      "endereco": "RS 040, KM 36 - ESTRADA DAS LOMBAS - PDA. 109, ÁGUAS CLARAS",
+      "votos": {
+        "denise": 3,
+        "helenir": 2,
+        "total": 5
+      },
+      "percentuais": {
+        "denise": 60.0,
+        "helenir": 40.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 445,
+      "zona_eleitoral": 59,
+      "bairro": "Águas Claras",
+      "local": "EMEF CRISTIANO VIEIRA DA SILVA",
+      "endereco": "RS 040, KM 36 - ESTRADA DAS LOMBAS - PDA. 109, ÁGUAS CLARAS",
+      "votos": {
+        "denise": 2,
+        "helenir": 2,
+        "total": 4
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 48,
+      "zona_eleitoral": 59,
+      "bairro": "Águas Claras",
+      "local": "EMEF ZEFERINO LOPES DE CASTRO",
+      "endereco": "RODOVIA CEL. EDMUNDO DOS SANTOS ABREU, S/N, ÁGUAS CLARAS",
+      "votos": {
+        "denise": 6,
+        "helenir": 2,
+        "total": 8
+      },
+      "percentuais": {
+        "denise": 75.0,
+        "helenir": 25.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 268,
+      "zona_eleitoral": 59,
+      "bairro": "Águas Claras",
+      "local": "EMEF ZEFERINO LOPES DE CASTRO",
+      "endereco": "RODOVIA CEL. EDMUNDO DOS SANTOS ABREU, S/N, ÁGUAS CLARAS",
+      "votos": {
+        "denise": 3,
+        "helenir": 2,
+        "total": 5
+      },
+      "percentuais": {
+        "denise": 60.0,
+        "helenir": 40.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 467,
+      "zona_eleitoral": 72,
+      "bairro": "Augusta",
+      "local": "ESCOLA ESTADUAL DE ENSINO MÉDIO AYRTON SENNA DA SILVA",
+      "endereco": "RUA IPIRANGA, 135, AUGUSTA",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 468,
+      "zona_eleitoral": 72,
+      "bairro": "Augusta",
+      "local": "ESCOLA ESTADUAL DE ENSINO MÉDIO AYRTON SENNA DA SILVA",
+      "endereco": "RUA IPIRANGA, 135, AUGUSTA",
+      "votos": {
+        "denise": 2,
+        "helenir": 2,
+        "total": 4
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 469,
+      "zona_eleitoral": 72,
+      "bairro": "Augusta",
+      "local": "ESCOLA ESTADUAL DE ENSINO MÉDIO AYRTON SENNA DA SILVA",
+      "endereco": "RUA IPIRANGA, 135, AUGUSTA",
+      "votos": {
+        "denise": 3,
+        "helenir": 0,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 470,
+      "zona_eleitoral": 72,
+      "bairro": "Augusta",
+      "local": "ESCOLA ESTADUAL DE ENSINO MÉDIO AYRTON SENNA DA SILVA",
+      "endereco": "RUA IPIRANGA, 135, AUGUSTA",
+      "votos": {
+        "denise": 1,
+        "helenir": 1,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 471,
+      "zona_eleitoral": 72,
+      "bairro": "Augusta",
+      "local": "ESCOLA ESTADUAL DE ENSINO MÉDIO AYRTON SENNA DA SILVA",
+      "endereco": "RUA IPIRANGA, 135, AUGUSTA",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 473,
+      "zona_eleitoral": 72,
+      "bairro": "Augusta",
+      "local": "ESCOLA ESTADUAL DE ENSINO MÉDIO AYRTON SENNA DA SILVA",
+      "endereco": "RUA IPIRANGA, 135, AUGUSTA",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 475,
+      "zona_eleitoral": 72,
+      "bairro": "Augusta",
+      "local": "ESCOLA ESTADUAL DE ENSINO MÉDIO AYRTON SENNA DA SILVA",
+      "endereco": "RUA IPIRANGA, 135, AUGUSTA",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 531,
+      "zona_eleitoral": 72,
+      "bairro": "Augusta",
+      "local": "ESCOLA ESTADUAL DE ENSINO MÉDIO AYRTON SENNA DA SILVA",
+      "endereco": "RUA IPIRANGA, 135, AUGUSTA",
+      "votos": {
+        "denise": 3,
+        "helenir": 0,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 477,
+      "zona_eleitoral": 72,
+      "bairro": "Augusta",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL LAURO PEREIRA RODRIGUES",
+      "endereco": "RUA ISABEL MIRIDIU, 42, AUGUSTA",
+      "votos": {
+        "denise": 1,
+        "helenir": 1,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 478,
+      "zona_eleitoral": 72,
+      "bairro": "Augusta",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL LAURO PEREIRA RODRIGUES",
+      "endereco": "RUA ISABEL MIRIDIU, 42, AUGUSTA",
+      "votos": {
+        "denise": 0,
+        "helenir": 1,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 0.0,
+        "helenir": 100.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 479,
+      "zona_eleitoral": 72,
+      "bairro": "Augusta",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL LAURO PEREIRA RODRIGUES",
+      "endereco": "RUA ISABEL MIRIDIU, 42, AUGUSTA",
+      "votos": {
+        "denise": 2,
+        "helenir": 1,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 66.67,
+        "helenir": 33.33
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 481,
+      "zona_eleitoral": 72,
+      "bairro": "Augusta",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL LAURO PEREIRA RODRIGUES",
+      "endereco": "RUA ISABEL MIRIDIU, 42, AUGUSTA",
+      "votos": {
+        "denise": 1,
+        "helenir": 1,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 482,
+      "zona_eleitoral": 72,
+      "bairro": "Augusta",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL LAURO PEREIRA RODRIGUES",
+      "endereco": "RUA ISABEL MIRIDIU, 42, AUGUSTA",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 483,
+      "zona_eleitoral": 72,
+      "bairro": "Augusta",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL LAURO PEREIRA RODRIGUES",
+      "endereco": "RUA ISABEL MIRIDIU, 42, AUGUSTA",
+      "votos": {
+        "denise": 2,
+        "helenir": 0,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 484,
+      "zona_eleitoral": 72,
+      "bairro": "Augusta",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL LUCIANA DE ABREU",
+      "endereco": "RUA DÁRIO GONÇALVES MOLHO, S/N, AUGUSTA",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 485,
+      "zona_eleitoral": 72,
+      "bairro": "Augusta",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL LUCIANA DE ABREU",
+      "endereco": "RUA DÁRIO GONÇALVES MOLHO, S/N, AUGUSTA",
+      "votos": {
+        "denise": 2,
+        "helenir": 0,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 486,
+      "zona_eleitoral": 72,
+      "bairro": "Augusta",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL LUCIANA DE ABREU",
+      "endereco": "RUA DÁRIO GONÇALVES MOLHO, S/N, AUGUSTA",
+      "votos": {
+        "denise": 0,
+        "helenir": 2,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 0.0,
+        "helenir": 100.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 487,
+      "zona_eleitoral": 72,
+      "bairro": "Augusta",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL LUCIANA DE ABREU",
+      "endereco": "RUA DÁRIO GONÇALVES MOLHO, S/N, AUGUSTA",
+      "votos": {
+        "denise": 3,
+        "helenir": 2,
+        "total": 5
+      },
+      "percentuais": {
+        "denise": 60.0,
+        "helenir": 40.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 488,
+      "zona_eleitoral": 72,
+      "bairro": "Augusta",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL LUCIANA DE ABREU",
+      "endereco": "RUA DÁRIO GONÇALVES MOLHO, S/N, AUGUSTA",
+      "votos": {
+        "denise": 2,
+        "helenir": 0,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 489,
+      "zona_eleitoral": 72,
+      "bairro": "Augusta",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL LUCIANA DE ABREU",
+      "endereco": "RUA DÁRIO GONÇALVES MOLHO, S/N, AUGUSTA",
+      "votos": {
+        "denise": 2,
+        "helenir": 0,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 490,
+      "zona_eleitoral": 72,
+      "bairro": "Augusta",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL LUCIANA DE ABREU",
+      "endereco": "RUA DÁRIO GONÇALVES MOLHO, S/N, AUGUSTA",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 492,
+      "zona_eleitoral": 72,
+      "bairro": "Augusta",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL LUCIANA DE ABREU",
+      "endereco": "RUA DÁRIO GONÇALVES MOLHO, S/N, AUGUSTA",
+      "votos": {
+        "denise": 1,
+        "helenir": 1,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 493,
+      "zona_eleitoral": 72,
+      "bairro": "Augusta",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL LUCIANA DE ABREU",
+      "endereco": "RUA DÁRIO GONÇALVES MOLHO, S/N, AUGUSTA",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 496,
+      "zona_eleitoral": 72,
+      "bairro": "Augusta",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL LUCIANA DE ABREU",
+      "endereco": "RUA DÁRIO GONÇALVES MOLHO, S/N, AUGUSTA",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 497,
+      "zona_eleitoral": 72,
+      "bairro": "Augusta",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL LUCIANA DE ABREU",
+      "endereco": "RUA DÁRIO GONÇALVES MOLHO, S/N, AUGUSTA",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 498,
+      "zona_eleitoral": 72,
+      "bairro": "Augusta",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL LUCIANA DE ABREU",
+      "endereco": "RUA DÁRIO GONÇALVES MOLHO, S/N, AUGUSTA",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 499,
+      "zona_eleitoral": 72,
+      "bairro": "Augusta",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL LUCIANA DE ABREU",
+      "endereco": "RUA DÁRIO GONÇALVES MOLHO, S/N, AUGUSTA",
+      "votos": {
+        "denise": 2,
+        "helenir": 1,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 66.67,
+        "helenir": 33.33
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 500,
+      "zona_eleitoral": 72,
+      "bairro": "Augusta",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL LUCIANA DE ABREU",
+      "endereco": "RUA DÁRIO GONÇALVES MOLHO, S/N, AUGUSTA",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 53,
+      "zona_eleitoral": 72,
+      "bairro": "Itapuã",
+      "local": "ESCOLA ESTADUAL DE ENSINO MÉDIO GENÉSIO PIRES",
+      "endereco": "RUA JÚLIO DE CASTILHOS, 123, ITAPUÃ",
+      "votos": {
+        "denise": 2,
+        "helenir": 1,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 66.67,
+        "helenir": 33.33
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 56,
+      "zona_eleitoral": 72,
+      "bairro": "Itapuã",
+      "local": "ESCOLA ESTADUAL DE ENSINO MÉDIO GENÉSIO PIRES",
+      "endereco": "RUA JÚLIO DE CASTILHOS, 123, ITAPUÃ",
+      "votos": {
+        "denise": 2,
+        "helenir": 1,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 66.67,
+        "helenir": 33.33
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 125,
+      "zona_eleitoral": 72,
+      "bairro": "Itapuã",
+      "local": "ESCOLA ESTADUAL DE ENSINO MÉDIO GENÉSIO PIRES",
+      "endereco": "RUA JÚLIO DE CASTILHOS, 123, ITAPUÃ",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 303,
+      "zona_eleitoral": 72,
+      "bairro": "Itapuã",
+      "local": "ESCOLA ESTADUAL DE ENSINO MÉDIO GENÉSIO PIRES",
+      "endereco": "RUA JÚLIO DE CASTILHOS, 123, ITAPUÃ",
+      "votos": {
+        "denise": 1,
+        "helenir": 2,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 33.33,
+        "helenir": 66.67
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 318,
+      "zona_eleitoral": 72,
+      "bairro": "Itapuã",
+      "local": "ESCOLA ESTADUAL DE ENSINO MÉDIO GENÉSIO PIRES",
+      "endereco": "RUA JÚLIO DE CASTILHOS, 123, ITAPUÃ",
+      "votos": {
+        "denise": 3,
+        "helenir": 2,
+        "total": 5
+      },
+      "percentuais": {
+        "denise": 60.0,
+        "helenir": 40.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 50,
+      "zona_eleitoral": 72,
+      "bairro": "Itapuã",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL FREI PACÍFICO",
+      "endereco": "RUA REFORMA AGRÁRIA, N. 35, ITAPUÃ",
+      "votos": {
+        "denise": 3,
+        "helenir": 1,
+        "total": 4
+      },
+      "percentuais": {
+        "denise": 75.0,
+        "helenir": 25.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 515,
+      "zona_eleitoral": 72,
+      "bairro": "Jardim Castelo",
+      "local": "ASSOCIAÇÃO COMUNITÁRIA DO JARDIM CASTELO",
+      "endereco": "ESTRADA CAMINHO DO MEIO, 1171, RUA 01, 200, JARDIM CASTELO",
+      "votos": {
+        "denise": 3,
+        "helenir": 2,
+        "total": 5
+      },
+      "percentuais": {
+        "denise": 60.0,
+        "helenir": 40.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 528,
+      "zona_eleitoral": 72,
+      "bairro": "Jardim Castelo",
+      "local": "ASSOCIAÇÃO COMUNITÁRIA DO JARDIM CASTELO",
+      "endereco": "ESTRADA CAMINHO DO MEIO, 1171, RUA 01, 200, JARDIM CASTELO",
+      "votos": {
+        "denise": 5,
+        "helenir": 0,
+        "total": 5
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 44,
+      "zona_eleitoral": 72,
+      "bairro": "Jardim Universitário",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL ANITA GARIBALDI",
+      "endereco": "RUA GRACILIANO RAMOS, 558, JARDIM UNIVERSITÁRIO",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 78,
+      "zona_eleitoral": 72,
+      "bairro": "Jardim Universitário",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL ANITA GARIBALDI",
+      "endereco": "RUA GRACILIANO RAMOS, 558, JARDIM UNIVERSITÁRIO",
+      "votos": {
+        "denise": 0,
+        "helenir": 1,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 0.0,
+        "helenir": 100.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 109,
+      "zona_eleitoral": 72,
+      "bairro": "Jardim Universitário",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL ANITA GARIBALDI",
+      "endereco": "RUA GRACILIANO RAMOS, 558, JARDIM UNIVERSITÁRIO",
+      "votos": {
+        "denise": 2,
+        "helenir": 1,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 66.67,
+        "helenir": 33.33
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 156,
+      "zona_eleitoral": 72,
+      "bairro": "Jardim Universitário",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL ANITA GARIBALDI",
+      "endereco": "RUA GRACILIANO RAMOS, 558, JARDIM UNIVERSITÁRIO",
+      "votos": {
+        "denise": 2,
+        "helenir": 1,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 66.67,
+        "helenir": 33.33
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 264,
+      "zona_eleitoral": 72,
+      "bairro": "Jardim Universitário",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL ANITA GARIBALDI",
+      "endereco": "RUA GRACILIANO RAMOS, 558, JARDIM UNIVERSITÁRIO",
+      "votos": {
+        "denise": 4,
+        "helenir": 0,
+        "total": 4
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 523,
+      "zona_eleitoral": 72,
+      "bairro": "Jardim Universitário",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL ANITA GARIBALDI",
+      "endereco": "RUA GRACILIANO RAMOS, 558, JARDIM UNIVERSITÁRIO",
+      "votos": {
+        "denise": 2,
+        "helenir": 0,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 453,
+      "zona_eleitoral": 72,
+      "bairro": "Jari",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL MONTE ALEGRE JUNTO AO CAIC",
+      "endereco": "RUA ESPÍRITO SANTO, 200, JARI",
+      "votos": {
+        "denise": 1,
+        "helenir": 1,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 454,
+      "zona_eleitoral": 72,
+      "bairro": "Jari",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL MONTE ALEGRE JUNTO AO CAIC",
+      "endereco": "RUA ESPÍRITO SANTO, 200, JARI",
+      "votos": {
+        "denise": 4,
+        "helenir": 0,
+        "total": 4
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 455,
+      "zona_eleitoral": 72,
+      "bairro": "Jari",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL MONTE ALEGRE JUNTO AO CAIC",
+      "endereco": "RUA ESPÍRITO SANTO, 200, JARI",
+      "votos": {
+        "denise": 2,
+        "helenir": 2,
+        "total": 4
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 456,
+      "zona_eleitoral": 72,
+      "bairro": "Jari",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL MONTE ALEGRE JUNTO AO CAIC",
+      "endereco": "RUA ESPÍRITO SANTO, 200, JARI",
+      "votos": {
+        "denise": 5,
+        "helenir": 1,
+        "total": 6
+      },
+      "percentuais": {
+        "denise": 83.33,
+        "helenir": 16.67
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 457,
+      "zona_eleitoral": 72,
+      "bairro": "Jari",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL MONTE ALEGRE JUNTO AO CAIC",
+      "endereco": "RUA ESPÍRITO SANTO, 200, JARI",
+      "votos": {
+        "denise": 2,
+        "helenir": 0,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 501,
+      "zona_eleitoral": 72,
+      "bairro": "Jari",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL RICARDO FAICKER NUNES",
+      "endereco": "AVENIDA PARAGUASSÚ, S/N, JARI",
+      "votos": {
+        "denise": 1,
+        "helenir": 1,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 502,
+      "zona_eleitoral": 72,
+      "bairro": "Jari",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL RICARDO FAICKER NUNES",
+      "endereco": "AVENIDA PARAGUASSÚ, S/N, JARI",
+      "votos": {
+        "denise": 2,
+        "helenir": 1,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 66.67,
+        "helenir": 33.33
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 504,
+      "zona_eleitoral": 72,
+      "bairro": "Jari",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL RICARDO FAICKER NUNES",
+      "endereco": "AVENIDA PARAGUASSÚ, S/N, JARI",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 505,
+      "zona_eleitoral": 72,
+      "bairro": "Jari",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL RICARDO FAICKER NUNES",
+      "endereco": "AVENIDA PARAGUASSÚ, S/N, JARI",
+      "votos": {
+        "denise": 1,
+        "helenir": 1,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 506,
+      "zona_eleitoral": 72,
+      "bairro": "Jari",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL RICARDO FAICKER NUNES",
+      "endereco": "AVENIDA PARAGUASSÚ, S/N, JARI",
+      "votos": {
+        "denise": 2,
+        "helenir": 0,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 507,
+      "zona_eleitoral": 72,
+      "bairro": "Jari",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL RICARDO FAICKER NUNES",
+      "endereco": "AVENIDA PARAGUASSÚ, S/N, JARI",
+      "votos": {
+        "denise": 4,
+        "helenir": 0,
+        "total": 4
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 508,
+      "zona_eleitoral": 72,
+      "bairro": "Jari",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL RICARDO FAICKER NUNES",
+      "endereco": "AVENIDA PARAGUASSÚ, S/N, JARI",
+      "votos": {
+        "denise": 1,
+        "helenir": 2,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 33.33,
+        "helenir": 66.67
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 509,
+      "zona_eleitoral": 72,
+      "bairro": "Jari",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL RICARDO FAICKER NUNES",
+      "endereco": "AVENIDA PARAGUASSÚ, S/N, JARI",
+      "votos": {
+        "denise": 2,
+        "helenir": 0,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 510,
+      "zona_eleitoral": 72,
+      "bairro": "Jari",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL RICARDO FAICKER NUNES",
+      "endereco": "AVENIDA PARAGUASSÚ, S/N, JARI",
+      "votos": {
+        "denise": 1,
+        "helenir": 1,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 511,
+      "zona_eleitoral": 72,
+      "bairro": "Jari",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL RICARDO FAICKER NUNES",
+      "endereco": "AVENIDA PARAGUASSÚ, S/N, JARI",
+      "votos": {
+        "denise": 2,
+        "helenir": 0,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 512,
+      "zona_eleitoral": 72,
+      "bairro": "Jari",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL RICARDO FAICKER NUNES",
+      "endereco": "AVENIDA PARAGUASSÚ, S/N, JARI",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 513,
+      "zona_eleitoral": 72,
+      "bairro": "Jari",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL RICARDO FAICKER NUNES",
+      "endereco": "AVENIDA PARAGUASSÚ, S/N, JARI",
+      "votos": {
+        "denise": 2,
+        "helenir": 0,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 516,
+      "zona_eleitoral": 72,
+      "bairro": "Lomba do Pinheiro",
+      "local": "ESCOLA MUNICIPAL CELINA WESTPHALEN WEISSHEIMER",
+      "endereco": "ESTRADA LUIS PINTO DE BARCELOS, 599, LOMBA DO PINHEIRO",
+      "votos": {
+        "denise": 3,
+        "helenir": 0,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 3,
+      "zona_eleitoral": 72,
+      "bairro": "Lomba do Pinheiro",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL OLÍMPIO COELHO DE OLIVEIRA",
+      "endereco": "ESTRADA DA CAPOROROCA, S/N, LOMBA DO PINHEIRO",
+      "votos": {
+        "denise": 3,
+        "helenir": 1,
+        "total": 4
+      },
+      "percentuais": {
+        "denise": 75.0,
+        "helenir": 25.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 126,
+      "zona_eleitoral": 72,
+      "bairro": "Lomba do Pinheiro",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL OLÍMPIO COELHO DE OLIVEIRA",
+      "endereco": "ESTRADA DA CAPOROROCA, S/N, LOMBA DO PINHEIRO",
+      "votos": {
+        "denise": 2,
+        "helenir": 2,
+        "total": 4
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 320,
+      "zona_eleitoral": 72,
+      "bairro": "Lomba do Pinheiro",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL OLÍMPIO COELHO DE OLIVEIRA",
+      "endereco": "ESTRADA DA CAPOROROCA, S/N, LOMBA DO PINHEIRO",
+      "votos": {
+        "denise": 0,
+        "helenir": 1,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 0.0,
+        "helenir": 100.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 518,
+      "zona_eleitoral": 72,
+      "bairro": "Lomba do Pinheiro",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL OLÍMPIO COELHO DE OLIVEIRA",
+      "endereco": "ESTRADA DA CAPOROROCA, S/N, LOMBA DO PINHEIRO",
+      "votos": {
+        "denise": 0,
+        "helenir": 1,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 0.0,
+        "helenir": 100.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 329,
+      "zona_eleitoral": 72,
+      "bairro": "Martinica",
+      "local": "ESCOLA ESTADUAL DE ENSINO FUNDAMENTAL JOÃO BARBOSA",
+      "endereco": "ESTRADA DA BRANQUINHA, 3361, MARTINICA",
+      "votos": {
+        "denise": 0,
+        "helenir": 2,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 0.0,
+        "helenir": 100.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 521,
+      "zona_eleitoral": 72,
+      "bairro": "Martinica",
+      "local": "ESCOLA ESTADUAL DE ENSINO FUNDAMENTAL JOÃO BARBOSA",
+      "endereco": "ESTRADA DA BRANQUINHA, 3361, MARTINICA",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 296,
+      "zona_eleitoral": 72,
+      "bairro": "Martinica",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL PRESIDENTE GETÚLIO VARGAS",
+      "endereco": "RUA OLGA BENÁRIO, 91, MARTINICA",
+      "votos": {
+        "denise": 2,
+        "helenir": 1,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 66.67,
+        "helenir": 33.33
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 337,
+      "zona_eleitoral": 72,
+      "bairro": "Martinica",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL PRESIDENTE GETÚLIO VARGAS",
+      "endereco": "RUA OLGA BENÁRIO, 91, MARTINICA",
+      "votos": {
+        "denise": 0,
+        "helenir": 1,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 0.0,
+        "helenir": 100.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 401,
+      "zona_eleitoral": 72,
+      "bairro": "Martinica",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL PRESIDENTE GETÚLIO VARGAS",
+      "endereco": "RUA OLGA BENÁRIO, 91, MARTINICA",
+      "votos": {
+        "denise": 0,
+        "helenir": 1,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 0.0,
+        "helenir": 100.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 520,
+      "zona_eleitoral": 72,
+      "bairro": "Martinica",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL PRESIDENTE GETÚLIO VARGAS",
+      "endereco": "RUA OLGA BENÁRIO, 91, MARTINICA",
+      "votos": {
+        "denise": 3,
+        "helenir": 1,
+        "total": 4
+      },
+      "percentuais": {
+        "denise": 75.0,
+        "helenir": 25.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 275,
+      "zona_eleitoral": 72,
+      "bairro": "Nossa Senhora Aparecida",
+      "local": "ESCOLA ESTADUAL DE ENSINO MÉDIO GOVERNADOR WALTER JOBIM",
+      "endereco": "AVENIDA WALTER JOBIM, 271, NOSSA SENHORA APARECIDA",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 282,
+      "zona_eleitoral": 72,
+      "bairro": "Nossa Senhora Aparecida",
+      "local": "ESCOLA ESTADUAL DE ENSINO MÉDIO GOVERNADOR WALTER JOBIM",
+      "endereco": "AVENIDA WALTER JOBIM, 271, NOSSA SENHORA APARECIDA",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 517,
+      "zona_eleitoral": 72,
+      "bairro": "Nossa Senhora Aparecida",
+      "local": "ESCOLA ESTADUAL DE ENSINO MÉDIO GOVERNADOR WALTER JOBIM",
+      "endereco": "AVENIDA WALTER JOBIM, 271, NOSSA SENHORA APARECIDA",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 525,
+      "zona_eleitoral": 72,
+      "bairro": "Nossa Senhora Aparecida",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL NOSSA SENHORA APARECIDA",
+      "endereco": "RUA SÃO CARLOS, 199, NOSSA SENHORA APARECIDA",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 49,
+      "zona_eleitoral": 72,
+      "bairro": "Passo da Areia",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL JERÔNIMO PORTO",
+      "endereco": "RODOVIA ACRÍSIO MARTINS PRATES, 3600, PASSO DA AREIA",
+      "votos": {
+        "denise": 2,
+        "helenir": 2,
+        "total": 4
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 55,
+      "zona_eleitoral": 72,
+      "bairro": "Passo da Areia",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL QUATORZE DE SETEMBRO",
+      "endereco": "ESTRADA DA QUEBRADA, AVIPAL, CURRAL DA MACEGA, PASSO DA AREIA",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 298,
+      "zona_eleitoral": 72,
+      "bairro": "Planalto",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL ARAÇÁ",
+      "endereco": "RUA JUAZEIRO, 210, PLANALTO",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 317,
+      "zona_eleitoral": 72,
+      "bairro": "Planalto",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL ARAÇÁ",
+      "endereco": "RUA JUAZEIRO, 210, PLANALTO",
+      "votos": {
+        "denise": 3,
+        "helenir": 4,
+        "total": 7
+      },
+      "percentuais": {
+        "denise": 42.86,
+        "helenir": 57.14
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 346,
+      "zona_eleitoral": 72,
+      "bairro": "Planalto",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL ARAÇÁ",
+      "endereco": "RUA JUAZEIRO, 210, PLANALTO",
+      "votos": {
+        "denise": 0,
+        "helenir": 3,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 0.0,
+        "helenir": 100.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 529,
+      "zona_eleitoral": 72,
+      "bairro": "Planalto",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL ARAÇÁ",
+      "endereco": "RUA JUAZEIRO, 210, PLANALTO",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 260,
+      "zona_eleitoral": 72,
+      "bairro": "Planalto",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL BRASÍLIA",
+      "endereco": "RUA PLANALTO, S/N, PLANALTO",
+      "votos": {
+        "denise": 6,
+        "helenir": 4,
+        "total": 10
+      },
+      "percentuais": {
+        "denise": 60.0,
+        "helenir": 40.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 319,
+      "zona_eleitoral": 72,
+      "bairro": "Planalto",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL BRASÍLIA",
+      "endereco": "RUA PLANALTO, S/N, PLANALTO",
+      "votos": {
+        "denise": 3,
+        "helenir": 3,
+        "total": 6
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 354,
+      "zona_eleitoral": 72,
+      "bairro": "Planalto",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL BRASÍLIA",
+      "endereco": "RUA PLANALTO, S/N, PLANALTO",
+      "votos": {
+        "denise": 0,
+        "helenir": 4,
+        "total": 4
+      },
+      "percentuais": {
+        "denise": 0.0,
+        "helenir": 100.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 435,
+      "zona_eleitoral": 72,
+      "bairro": "Planalto",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL BRASÍLIA",
+      "endereco": "RUA PLANALTO, S/N, PLANALTO",
+      "votos": {
+        "denise": 2,
+        "helenir": 2,
+        "total": 4
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 36,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Cecília",
+      "local": "(POLI) ESCOLA ESTADUAL ALCEBIADES AZEREDO DOS SANTOS",
+      "endereco": "RUA ALCEBIADES AZEREDO DOS SANTOS, S/N, CECÍLIA",
+      "votos": {
+        "denise": 2,
+        "helenir": 0,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 63,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Cecília",
+      "local": "(POLI) ESCOLA ESTADUAL ALCEBIADES AZEREDO DOS SANTOS",
+      "endereco": "RUA ALCEBIADES AZEREDO DOS SANTOS, S/N, CECÍLIA",
+      "votos": {
+        "denise": 3,
+        "helenir": 0,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 113,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Cecília",
+      "local": "(POLI) ESCOLA ESTADUAL ALCEBIADES AZEREDO DOS SANTOS",
+      "endereco": "RUA ALCEBIADES AZEREDO DOS SANTOS, S/N, CECÍLIA",
+      "votos": {
+        "denise": 4,
+        "helenir": 1,
+        "total": 5
+      },
+      "percentuais": {
+        "denise": 80.0,
+        "helenir": 20.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 142,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Cecília",
+      "local": "(POLI) ESCOLA ESTADUAL ALCEBIADES AZEREDO DOS SANTOS",
+      "endereco": "RUA ALCEBIADES AZEREDO DOS SANTOS, S/N, CECÍLIA",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 172,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Cecília",
+      "local": "(POLI) ESCOLA ESTADUAL ALCEBIADES AZEREDO DOS SANTOS",
+      "endereco": "RUA ALCEBIADES AZEREDO DOS SANTOS, S/N, CECÍLIA",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 190,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Cecília",
+      "local": "(POLI) ESCOLA ESTADUAL ALCEBIADES AZEREDO DOS SANTOS",
+      "endereco": "RUA ALCEBIADES AZEREDO DOS SANTOS, S/N, CECÍLIA",
+      "votos": {
+        "denise": 3,
+        "helenir": 0,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 202,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Cecília",
+      "local": "(POLI) ESCOLA ESTADUAL ALCEBIADES AZEREDO DOS SANTOS",
+      "endereco": "RUA ALCEBIADES AZEREDO DOS SANTOS, S/N, CECÍLIA",
+      "votos": {
+        "denise": 5,
+        "helenir": 2,
+        "total": 7
+      },
+      "percentuais": {
+        "denise": 71.43,
+        "helenir": 28.57
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 228,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Cecília",
+      "local": "(POLI) ESCOLA ESTADUAL ALCEBIADES AZEREDO DOS SANTOS",
+      "endereco": "RUA ALCEBIADES AZEREDO DOS SANTOS, S/N, CECÍLIA",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 441,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Cecília",
+      "local": "(POLI) ESCOLA ESTADUAL ALCEBIADES AZEREDO DOS SANTOS",
+      "endereco": "RUA ALCEBIADES AZEREDO DOS SANTOS, S/N, CECÍLIA",
+      "votos": {
+        "denise": 3,
+        "helenir": 0,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 464,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Cecília",
+      "local": "(POLI) ESCOLA ESTADUAL ALCEBIADES AZEREDO DOS SANTOS",
+      "endereco": "RUA ALCEBIADES AZEREDO DOS SANTOS, S/N, CECÍLIA",
+      "votos": {
+        "denise": 4,
+        "helenir": 2,
+        "total": 6
+      },
+      "percentuais": {
+        "denise": 66.67,
+        "helenir": 33.33
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 263,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Cecília",
+      "local": "ESCOLA MUNICIPAL DE EDUCAÇÃO INFANTIL SANTA CECÍLIA",
+      "endereco": "R. MOISÉS BONETT, 29, CECÍLIA",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 252,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Cecília",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL ALBERTO SANTOS DUMONT",
+      "endereco": "RUA GUARARAPES, S/N - PDA. 39, CECÍLIA",
+      "votos": {
+        "denise": 0,
+        "helenir": 1,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 0.0,
+        "helenir": 100.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 251,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Cecília",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL SANTA CECÍLIA",
+      "endereco": "RUA COLORADO, 450, CECÍLIA",
+      "votos": {
+        "denise": 3,
+        "helenir": 3,
+        "total": 6
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 285,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Cecília",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL SANTA CECÍLIA",
+      "endereco": "RUA COLORADO, 450, CECÍLIA",
+      "votos": {
+        "denise": 3,
+        "helenir": 0,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 304,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Cecília",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL SANTA CECÍLIA",
+      "endereco": "RUA COLORADO, 450, CECÍLIA",
+      "votos": {
+        "denise": 1,
+        "helenir": 2,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 33.33,
+        "helenir": 66.67
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 332,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Cecília",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL SANTA CECÍLIA",
+      "endereco": "RUA COLORADO, 450, CECÍLIA",
+      "votos": {
+        "denise": 0,
+        "helenir": 1,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 0.0,
+        "helenir": 100.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 376,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Cecília",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL SANTA CECÍLIA",
+      "endereco": "RUA COLORADO, 450, CECÍLIA",
+      "votos": {
+        "denise": 0,
+        "helenir": 1,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 0.0,
+        "helenir": 100.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 405,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Cecília",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL SANTA CECÍLIA",
+      "endereco": "RUA COLORADO, 450, CECÍLIA",
+      "votos": {
+        "denise": 0,
+        "helenir": 1,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 0.0,
+        "helenir": 100.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 28,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Cecília",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL VINTE DE SETEMBRO",
+      "endereco": "AVENIDA PLÁCIDO MOTTIN, 1097, CECÍLIA",
+      "votos": {
+        "denise": 2,
+        "helenir": 0,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 140,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Cecília",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL VINTE DE SETEMBRO",
+      "endereco": "AVENIDA PLÁCIDO MOTTIN, 1097, CECÍLIA",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 196,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Cecília",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL VINTE DE SETEMBRO",
+      "endereco": "AVENIDA PLÁCIDO MOTTIN, 1097, CECÍLIA",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 217,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Cecília",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL VINTE DE SETEMBRO",
+      "endereco": "AVENIDA PLÁCIDO MOTTIN, 1097, CECÍLIA",
+      "votos": {
+        "denise": 1,
+        "helenir": 1,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 235,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Cecília",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL VINTE DE SETEMBRO",
+      "endereco": "AVENIDA PLÁCIDO MOTTIN, 1097, CECÍLIA",
+      "votos": {
+        "denise": 3,
+        "helenir": 2,
+        "total": 5
+      },
+      "percentuais": {
+        "denise": 60.0,
+        "helenir": 40.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 421,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Cecília",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL VINTE DE SETEMBRO",
+      "endereco": "AVENIDA PLÁCIDO MOTTIN, 1097, CECÍLIA",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 444,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Cecília",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL VINTE DE SETEMBRO",
+      "endereco": "AVENIDA PLÁCIDO MOTTIN, 1097, CECÍLIA",
+      "votos": {
+        "denise": 2,
+        "helenir": 0,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 526,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Cecília",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL VINTE DE SETEMBRO",
+      "endereco": "AVENIDA PLÁCIDO MOTTIN, 1097, CECÍLIA",
+      "votos": {
+        "denise": 3,
+        "helenir": 0,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 297,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Cecília",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL ÉRICO VERISSIMO",
+      "endereco": "RUA DA HIDRÁULICA, 773, CECÍLIA",
+      "votos": {
+        "denise": 0,
+        "helenir": 2,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 0.0,
+        "helenir": 100.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 17,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Cecília",
+      "local": "INSTITUTO ESTADUAL DE EDUCAÇÃO ISABEL DE ESPANHA",
+      "endereco": "AVENIDA SENADOR SALGADO FILHO, 1579, CECÍLIA",
+      "votos": {
+        "denise": 2,
+        "helenir": 2,
+        "total": 4
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 61,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Cecília",
+      "local": "INSTITUTO ESTADUAL DE EDUCAÇÃO ISABEL DE ESPANHA",
+      "endereco": "AVENIDA SENADOR SALGADO FILHO, 1579, CECÍLIA",
+      "votos": {
+        "denise": 0,
+        "helenir": 2,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 0.0,
+        "helenir": 100.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 80,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Cecília",
+      "local": "INSTITUTO ESTADUAL DE EDUCAÇÃO ISABEL DE ESPANHA",
+      "endereco": "AVENIDA SENADOR SALGADO FILHO, 1579, CECÍLIA",
+      "votos": {
+        "denise": 0,
+        "helenir": 1,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 0.0,
+        "helenir": 100.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 117,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Cecília",
+      "local": "INSTITUTO ESTADUAL DE EDUCAÇÃO ISABEL DE ESPANHA",
+      "endereco": "AVENIDA SENADOR SALGADO FILHO, 1579, CECÍLIA",
+      "votos": {
+        "denise": 0,
+        "helenir": 1,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 0.0,
+        "helenir": 100.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 141,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Cecília",
+      "local": "INSTITUTO ESTADUAL DE EDUCAÇÃO ISABEL DE ESPANHA",
+      "endereco": "AVENIDA SENADOR SALGADO FILHO, 1579, CECÍLIA",
+      "votos": {
+        "denise": 0,
+        "helenir": 1,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 0.0,
+        "helenir": 100.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 169,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Cecília",
+      "local": "INSTITUTO ESTADUAL DE EDUCAÇÃO ISABEL DE ESPANHA",
+      "endereco": "AVENIDA SENADOR SALGADO FILHO, 1579, CECÍLIA",
+      "votos": {
+        "denise": 0,
+        "helenir": 1,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 0.0,
+        "helenir": 100.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 187,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Cecília",
+      "local": "INSTITUTO ESTADUAL DE EDUCAÇÃO ISABEL DE ESPANHA",
+      "endereco": "AVENIDA SENADOR SALGADO FILHO, 1579, CECÍLIA",
+      "votos": {
+        "denise": 1,
+        "helenir": 1,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 205,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Cecília",
+      "local": "INSTITUTO ESTADUAL DE EDUCAÇÃO ISABEL DE ESPANHA",
+      "endereco": "AVENIDA SENADOR SALGADO FILHO, 1579, CECÍLIA",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 273,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Cecília",
+      "local": "INSTITUTO ESTADUAL DE EDUCAÇÃO ISABEL DE ESPANHA",
+      "endereco": "AVENIDA SENADOR SALGADO FILHO, 1579, CECÍLIA",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 340,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Cecília",
+      "local": "INSTITUTO ESTADUAL DE EDUCAÇÃO ISABEL DE ESPANHA",
+      "endereco": "AVENIDA SENADOR SALGADO FILHO, 1579, CECÍLIA",
+      "votos": {
+        "denise": 0,
+        "helenir": 1,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 0.0,
+        "helenir": 100.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 348,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Cecília",
+      "local": "INSTITUTO ESTADUAL DE EDUCAÇÃO ISABEL DE ESPANHA",
+      "endereco": "AVENIDA SENADOR SALGADO FILHO, 1579, CECÍLIA",
+      "votos": {
+        "denise": 0,
+        "helenir": 1,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 0.0,
+        "helenir": 100.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 461,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Cecília",
+      "local": "INSTITUTO ESTADUAL DE EDUCAÇÃO ISABEL DE ESPANHA",
+      "endereco": "AVENIDA SENADOR SALGADO FILHO, 1579, CECÍLIA",
+      "votos": {
+        "denise": 0,
+        "helenir": 1,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 0.0,
+        "helenir": 100.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 10,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Isabel",
+      "local": "ESCOLA ESTADUAL DE ENSINO FUNDAMENTAL WALT DISNEY",
+      "endereco": "RUA MEDIANEIRA, 648, SANTA ISABEL",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 68,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Isabel",
+      "local": "ESCOLA ESTADUAL DE ENSINO FUNDAMENTAL WALT DISNEY",
+      "endereco": "RUA MEDIANEIRA, 648, SANTA ISABEL",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 100,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Isabel",
+      "local": "ESCOLA ESTADUAL DE ENSINO FUNDAMENTAL WALT DISNEY",
+      "endereco": "RUA MEDIANEIRA, 648, SANTA ISABEL",
+      "votos": {
+        "denise": 3,
+        "helenir": 0,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 151,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Isabel",
+      "local": "ESCOLA ESTADUAL DE ENSINO FUNDAMENTAL WALT DISNEY",
+      "endereco": "RUA MEDIANEIRA, 648, SANTA ISABEL",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 189,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Isabel",
+      "local": "ESCOLA ESTADUAL DE ENSINO FUNDAMENTAL WALT DISNEY",
+      "endereco": "RUA MEDIANEIRA, 648, SANTA ISABEL",
+      "votos": {
+        "denise": 1,
+        "helenir": 1,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 222,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Isabel",
+      "local": "ESCOLA ESTADUAL DE ENSINO FUNDAMENTAL WALT DISNEY",
+      "endereco": "RUA MEDIANEIRA, 648, SANTA ISABEL",
+      "votos": {
+        "denise": 1,
+        "helenir": 1,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 527,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Isabel",
+      "local": "ESCOLA ESTADUAL DE ENSINO FUNDAMENTAL WALT DISNEY",
+      "endereco": "RUA MEDIANEIRA, 648, SANTA ISABEL",
+      "votos": {
+        "denise": 3,
+        "helenir": 0,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 447,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Isabel",
+      "local": "ESCOLA MUNICIPAL DE EDUCAÇÃO INFANTIL CARLOS CHAGAS",
+      "endereco": "RUA TRIÂNGULO, S/N, SANTA ISABEL",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 22,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Isabel",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL ALBERTO PASQUALINI",
+      "endereco": "RUA CASEMIRO DE ABREU, 385, SANTA ISABEL",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 58,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Isabel",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL ALBERTO PASQUALINI",
+      "endereco": "RUA CASEMIRO DE ABREU, 385, SANTA ISABEL",
+      "votos": {
+        "denise": 4,
+        "helenir": 1,
+        "total": 5
+      },
+      "percentuais": {
+        "denise": 80.0,
+        "helenir": 20.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 76,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Isabel",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL ALBERTO PASQUALINI",
+      "endereco": "RUA CASEMIRO DE ABREU, 385, SANTA ISABEL",
+      "votos": {
+        "denise": 0,
+        "helenir": 1,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 0.0,
+        "helenir": 100.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 99,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Isabel",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL ALBERTO PASQUALINI",
+      "endereco": "RUA CASEMIRO DE ABREU, 385, SANTA ISABEL",
+      "votos": {
+        "denise": 2,
+        "helenir": 0,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 123,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Isabel",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL ALBERTO PASQUALINI",
+      "endereco": "RUA CASEMIRO DE ABREU, 385, SANTA ISABEL",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 133,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Isabel",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL ALBERTO PASQUALINI",
+      "endereco": "RUA CASEMIRO DE ABREU, 385, SANTA ISABEL",
+      "votos": {
+        "denise": 0,
+        "helenir": 1,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 0.0,
+        "helenir": 100.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 180,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Isabel",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL ALBERTO PASQUALINI",
+      "endereco": "RUA CASEMIRO DE ABREU, 385, SANTA ISABEL",
+      "votos": {
+        "denise": 2,
+        "helenir": 0,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 203,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Isabel",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL ALBERTO PASQUALINI",
+      "endereco": "RUA CASEMIRO DE ABREU, 385, SANTA ISABEL",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 220,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Isabel",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL ALBERTO PASQUALINI",
+      "endereco": "RUA CASEMIRO DE ABREU, 385, SANTA ISABEL",
+      "votos": {
+        "denise": 0,
+        "helenir": 1,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 0.0,
+        "helenir": 100.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 238,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Isabel",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL ALBERTO PASQUALINI",
+      "endereco": "RUA CASEMIRO DE ABREU, 385, SANTA ISABEL",
+      "votos": {
+        "denise": 1,
+        "helenir": 1,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 278,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Isabel",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL SANTA ISABEL",
+      "endereco": "RUA RINCÃO DA QUERÊNCIA, 59, SANTA ISABEL",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 283,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Isabel",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL SANTA ISABEL",
+      "endereco": "RUA RINCÃO DA QUERÊNCIA, 59, SANTA ISABEL",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 409,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Isabel",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL SANTA ISABEL",
+      "endereco": "RUA RINCÃO DA QUERÊNCIA, 59, SANTA ISABEL",
+      "votos": {
+        "denise": 0,
+        "helenir": 1,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 0.0,
+        "helenir": 100.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 522,
+      "zona_eleitoral": 72,
+      "bairro": "Santa Isabel",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL SANTA ISABEL",
+      "endereco": "RUA RINCÃO DA QUERÊNCIA, 59, SANTA ISABEL",
+      "votos": {
+        "denise": 1,
+        "helenir": 1,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 31,
+      "zona_eleitoral": 72,
+      "bairro": "São Tomé",
+      "local": "ESCOLA ESTADUAL DE ENSINO MÉDIO BARÃO DE LUCENA",
+      "endereco": "RUA DA SAUDADE, 16, SÃO TOMÉ",
+      "votos": {
+        "denise": 0,
+        "helenir": 1,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 0.0,
+        "helenir": 100.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 73,
+      "zona_eleitoral": 72,
+      "bairro": "São Tomé",
+      "local": "ESCOLA ESTADUAL DE ENSINO MÉDIO BARÃO DE LUCENA",
+      "endereco": "RUA DA SAUDADE, 16, SÃO TOMÉ",
+      "votos": {
+        "denise": 1,
+        "helenir": 1,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 93,
+      "zona_eleitoral": 72,
+      "bairro": "São Tomé",
+      "local": "ESCOLA ESTADUAL DE ENSINO MÉDIO BARÃO DE LUCENA",
+      "endereco": "RUA DA SAUDADE, 16, SÃO TOMÉ",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 122,
+      "zona_eleitoral": 72,
+      "bairro": "São Tomé",
+      "local": "ESCOLA ESTADUAL DE ENSINO MÉDIO BARÃO DE LUCENA",
+      "endereco": "RUA DA SAUDADE, 16, SÃO TOMÉ",
+      "votos": {
+        "denise": 1,
+        "helenir": 1,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 161,
+      "zona_eleitoral": 72,
+      "bairro": "São Tomé",
+      "local": "ESCOLA ESTADUAL DE ENSINO MÉDIO BARÃO DE LUCENA",
+      "endereco": "RUA DA SAUDADE, 16, SÃO TOMÉ",
+      "votos": {
+        "denise": 0,
+        "helenir": 1,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 0.0,
+        "helenir": 100.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 272,
+      "zona_eleitoral": 72,
+      "bairro": "São Tomé",
+      "local": "ESCOLA ESTADUAL DE ENSINO MÉDIO BARÃO DE LUCENA",
+      "endereco": "RUA DA SAUDADE, 16, SÃO TOMÉ",
+      "votos": {
+        "denise": 1,
+        "helenir": 1,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 314,
+      "zona_eleitoral": 72,
+      "bairro": "São Tomé",
+      "local": "ESCOLA ESTADUAL DE ENSINO MÉDIO BARÃO DE LUCENA",
+      "endereco": "RUA DA SAUDADE, 16, SÃO TOMÉ",
+      "votos": {
+        "denise": 3,
+        "helenir": 1,
+        "total": 4
+      },
+      "percentuais": {
+        "denise": 75.0,
+        "helenir": 25.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 442,
+      "zona_eleitoral": 72,
+      "bairro": "São Tomé",
+      "local": "ESCOLA ESTADUAL DE ENSINO MÉDIO BARÃO DE LUCENA",
+      "endereco": "RUA DA SAUDADE, 16, SÃO TOMÉ",
+      "votos": {
+        "denise": 0,
+        "helenir": 1,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 0.0,
+        "helenir": 100.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 462,
+      "zona_eleitoral": 72,
+      "bairro": "São Tomé",
+      "local": "ESCOLA ESTADUAL DE ENSINO MÉDIO BARÃO DE LUCENA",
+      "endereco": "RUA DA SAUDADE, 16, SÃO TOMÉ",
+      "votos": {
+        "denise": 0,
+        "helenir": 2,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 0.0,
+        "helenir": 100.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 530,
+      "zona_eleitoral": 72,
+      "bairro": "São Tomé",
+      "local": "ESCOLA ESTADUAL DE ENSINO MÉDIO BARÃO DE LUCENA",
+      "endereco": "RUA DA SAUDADE, 16, SÃO TOMÉ",
+      "votos": {
+        "denise": 2,
+        "helenir": 0,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 429,
+      "zona_eleitoral": 72,
+      "bairro": "Sítios",
+      "local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL JOSÉ LOUREIRO DA SILVA",
+      "endereco": "ESTRADA JOÃO PEDRO DELGADO SOBRINHO, 100, SÍTIOS",
+      "votos": {
+        "denise": 1,
+        "helenir": 1,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 14,
+      "zona_eleitoral": 72,
+      "bairro": "Viamópolis",
+      "local": "ESCOLA ESTADUAL DE ENSINO MÉDIO PROFESSOR TOLENTINO MAIA",
+      "endereco": "RUA DOM PEDRITO, 130, VIAMÓPOLIS",
+      "votos": {
+        "denise": 2,
+        "helenir": 2,
+        "total": 4
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 15,
+      "zona_eleitoral": 72,
+      "bairro": "Viamópolis",
+      "local": "ESCOLA ESTADUAL DE ENSINO MÉDIO PROFESSOR TOLENTINO MAIA",
+      "endereco": "RUA DOM PEDRITO, 130, VIAMÓPOLIS",
+      "votos": {
+        "denise": 1,
+        "helenir": 1,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 94,
+      "zona_eleitoral": 72,
+      "bairro": "Viamópolis",
+      "local": "ESCOLA ESTADUAL DE ENSINO MÉDIO PROFESSOR TOLENTINO MAIA",
+      "endereco": "RUA DOM PEDRITO, 130, VIAMÓPOLIS",
+      "votos": {
+        "denise": 1,
+        "helenir": 1,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 103,
+      "zona_eleitoral": 72,
+      "bairro": "Viamópolis",
+      "local": "ESCOLA ESTADUAL DE ENSINO MÉDIO PROFESSOR TOLENTINO MAIA",
+      "endereco": "RUA DOM PEDRITO, 130, VIAMÓPOLIS",
+      "votos": {
+        "denise": 1,
+        "helenir": 1,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 50.0,
+        "helenir": 50.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 149,
+      "zona_eleitoral": 72,
+      "bairro": "Viamópolis",
+      "local": "ESCOLA ESTADUAL DE ENSINO MÉDIO PROFESSOR TOLENTINO MAIA",
+      "endereco": "RUA DOM PEDRITO, 130, VIAMÓPOLIS",
+      "votos": {
+        "denise": 2,
+        "helenir": 0,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 241,
+      "zona_eleitoral": 72,
+      "bairro": "Viamópolis",
+      "local": "ESCOLA ESTADUAL DE ENSINO MÉDIO PROFESSOR TOLENTINO MAIA",
+      "endereco": "RUA DOM PEDRITO, 130, VIAMÓPOLIS",
+      "votos": {
+        "denise": 2,
+        "helenir": 1,
+        "total": 3
+      },
+      "percentuais": {
+        "denise": 66.67,
+        "helenir": 33.33
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 262,
+      "zona_eleitoral": 72,
+      "bairro": "Viamópolis",
+      "local": "ESCOLA ESTADUAL DE ENSINO MÉDIO PROFESSOR TOLENTINO MAIA",
+      "endereco": "RUA DOM PEDRITO, 130, VIAMÓPOLIS",
+      "votos": {
+        "denise": 1,
+        "helenir": 0,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 284,
+      "zona_eleitoral": 72,
+      "bairro": "Viamópolis",
+      "local": "ESCOLA ESTADUAL DE ENSINO MÉDIO PROFESSOR TOLENTINO MAIA",
+      "endereco": "RUA DOM PEDRITO, 130, VIAMÓPOLIS",
+      "votos": {
+        "denise": 2,
+        "helenir": 0,
+        "total": 2
+      },
+      "percentuais": {
+        "denise": 100.0,
+        "helenir": 0.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 321,
+      "zona_eleitoral": 72,
+      "bairro": "Viamópolis",
+      "local": "ESCOLA ESTADUAL DE ENSINO MÉDIO PROFESSOR TOLENTINO MAIA",
+      "endereco": "RUA DOM PEDRITO, 130, VIAMÓPOLIS",
+      "votos": {
+        "denise": 0,
+        "helenir": 1,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 0.0,
+        "helenir": 100.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    },
+    {
+      "secao_numero": 373,
+      "zona_eleitoral": 72,
+      "bairro": "Viamópolis",
+      "local": "ESCOLA ESTADUAL DE ENSINO MÉDIO PROFESSOR TOLENTINO MAIA",
+      "endereco": "RUA DOM PEDRITO, 130, VIAMÓPOLIS",
+      "votos": {
+        "denise": 0,
+        "helenir": 1,
+        "total": 1
+      },
+      "percentuais": {
+        "denise": 0.0,
+        "helenir": 100.0
+      },
+      "abstencoes": null,
+      "metadata": {
+        "status": "OK"
+      }
+    }
+  ]
+}

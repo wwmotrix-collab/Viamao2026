@@ -1,0 +1,32 @@
+{
+  "arquivo": "locais_votacao (78).xlsx",
+  "timestamp": "2026-09-17T01:04:44.248042+00:00",
+  "total_registros": 78,
+  "registros_ok": 58,
+  "registros_com_warning": 20,
+  "registros_com_erro": 0,
+  "taxa_sucesso": 74.36,
+  "warnings": [
+    "Local 2: coordenadas ou nome inválido",
+    "Local 11: coordenadas ou nome inválido",
+    "Local 13: coordenadas ou nome inválido",
+    "Local 16: coordenadas ou nome inválido",
+    "Local 56: coordenadas ou nome inválido",
+    "Local 63: coordenadas ou nome inválido",
+    "Local 64: coordenadas ou nome inválido",
+    "Local 65: coordenadas ou nome inválido",
+    "Local 66: coordenadas ou nome inválido",
+    "Local 67: coordenadas ou nome inválido",
+    "Local 68: coordenadas ou nome inválido",
+    "Local 69: coordenadas ou nome inválido",
+    "Local 70: coordenadas ou nome inválido",
+    "Local 71: coordenadas ou nome inválido",
+    "Local 72: coordenadas ou nome inválido",
+    "Local 73: coordenadas ou nome inválido",
+    "Local 74: coordenadas ou nome inválido",
+    "Local 75: coordenadas ou nome inválido",
+    "Local 76: coordenadas ou nome inválido",
+    "Local 77: coordenadas ou nome inválido"
+  ],
+  "erros": []
+}

@@ -1,0 +1,124 @@
+{
+  "analise_global": {
+    "total_secoes": 386,
+    "data_geracao": "2026-09-17T01:05:11.614592+00:00Z",
+    "metodo": "similaridade_descritiva_por_secao"
+  },
+  "padroes": [
+    {
+      "padrao_id": "P059",
+      "nome": "Perfil dominante - Zona 59",
+      "caracteristicas": {
+        "zona_eleitoral": 59,
+        "percentual_denise_media": 57.93,
+        "percentual_helenir_media": 42.07,
+        "total_votos_medio": 3.98
+      },
+      "secoes_principais": [
+        225
+      ],
+      "secoes_similares": [
+        {
+          "secao": 168,
+          "similaridade": 0.8875,
+          "motivo": "Perfil de voto semelhante"
+        },
+        {
+          "secao": 199,
+          "similaridade": 0.8613,
+          "motivo": "Perfil de voto semelhante"
+        },
+        {
+          "secao": 351,
+          "similaridade": 0.8177,
+          "motivo": "Perfil de voto semelhante"
+        },
+        {
+          "secao": 37,
+          "similaridade": 0.8059,
+          "motivo": "Perfil de voto semelhante"
+        },
+        {
+          "secao": 26,
+          "similaridade": 0.7852,
+          "motivo": "Perfil de voto semelhante"
+        },
+        {
+          "secao": 523,
+          "similaridade": 0.7625,
+          "motivo": "Perfil de voto semelhante"
+        },
+        {
+          "secao": 411,
+          "similaridade": 0.7416,
+          "motivo": "Perfil de voto semelhante"
+        },
+        {
+          "secao": 24,
+          "similaridade": 0.725,
+          "motivo": "Perfil de voto semelhante"
+        },
+        {
+          "secao": 359,
+          "similaridade": 0.725,
+          "motivo": "Perfil de voto semelhante"
+        },
+        {
+          "secao": 152,
+          "similaridade": 0.725,
+          "motivo": "Perfil de voto semelhante"
+        }
+      ]
+    },
+    {
+      "padrao_id": "P072",
+      "nome": "Perfil dominante - Zona 72",
+      "caracteristicas": {
+        "zona_eleitoral": 72,
+        "percentual_denise_media": 65.21,
+        "percentual_helenir_media": 34.79,
+        "total_votos_medio": 2.23
+      },
+      "secoes_principais": [
+        260
+      ],
+      "secoes_similares": [
+        {
+          "secao": 319,
+          "similaridade": 0.86,
+          "motivo": "Perfil de voto semelhante"
+        },
+        {
+          "secao": 435,
+          "similaridade": 0.83,
+          "motivo": "Perfil de voto semelhante"
+        },
+        {
+          "secao": 317,
+          "similaridade": 0.8179,
+          "motivo": "Perfil de voto semelhante"
+        },
+        {
+          "secao": 487,
+          "similaridade": 0.725,
+          "motivo": "Perfil de voto semelhante"
+        },
+        {
+          "secao": 318,
+          "similaridade": 0.725,
+          "motivo": "Perfil de voto semelhante"
+        },
+        {
+          "secao": 515,
+          "similaridade": 0.725,
+          "motivo": "Perfil de voto semelhante"
+        },
+        {
+          "secao": 235,
+          "similaridade": 0.725,
+          "motivo": "Perfil de voto semelhante"
+        }
+      ]
+    }
+  ]
+}
