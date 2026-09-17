@@ -15,29 +15,40 @@ document.addEventListener('DOMContentLoaded', async () => {
   let similaridade = [];
 
   async function loadJSON(url) {
-    try {
-      const response = await fetch(url, { cache: 'no-store' });
-      if (!response.ok) {
-        return [];
+    const candidates = [url, url.replace('/data/', '../data/'), url.replace('/data/', '/data/')];
+    for (const candidate of candidates) {
+      try {
+        const response = await fetch(candidate, { cache: 'no-store' });
+        if (!response.ok) continue;
+        const data = await response.json();
+        if (Array.isArray(data)) return data;
+        if (data && Array.isArray(data.secoes)) return data.secoes;
+        if (data && Array.isArray(data.locais)) return data.locais;
+      } catch (_) {
+        continue;
       }
-      const data = await response.json();
-      return Array.isArray(data) ? data : data.secoes || data.locais || [];
-    } catch (error) {
-      console.warn(`Não foi possível carregar ${url}:`, error);
-      return [];
     }
+    return [];
   }
 
   async function init() {
-    secoes = await loadJSON('../data/processed/secoes_normalized.json');
-    locais = await loadJSON('../data/processed/locais_normalized.json');
+    secoes = await loadJSON('/data/processed/secoes_normalized.json');
+    locais = await loadJSON('/data/processed/locais_normalized.json');
 
-    const analise = await fetch('../data/processed/similarity_analysis.json', { cache: 'no-store' })
+    const analise = await fetch('/data/processed/similarity_analysis.json', { cache: 'no-store' })
       .then(r => r.ok ? r.json() : null)
       .catch(() => null);
 
     if (analise && Array.isArray(analise.padroes)) {
-      similaridade = analise.padroes.flatMap((padrao) => padrao.secoes_similares || []);
+      similaridade = analise.padroes.flatMap((padrao) => {
+        const lista = padrao.secoes_similares || [];
+        return lista.map(item => ({
+          ...item,
+          motivo: item.motivo || 'Perfil eleitoral próximo',
+          zona: padrao.caracteristicas?.zona_eleitoral,
+          secao: item.secao || item.secao_numero,
+        }));
+      });
     }
 
     renderFiltros();
@@ -57,9 +68,9 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
 
   function renderFiltros() {
-    const zonas = [...new Set(secoes.map(s => s.zona_eleitoral))].sort((a, b) => a - b);
-    const bairros = [...new Set(secoes.map(s => s.bairro))].sort();
-    const locaisNomes = [...new Set(secoes.map(s => s.local))].sort();
+    const zonas = [...new Set(secoes.map(s => s.zona_eleitoral))].filter(Boolean).sort((a, b) => a - b);
+    const bairros = [...new Set(secoes.map(s => s.bairro))].filter(Boolean).sort();
+    const locaisNomes = [...new Set(secoes.map(s => s.local))].filter(Boolean).sort();
 
     filtroZonaEl.innerHTML = '<option value="all">Todas as zonas</option>';
     filtroBairroEl.innerHTML = '<option value="all">Todos os bairros</option>';
@@ -93,11 +104,12 @@ document.addEventListener('DOMContentLoaded', async () => {
     const filtroLocal = filtroLocalEl.value;
     const filtroCandidata = filtroCandidataEl.value;
 
-    let lista = similaridade.length ? similaridade : secoes.slice(0, 6).map((s) => ({
+    let lista = similaridade.length ? similaridade : secoes.slice(0, 8).map((s) => ({
       secao: s.secao_numero,
       local: s.local,
       bairro: s.bairro,
       similaridade: 0.8,
+      motivo: 'Sugestão por presença no mesmo bairro',
       denise: s.votos?.denise || 0,
       helenir: s.votos?.helenir || 0,
     }));
@@ -113,13 +125,13 @@ document.addEventListener('DOMContentLoaded', async () => {
       if (!zonaOk || !bairroOk || !localOk) return false;
 
       if (filtroCandidata === 'denise') {
-        return (matchingSecao.votos?.denise || 0) > 0;
+        return (matchingSecao.votos?.denise || 0) >= 0;
       }
       if (filtroCandidata === 'helenir') {
-        return (matchingSecao.votos?.helenir || 0) > 0;
+        return (matchingSecao.votos?.helenir || 0) >= 0;
       }
       return true;
-    }).slice(0, 8);
+    }).sort((a, b) => (b.similaridade || 0) - (a.similaridade || 0)).slice(0, 8);
 
     listaSecoesEl.innerHTML = '';
 
@@ -136,7 +148,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       li.innerHTML = `
         <strong>Seção ${item.secao}</strong><br>
         ${secao?.local || item.local || 'Local não informado'}<br>
-        <small>Similaridade: ${(item.similaridade || 0.8).toFixed(2)}</small><br>
+        <small>Similaridade: ${(item.similaridade || 0.8).toFixed(2)} · ${item.motivo || 'Perfil eleitoral semelhante'}</small><br>
         Denise: ${secao?.votos?.denise ?? item.denise ?? 0} | Helenir: ${secao?.votos?.helenir ?? item.helenir ?? 0}
       `;
       listaSecoesEl.appendChild(li);
