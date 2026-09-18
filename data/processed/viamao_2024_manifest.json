@@ -1,0 +1,15 @@
+{
+  "arquivo_origem": "viamao_2024.csv",
+  "encoding": "latin1",
+  "separador": ";",
+  "registros": 87298,
+  "zonas": [59, 72],
+  "secoes_unicas": 481,
+  "locais_unicos": 63,
+  "colunas": ["SG_UF","CD_MUNICIPIO","NM_MUNICIPIO","NR_ZONA","NR_SECAO","NR_LOCAL_VOTACAO","NM_LOCAL_VOTACAO","CD_GENERO","DS_GENERO","CD_ESTADO_CIVIL","DS_ESTADO_CIVIL","CD_FAIXA_ETARIA","DS_FAIXA_ETARIA","CD_GRAU_ESCOLARIDADE","DS_GRAU_ESCOLARIDADE","CD_RACA_COR","DS_RACA_COR","CD_IDENTIDADE_GENERO","DS_IDENTIDADE_GENERO","CD_QUILOMBOLA","DS_QUILOMBOLA","CD_INTERPRETE_LIBRAS","DS_INTERPRETE_LIBRAS","TP_OBRIGATORIEDADE_VOTO","QT_ELEITORES_PERFIL","QT_ELEITORES_BIOMETRIA","QT_ELEITORES_DEFICIENCIA","QT_ELEITORES_INC_NM_SOCIAL"],
+  "qt_eleitores_perfil_soma": 165504,
+  "qt_biometria_soma": 152558,
+  "qt_deficiencia_soma": 896,
+  "qt_inc_nm_social_soma": 64,
+  "observacao": "Manifesto da planilha completa recebida. O projeto usa o pacote processado por seção para a interface; os números acima foram conferidos diretamente no CSV."
+}
