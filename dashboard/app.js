@@ -30,37 +30,32 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
 
   async function loadPerfil() {
-    const response = await fetch('/data/processed/viamao_perfil_2024.json?v=20260919', { cache: 'no-store' });
+    // O v3 está publicado como pacote gzip+base64 em viamao_perfil_2024_v3.json.
+    const response = await fetch('/data/processed/viamao_perfil_2024_v3.json?v=20260919', { cache: 'no-store' });
     if (!response.ok) throw new Error('Perfil 2024 indisponível');
     const pkg = await response.json();
     perfil.clear();
 
-    // v3: dados oficiais agregados por seção, com contagens absolutas.
-    if (pkg.schema === 'viamao2024.perfil-eleitorado.v3' && Array.isArray(pkg.secoes)) {
-      for (const x of pkg.secoes) {
-        perfil.set(Number(x.zona) + ':' + Number(x.secao), {
-          z: Number(x.zona), s: Number(x.secao), l: Number(x.local_codigo),
-          total: Number(x.total || 0), genero: x.genero || {},
-          idade: x.faixa_etaria || {}, escolaridade: x.escolaridade || {},
-          biometria: Number(x.biometria || 0), deficiencia: Number(x.deficiencia || 0),
-          nome_social: Number(x.nome_social || 0)
-        });
-      }
-      renderSecoesPerfil();
-      return;
+    if (pkg.schema !== 'viamao2024.perfil-eleitorado.v3' || pkg.encoding !== 'gzip+base64' || !pkg.dados) {
+      throw new Error('Pacote v3 de perfil inválido');
     }
-
-    // Compatibilidade com o pacote v2 anterior.
-    if (pkg.encoding !== 'gzip+base64') throw new Error('Formato de perfil não suportado');
     if (!('DecompressionStream' in window)) throw new Error('Navegador sem suporte à descompressão gzip');
+
     const raw = atob(pkg.dados);
     const bytes = Uint8Array.from(raw, c => c.charCodeAt(0));
     const stream = new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'));
-    const json = JSON.parse(await new Response(stream).text());
-    for (const x of json) {
-      perfil.set(x[0] + ':' + x[1], {
-        z: Number(x[0]), s: Number(x[1]), l: Number(x[2]), r: Number(x[3]),
-        f: Number(x[4]), a: x.slice(5, 9).map(Number), e: x.slice(9, 15).map(Number)
+    const decoded = JSON.parse(await new Response(stream).text());
+    const secoesV3 = Array.isArray(decoded) ? decoded : decoded.secoes;
+
+    if (!Array.isArray(secoesV3)) throw new Error('Seções v3 não encontradas após descompressão');
+
+    for (const x of secoesV3) {
+      perfil.set(Number(x.zona) + ':' + Number(x.secao), {
+        z: Number(x.zona), s: Number(x.secao), l: Number(x.local_codigo),
+        total: Number(x.total || 0), genero: x.genero || {},
+        faixa_etaria: x.faixa_etaria || {}, escolaridade: x.escolaridade || {},
+        biometria: Number(x.biometria || 0), deficiencia: Number(x.deficiencia || 0),
+        nome_social: Number(x.nome_social || 0)
       });
     }
     renderSecoesPerfil();
