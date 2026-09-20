@@ -1,0 +1,2347 @@
+{
+  "schema": "viamao.locais-votacao.historico.v1",
+  "municipio": "VIAMÃO",
+  "fonte": "PDF Locais de Votação fornecido no projeto",
+  "observacao": "77 locais extraídos do PDF; zona, seções e eleitores preservados da fonte. Coordenadas apenas quando há correspondência no cadastro de coordenadas processado. Correções mecânicas de sinal/decimal foram aplicadas somente quando inequívocas; coordenadas sem confirmação permanecem ausentes.",
+  "locais": [
+    {
+      "id": "hist_001",
+      "zona_eleitoral": 59,
+      "nome": "CENTRO DE FORMAÇÃO PROFISSIONAL WALTER GRAF",
+      "endereco": "RUA MARECHAL DEODORO, 220, CENTRO",
+      "secoes": [
+        38,
+        177,
+        324,
+        355
+      ],
+      "eleitores": 953,
+      "coordenadas": {
+        "latitude": -30.083886,
+        "longitude": -51.096197
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 5,
+        "votos_helenir": 7,
+        "total_votos": 12,
+        "num_secoes": 3
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_002",
+      "zona_eleitoral": 59,
+      "nome": "COLÉGIO ADVENTISTA DE VIAMÃO",
+      "endereco": "RUA GENERAL CÂMARA, 226, CENTRO",
+      "secoes": [
+        13,
+        29,
+        118,
+        213,
+        269,
+        295,
+        331,
+        368,
+        416
+      ],
+      "eleitores": 2572,
+      "coordenadas": {
+        "latitude": -30.081384,
+        "longitude": -51.022362
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 10,
+        "votos_helenir": 13,
+        "total_votos": 23,
+        "num_secoes": 7
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_003",
+      "zona_eleitoral": 59,
+      "nome": "COLÉGIO ESTADUAL CECILIA MEIRELES",
+      "endereco": "RUA ALCIDES MAIA, 390, CENTRO",
+      "secoes": [
+        27,
+        173,
+        330,
+        390,
+        426,
+        516
+      ],
+      "eleitores": 2341,
+      "coordenadas": {
+        "latitude": -30.067019,
+        "longitude": -51.033797
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 11,
+        "votos_helenir": 5,
+        "total_votos": 16,
+        "num_secoes": 6
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_004",
+      "zona_eleitoral": 59,
+      "nome": "COLÉGIO MARISTA NOSSA SENHORA DAS GRAÇAS",
+      "endereco": "AVENIDA SENADOR SALGADO FILHO, 8326, KRAHE",
+      "secoes": [
+        5,
+        25,
+        74,
+        92,
+        102,
+        143,
+        153,
+        184,
+        209,
+        236,
+        291,
+        310,
+        353,
+        382,
+        399,
+        432,
+        519
+      ],
+      "eleitores": 4780,
+      "coordenadas": {
+        "latitude": -30.077044,
+        "longitude": -51.049392
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 22,
+        "votos_helenir": 25,
+        "total_votos": 47,
+        "num_secoes": 15
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_005",
+      "zona_eleitoral": 59,
+      "nome": "COLÉGIO STELLA MARIS",
+      "endereco": "AVENIDA CEL MÁRIO ANTUNES DA VEIGA, 453, CENTRO",
+      "secoes": [
+        41,
+        135,
+        239,
+        361,
+        389,
+        412,
+        434
+      ],
+      "eleitores": 2620,
+      "coordenadas": null,
+      "fonte_coordenadas": null,
+      "agregado": {
+        "votos_denise": 18,
+        "votos_helenir": 15,
+        "total_votos": 33,
+        "num_secoes": 7
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_006",
+      "zona_eleitoral": 59,
+      "nome": "COMUNIDADE TEKOA NHE ENGATU",
+      "endereco": "ESTRADA CAPITÃO GENTIL MACHADO DE GODOY, 3825, ELSA",
+      "secoes": [
+        591
+      ],
+      "eleitores": 63,
+      "coordenadas": null,
+      "fonte_coordenadas": null,
+      "agregado": {
+        "votos_denise": 0,
+        "votos_helenir": 0,
+        "total_votos": 0,
+        "num_secoes": 0
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Nenhum registro de votação correspondente no arquivo de seções processado."
+      }
+    },
+    {
+      "id": "hist_007",
+      "zona_eleitoral": 59,
+      "nome": "EE FRANCISCO CANQUERINI",
+      "endereco": "RS 040, KM 50 - PDA. 133, CAPÃO DA PORTEIRA",
+      "secoes": [
+        32,
+        129,
+        325,
+        504
+      ],
+      "eleitores": 1157,
+      "coordenadas": {
+        "latitude": -30.107032,
+        "longitude": -50.684487
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 3,
+        "votos_helenir": 4,
+        "total_votos": 7,
+        "num_secoes": 2
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_008",
+      "zona_eleitoral": 59,
+      "nome": "EEEF ADONIS DOS SANTOS",
+      "endereco": "RUA TORRES, S/N, MARTINICA",
+      "secoes": [
+        525,
+        526,
+        527,
+        528,
+        529,
+        530,
+        531,
+        532,
+        533,
+        534
+      ],
+      "eleitores": 3330,
+      "coordenadas": null,
+      "fonte_coordenadas": null,
+      "agregado": {
+        "votos_denise": 14,
+        "votos_helenir": 6,
+        "total_votos": 20,
+        "num_secoes": 7
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_009",
+      "zona_eleitoral": 59,
+      "nome": "EEEF ANTÔNIO DE SOUZA NETO",
+      "endereco": "RUA GUSTAVO ADOLFO ALBRECH, S/N, ESTALAGEM",
+      "secoes": [
+        20,
+        134,
+        212,
+        294,
+        387,
+        410,
+        503
+      ],
+      "eleitores": 2629,
+      "coordenadas": {
+        "latitude": -30.080141,
+        "longitude": -51.002546
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 17,
+        "votos_helenir": 14,
+        "total_votos": 31,
+        "num_secoes": 7
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_010",
+      "zona_eleitoral": 59,
+      "nome": "EEEF CANADÁ",
+      "endereco": "RUA JOSÉ GARIBALDI, 5500 - ROD. PASSO DO VIGÁRIO, PASSO DO VIGÁRIO",
+      "secoes": [
+        9,
+        174
+      ],
+      "eleitores": 724,
+      "coordenadas": {
+        "latitude": -30.092571,
+        "longitude": -50.972678
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 5,
+        "votos_helenir": 7,
+        "total_votos": 12,
+        "num_secoes": 2
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_011",
+      "zona_eleitoral": 59,
+      "nome": "EEEM AÇORIANOS",
+      "endereco": "RUA ALMEIDA ROSA, 151, KRAHE",
+      "secoes": [
+        12,
+        24,
+        67,
+        116,
+        157,
+        188,
+        201,
+        265,
+        306,
+        333,
+        362,
+        370,
+        398,
+        500,
+        517
+      ],
+      "eleitores": 5006,
+      "coordenadas": {
+        "latitude": -30.084357,
+        "longitude": -51.039468
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 45,
+        "votos_helenir": 43,
+        "total_votos": 88,
+        "num_secoes": 15
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_012",
+      "zona_eleitoral": 59,
+      "nome": "EEEM MINUANO",
+      "endereco": "RUA TIRANDENTES, 200, VIAMÓPOLIS",
+      "secoes": [
+        535,
+        536,
+        537,
+        538,
+        539,
+        540,
+        541,
+        542
+      ],
+      "eleitores": 2819,
+      "coordenadas": {
+        "latitude": -30.088589,
+        "longitude": -51.086101
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 8,
+        "votos_helenir": 3,
+        "total_votos": 11,
+        "num_secoes": 5
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_013",
+      "zona_eleitoral": 59,
+      "nome": "EEEM NISIA FLORESTA",
+      "endereco": "RUA PEDRO JOSÉ MAURÍCIO, S/N, ELSA",
+      "secoes": [
+        4,
+        81,
+        138,
+        167,
+        191,
+        211,
+        234,
+        248,
+        287,
+        309,
+        395,
+        449,
+        520
+      ],
+      "eleitores": 4552,
+      "coordenadas": {
+        "latitude": -30.017165,
+        "longitude": -51.02297
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 9,
+        "votos_helenir": 8,
+        "total_votos": 17,
+        "num_secoes": 10
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_014",
+      "zona_eleitoral": 59,
+      "nome": "EEEM ORIETA",
+      "endereco": "RUA PEDRO MOREIRA LOBATO, 120, MARTINICA",
+      "secoes": [
+        550,
+        551,
+        552,
+        553,
+        554,
+        555,
+        556
+      ],
+      "eleitores": 2374,
+      "coordenadas": {
+        "latitude": -30.093755,
+        "longitude": -51.069763
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 25,
+        "votos_helenir": 14,
+        "total_votos": 39,
+        "num_secoes": 7
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_015",
+      "zona_eleitoral": 59,
+      "nome": "EEEM PROFESSORA CÉLIA FLORES LAVRA PINTO",
+      "endereco": "TRAVESSA ADOLFO SAMPAIO BITENCOURT, 225, ESTALAGEM",
+      "secoes": [
+        21,
+        71,
+        214,
+        270,
+        343,
+        433,
+        579
+      ],
+      "eleitores": 2378,
+      "coordenadas": {
+        "latitude": -30.075869,
+        "longitude": -51.015362
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 13,
+        "votos_helenir": 13,
+        "total_votos": 26,
+        "num_secoes": 6
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_016",
+      "zona_eleitoral": 59,
+      "nome": "EEEM RUI BARBOSA",
+      "endereco": "RS 040, KM 32 - PDA. 94, ÁGUAS CLARAS",
+      "secoes": [
+        34,
+        380,
+        415,
+        508,
+        589
+      ],
+      "eleitores": 1845,
+      "coordenadas": {
+        "latitude": -30.120321,
+        "longitude": -50.844589
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 4,
+        "votos_helenir": 4,
+        "total_votos": 8,
+        "num_secoes": 4
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_017",
+      "zona_eleitoral": 59,
+      "nome": "EEEM SETEMBRINA",
+      "endereco": "AV. BENTO GONÇALVES, 1452, TARUMÃ",
+      "secoes": [
+        26,
+        37,
+        62,
+        98,
+        131,
+        139,
+        168,
+        199,
+        225,
+        322,
+        351,
+        411
+      ],
+      "eleitores": 4756,
+      "coordenadas": {
+        "latitude": -30.079746,
+        "longitude": -51.021969
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 29,
+        "votos_helenir": 32,
+        "total_votos": 61,
+        "num_secoes": 11
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_018",
+      "zona_eleitoral": 59,
+      "nome": "EEIEF KARAI NHE E KATU",
+      "endereco": "RS 040, KM 39 - PDA 116 ESTIVA, CAPÃO DA PORTEIRA",
+      "secoes": [
+        590
+      ],
+      "eleitores": 40,
+      "coordenadas": null,
+      "fonte_coordenadas": null,
+      "agregado": {
+        "votos_denise": 0,
+        "votos_helenir": 0,
+        "total_votos": 0,
+        "num_secoes": 0
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Nenhum registro de votação correspondente no arquivo de seções processado."
+      }
+    },
+    {
+      "id": "hist_019",
+      "zona_eleitoral": 59,
+      "nome": "EMEF APOLINÁRIO ALVES DOS SANTOS",
+      "endereco": "RS 040, KM 27 - PDA. 85, ÁGUAS CLARAS",
+      "secoes": [
+        47,
+        226,
+        375,
+        392,
+        393,
+        420,
+        502,
+        514,
+        521,
+        577,
+        587
+      ],
+      "eleitores": 4640,
+      "coordenadas": {
+        "latitude": -30.140027,
+        "longitude": -50.87875
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 9,
+        "votos_helenir": 12,
+        "total_votos": 21,
+        "num_secoes": 8
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_020",
+      "zona_eleitoral": 59,
+      "nome": "EMEF CORACY PRATES DA VEIGA",
+      "endereco": "ESTRADA PASSO DO MELO, S/N, ESTÂNCIA GRANDE",
+      "secoes": [
+        11
+      ],
+      "eleitores": 359,
+      "coordenadas": {
+        "latitude": -29.991247,
+        "longitude": -50.962314
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 8,
+        "votos_helenir": 0,
+        "total_votos": 8,
+        "num_secoes": 1
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_021",
+      "zona_eleitoral": 59,
+      "nome": "EMEF CORONEL AUGUSTO FRAGA",
+      "endereco": "RS 040, KM 33 - PDA. 100, MORRO GRANDE",
+      "secoes": [
+        45,
+        404
+      ],
+      "eleitores": 849,
+      "coordenadas": {
+        "latitude": -30.116946,
+        "longitude": -50.825054
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 3,
+        "votos_helenir": 4,
+        "total_votos": 7,
+        "num_secoes": 2
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_022",
+      "zona_eleitoral": 59,
+      "nome": "EMEF CRISTIANO VIEIRA DA SILVA",
+      "endereco": "RS 040, KM 36 - ESTRADA DAS LOMBAS - PDA. 109, ÁGUAS CLARAS",
+      "secoes": [
+        33,
+        52,
+        130,
+        349,
+        445
+      ],
+      "eleitores": 1496,
+      "coordenadas": {
+        "latitude": -30.113184,
+        "longitude": -50.792898
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 11,
+        "votos_helenir": 10,
+        "total_votos": 21,
+        "num_secoes": 5
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_023",
+      "zona_eleitoral": 59,
+      "nome": "EMEF DOM DIOGO DE SOUZA",
+      "endereco": "RUA DOIS (CONDADO DE VALENÇA), S/N, PASSO DO VIGÁRIO",
+      "secoes": [
+        524,
+        573,
+        581,
+        584
+      ],
+      "eleitores": 1311,
+      "coordenadas": {
+        "latitude": -30.087036,
+        "longitude": -51.019069
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 11,
+        "votos_helenir": 6,
+        "total_votos": 17,
+        "num_secoes": 3
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_024",
+      "zona_eleitoral": 59,
+      "nome": "EMEF DOUTOR GLÊNIO PERES",
+      "endereco": "RUA FRANCISCO MANOEL DA SILVA, 625, SÃO LUCAS",
+      "secoes": [
+        271,
+        338,
+        391,
+        505,
+        578
+      ],
+      "eleitores": 1574,
+      "coordenadas": {
+        "latitude": -30.084357,
+        "longitude": -51.067054
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 12,
+        "votos_helenir": 9,
+        "total_votos": 21,
+        "num_secoes": 5
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_025",
+      "zona_eleitoral": 59,
+      "nome": "EMEF FARROUPILHA",
+      "endereco": "AVENIDA SENADOR SALGADO FILHO, 6031 - PDA. 46, SÃO LUCAS",
+      "secoes": [
+        1,
+        60,
+        72,
+        88,
+        104,
+        127,
+        137,
+        170,
+        183,
+        206,
+        341,
+        396,
+        438,
+        574,
+        582
+      ],
+      "eleitores": 5503,
+      "coordenadas": {
+        "latitude": -30.092509,
+        "longitude": -51.0636702
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 41,
+        "votos_helenir": 27,
+        "total_votos": 68,
+        "num_secoes": 15
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_026",
+      "zona_eleitoral": 59,
+      "nome": "EMEF FREDERICO DIHL",
+      "endereco": "RUA ALEXANDRE BRAGA, S/N, KRAHE",
+      "secoes": [
+        256,
+        316,
+        359,
+        407,
+        511,
+        583
+      ],
+      "eleitores": 1943,
+      "coordenadas": {
+        "latitude": -30.086097,
+        "longitude": -51.033975
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 14,
+        "votos_helenir": 17,
+        "total_votos": 31,
+        "num_secoes": 6
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_027",
+      "zona_eleitoral": 59,
+      "nome": "EMEF GUERREIRO LIMA",
+      "endereco": "RUA ITAPIRANGA, S/N, COCÃO",
+      "secoes": [
+        427,
+        585
+      ],
+      "eleitores": 541,
+      "coordenadas": {
+        "latitude": -30.030606,
+        "longitude": -51.050824
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 3,
+        "votos_helenir": 2,
+        "total_votos": 5,
+        "num_secoes": 2
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_028",
+      "zona_eleitoral": 59,
+      "nome": "EMEF HUMBERTO DE CAMPOS",
+      "endereco": "RUA OURO PRETO, 150 - PDA. 42, SÃO LUCAS",
+      "secoes": [
+        543,
+        544,
+        545,
+        546,
+        547,
+        548,
+        549
+      ],
+      "eleitores": 2649,
+      "coordenadas": {
+        "latitude": -30.092019,
+        "longitude": -51.08075
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 8,
+        "votos_helenir": 7,
+        "total_votos": 15,
+        "num_secoes": 7
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_029",
+      "zona_eleitoral": 59,
+      "nome": "EMEF JARDIM VIAMAR",
+      "endereco": "RUA UMBÚ, S/N, ELSA",
+      "secoes": [
+        302,
+        381,
+        425,
+        448,
+        523,
+        580
+      ],
+      "eleitores": 2280,
+      "coordenadas": {
+        "latitude": -30.056258,
+        "longitude": -51.021826
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 16,
+        "votos_helenir": 14,
+        "total_votos": 30,
+        "num_secoes": 6
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_030",
+      "zona_eleitoral": 59,
+      "nome": "EMEF MARECHAL HUMBERTO DE ALENCAR CASTELO BRANCO",
+      "endereco": "RUA PRESIDENTE CASTELO BRANCO, 151, FIUZA",
+      "secoes": [
+        6,
+        8,
+        112,
+        136,
+        186,
+        237,
+        406
+      ],
+      "eleitores": 2268,
+      "coordenadas": {
+        "latitude": -30.085357,
+        "longitude": -51.028943
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 16,
+        "votos_helenir": 15,
+        "total_votos": 31,
+        "num_secoes": 7
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_031",
+      "zona_eleitoral": 59,
+      "nome": "EMEF MONTEIRO LOBATO",
+      "endereco": "RUA DO ARPOADOR, 37, ELSA",
+      "secoes": [
+        18,
+        286,
+        575
+      ],
+      "eleitores": 1103,
+      "coordenadas": {
+        "latitude": -30.005506,
+        "longitude": -51.033552
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 7,
+        "votos_helenir": 3,
+        "total_votos": 10,
+        "num_secoes": 2
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_032",
+      "zona_eleitoral": 59,
+      "nome": "EMEF NOSSA SENHORA DA CONCEIÇÃO",
+      "endereco": "AVENIDA JARDIM LISBOA, 266, KRAHE",
+      "secoes": [
+        46,
+        148,
+        215,
+        377
+      ],
+      "eleitores": 1383,
+      "coordenadas": {
+        "latitude": -30.084303,
+        "longitude": -51.051666
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 5,
+        "votos_helenir": 7,
+        "total_votos": 12,
+        "num_secoes": 4
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_033",
+      "zona_eleitoral": 59,
+      "nome": "EMEF PROFESSOR BARRETO VIANA",
+      "endereco": "RUA TULIPA, 37, FIUZA",
+      "secoes": [
+        509,
+        512,
+        586
+      ],
+      "eleitores": 1024,
+      "coordenadas": {
+        "latitude": -30.093231,
+        "longitude": -51.015949
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 3,
+        "votos_helenir": 2,
+        "total_votos": 5,
+        "num_secoes": 2
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_034",
+      "zona_eleitoral": 59,
+      "nome": "EMEF RECANTO DA LAGOA",
+      "endereco": "RUA LAGOA MIRIM, S/N, SANTO ONOFRE",
+      "secoes": [
+        567,
+        568,
+        569,
+        570,
+        571,
+        572
+      ],
+      "eleitores": 2353,
+      "coordenadas": {
+        "latitude": -30.098774,
+        "longitude": -51.055791
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 19,
+        "votos_helenir": 9,
+        "total_votos": 28,
+        "num_secoes": 6
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_035",
+      "zona_eleitoral": 59,
+      "nome": "EMEF SANTA MARIA",
+      "endereco": "ESTRADA DOS CUNHA, 820, SANTO ONOFRE",
+      "secoes": [
+        43,
+        120,
+        192,
+        305,
+        342,
+        366,
+        446
+      ],
+      "eleitores": 2519,
+      "coordenadas": {
+        "latitude": -30.096135,
+        "longitude": -51.058022
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 18,
+        "votos_helenir": 11,
+        "total_votos": 29,
+        "num_secoes": 7
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_036",
+      "zona_eleitoral": 59,
+      "nome": "EMEF SÃO JORGE",
+      "endereco": "RUA AMÉRICO JOSÉ GOULART, S/N, VIAMÓPOLIS",
+      "secoes": [
+        557,
+        558,
+        559,
+        560
+      ],
+      "eleitores": 1433,
+      "coordenadas": {
+        "latitude": -30.084879,
+        "longitude": -51.088719
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 4,
+        "votos_helenir": 4,
+        "total_votos": 8,
+        "num_secoes": 3
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_037",
+      "zona_eleitoral": 59,
+      "nome": "EMEF ZEFERINO LOPES DE CASTRO",
+      "endereco": "RODOVIA CEL. EDMUNDO DOS SANTOS ABREU, S/N, ÁGUAS CLARAS",
+      "secoes": [
+        48,
+        268
+      ],
+      "eleitores": 680,
+      "coordenadas": {
+        "latitude": -30.160619,
+        "longitude": -50.915742
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 9,
+        "votos_helenir": 4,
+        "total_votos": 13,
+        "num_secoes": 2
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_038",
+      "zona_eleitoral": 59,
+      "nome": "EMEI PADRE REUS",
+      "endereco": "AVENIDA PRESIDENTE VARGAS, 1002, VIAMÓPOLIS",
+      "secoes": [
+        418,
+        561,
+        562,
+        563,
+        564,
+        565,
+        566
+      ],
+      "eleitores": 2345,
+      "coordenadas": {
+        "latitude": -30.080129,
+        "longitude": -51.079912
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 12,
+        "votos_helenir": 4,
+        "total_votos": 16,
+        "num_secoes": 7
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_039",
+      "zona_eleitoral": 59,
+      "nome": "EMEI POSSIDÔNIO DA CUNHA",
+      "endereco": "RUA VOLUNTÁRIOS DA PÁTRIA, 209, TARUMÃ",
+      "secoes": [
+        105,
+        152,
+        181
+      ],
+      "eleitores": 857,
+      "coordenadas": {
+        "latitude": -30.072238,
+        "longitude": -51.016723
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 8,
+        "votos_helenir": 9,
+        "total_votos": 17,
+        "num_secoes": 3
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_040",
+      "zona_eleitoral": 59,
+      "nome": "SALÃO PAROQUIAL DA IGREJA NOSSA SENHORA DA CONCEIÇÃO",
+      "endereco": "PRAÇA CÔNEGO BERNARDO MACHADO DOS SANTOS, 53, CENTRO",
+      "secoes": [
+        70,
+        144,
+        164,
+        229
+      ],
+      "eleitores": 939,
+      "coordenadas": null,
+      "fonte_coordenadas": null,
+      "agregado": {
+        "votos_denise": 8,
+        "votos_helenir": 5,
+        "total_votos": 13,
+        "num_secoes": 3
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_041",
+      "zona_eleitoral": 59,
+      "nome": "(POLI) ESCOLA ESTADUAL ALCEBIADES AZEREDO DOS SANTOS",
+      "endereco": "RUA ALCEBIADES AZEREDO DOS SANTOS, S/N, CECÍLIA",
+      "secoes": [
+        36,
+        63,
+        86,
+        113,
+        142,
+        172,
+        190,
+        202,
+        228,
+        344,
+        441,
+        464
+      ],
+      "eleitores": 4442,
+      "coordenadas": null,
+      "fonte_coordenadas": null,
+      "agregado": {
+        "votos_denise": 27,
+        "votos_helenir": 5,
+        "total_votos": 32,
+        "num_secoes": 10
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_042",
+      "zona_eleitoral": 72,
+      "nome": "ASSOCIAÇÃO COMUNITÁRIA DO JARDIM CASTELO",
+      "endereco": "ESTRADA CAMINHO DO MEIO, 1171, RUA 01, 200, JARDIM CASTELO",
+      "secoes": [
+        515,
+        528
+      ],
+      "eleitores": 795,
+      "coordenadas": null,
+      "fonte_coordenadas": null,
+      "agregado": {
+        "votos_denise": 8,
+        "votos_helenir": 2,
+        "total_votos": 10,
+        "num_secoes": 2
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_043",
+      "zona_eleitoral": 72,
+      "nome": "ASSOCIAÇÃO COMUNITÁRIA PARQUE FLORESTAL - ACOPAF",
+      "endereco": "AV. DA FIGUEIRA, 10 - PARQUE FLORESTAL - ITAPUÃ, ITAPUÃ",
+      "secoes": [
+        533
+      ],
+      "eleitores": 169,
+      "coordenadas": null,
+      "fonte_coordenadas": null,
+      "agregado": {
+        "votos_denise": 0,
+        "votos_helenir": 0,
+        "total_votos": 0,
+        "num_secoes": 0
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Nenhum registro de votação correspondente no arquivo de seções processado."
+      }
+    },
+    {
+      "id": "hist_044",
+      "zona_eleitoral": 72,
+      "nome": "ESCOLA ESTADUAL DE ENS. FUND. DR LIBERATO SALZANO VIEIRA DA CUNHA",
+      "endereco": "ESTRADA ANIELO FEULA, N. 2955 - CANTA GALO, ÁREA RURAL DE VIAMÃO",
+      "secoes": [
+        281
+      ],
+      "eleitores": 223,
+      "coordenadas": {
+        "latitude": -30.206046,
+        "longitude": -50.998446
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 0,
+        "votos_helenir": 0,
+        "total_votos": 0,
+        "num_secoes": 0
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Nenhum registro de votação correspondente no arquivo de seções processado."
+      }
+    },
+    {
+      "id": "hist_045",
+      "zona_eleitoral": 72,
+      "nome": "ESCOLA ESTADUAL DE ENSINO FUNDAMENTAL JOÃO BARBOSA",
+      "endereco": "ESTRADA DA BRANQUINHA, 3361, MARTINICA",
+      "secoes": [
+        329,
+        413,
+        521
+      ],
+      "eleitores": 1143,
+      "coordenadas": {
+        "latitude": -30.126051,
+        "longitude": -51.054938
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 1,
+        "votos_helenir": 2,
+        "total_votos": 3,
+        "num_secoes": 2
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_046",
+      "zona_eleitoral": 72,
+      "nome": "ESCOLA ESTADUAL DE ENSINO FUNDAMENTAL WALT DISNEY",
+      "endereco": "RUA MEDIANEIRA, 648, SANTA ISABEL",
+      "secoes": [
+        10,
+        68,
+        100,
+        151,
+        189,
+        222,
+        527
+      ],
+      "eleitores": 2209,
+      "coordenadas": null,
+      "fonte_coordenadas": null,
+      "agregado": {
+        "votos_denise": 11,
+        "votos_helenir": 2,
+        "total_votos": 13,
+        "num_secoes": 7
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_047",
+      "zona_eleitoral": 72,
+      "nome": "ESCOLA ESTADUAL DE ENSINO MÉDIO AYRTON SENNA DA SILVA",
+      "endereco": "RUA IPIRANGA, 135, AUGUSTA",
+      "secoes": [
+        466,
+        467,
+        468,
+        469,
+        470,
+        471,
+        472,
+        473,
+        474,
+        475,
+        531
+      ],
+      "eleitores": 4154,
+      "coordenadas": null,
+      "fonte_coordenadas": null,
+      "agregado": {
+        "votos_denise": 13,
+        "votos_helenir": 3,
+        "total_votos": 16,
+        "num_secoes": 8
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_048",
+      "zona_eleitoral": 72,
+      "nome": "ESCOLA ESTADUAL DE ENSINO MÉDIO BARÃO DE LUCENA",
+      "endereco": "RUA DA SAUDADE, 16, SÃO TOMÉ",
+      "secoes": [
+        31,
+        73,
+        93,
+        122,
+        161,
+        182,
+        221,
+        272,
+        314,
+        347,
+        442,
+        462,
+        530,
+        532
+      ],
+      "eleitores": 5000,
+      "coordenadas": null,
+      "fonte_coordenadas": null,
+      "agregado": {
+        "votos_denise": 9,
+        "votos_helenir": 9,
+        "total_votos": 18,
+        "num_secoes": 10
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_049",
+      "zona_eleitoral": 72,
+      "nome": "ESCOLA ESTADUAL DE ENSINO MÉDIO GENÉSIO PIRES",
+      "endereco": "RUA JÚLIO DE CASTILHOS, 123, ITAPUÃ",
+      "secoes": [
+        53,
+        54,
+        56,
+        125,
+        303,
+        318
+      ],
+      "eleitores": 1993,
+      "coordenadas": null,
+      "fonte_coordenadas": null,
+      "agregado": {
+        "votos_denise": 9,
+        "votos_helenir": 6,
+        "total_votos": 15,
+        "num_secoes": 5
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_050",
+      "zona_eleitoral": 72,
+      "nome": "ESCOLA ESTADUAL DE ENSINO MÉDIO GOVERNADOR WALTER JOBIM",
+      "endereco": "AVENIDA WALTER JOBIM, 271, NOSSA SENHORA APARECIDA",
+      "secoes": [
+        42,
+        159,
+        253,
+        275,
+        282,
+        336,
+        360,
+        386,
+        397,
+        437,
+        463,
+        517
+      ],
+      "eleitores": 4137,
+      "coordenadas": {
+        "latitude": -30.061443,
+        "longitude": -51.111149
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 3,
+        "votos_helenir": 0,
+        "total_votos": 3,
+        "num_secoes": 3
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_051",
+      "zona_eleitoral": 72,
+      "nome": "ESCOLA ESTADUAL DE ENSINO MÉDIO PROFESSOR TOLENTINO MAIA",
+      "endereco": "RUA DOM PEDRITO, 130, VIAMÓPOLIS",
+      "secoes": [
+        14,
+        15,
+        94,
+        103,
+        149,
+        158,
+        241,
+        262,
+        284,
+        321,
+        373
+      ],
+      "eleitores": 2406,
+      "coordenadas": null,
+      "fonte_coordenadas": null,
+      "agregado": {
+        "votos_denise": 12,
+        "votos_helenir": 8,
+        "total_votos": 20,
+        "num_secoes": 10
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_052",
+      "zona_eleitoral": 72,
+      "nome": "ESCOLA MUNICIPAL CELINA WESTPHALEN WEISSHEIMER",
+      "endereco": "ESTRADA LUIS PINTO DE BARCELOS, 599, LOMBA DO PINHEIRO",
+      "secoes": [
+        516
+      ],
+      "eleitores": 442,
+      "coordenadas": {
+        "latitude": -30.141347,
+        "longitude": -51.080472
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 3,
+        "votos_helenir": 0,
+        "total_votos": 3,
+        "num_secoes": 1
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_053",
+      "zona_eleitoral": 72,
+      "nome": "ESCOLA MUNICIPAL DE EDUCAÇÃO INFANTIL CARLOS CHAGAS",
+      "endereco": "RUA TRIÂNGULO, S/N, SANTA ISABEL",
+      "secoes": [
+        367,
+        447
+      ],
+      "eleitores": 531,
+      "coordenadas": {
+        "latitude": -30.066741,
+        "longitude": -51.10313
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 4,
+        "votos_helenir": 0,
+        "total_votos": 4,
+        "num_secoes": 2
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_054",
+      "zona_eleitoral": 72,
+      "nome": "ESCOLA MUNICIPAL DE EDUCAÇÃO INFANTIL SANTA CECÍLIA",
+      "endereco": "R. MOISÉS BONETT, 29, CECÍLIA",
+      "secoes": [
+        263
+      ],
+      "eleitores": 443,
+      "coordenadas": {
+        "latitude": -30.061304,
+        "longitude": -51.088857
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 1,
+        "votos_helenir": 0,
+        "total_votos": 1,
+        "num_secoes": 1
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_055",
+      "zona_eleitoral": 72,
+      "nome": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL ALBERTO PASQUALINI",
+      "endereco": "RUA CASEMIRO DE ABREU, 385, SANTA ISABEL",
+      "secoes": [
+        22,
+        58,
+        64,
+        76,
+        89,
+        99,
+        110,
+        123,
+        133,
+        150,
+        171,
+        180,
+        194,
+        203,
+        220,
+        238,
+        460
+      ],
+      "eleitores": 4517,
+      "coordenadas": null,
+      "fonte_coordenadas": null,
+      "agregado": {
+        "votos_denise": 12,
+        "votos_helenir": 5,
+        "total_votos": 17,
+        "num_secoes": 10
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_056",
+      "zona_eleitoral": 72,
+      "nome": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL ALBERTO SANTOS DUMONT",
+      "endereco": "RUA GUARARAPES, S/N - PDA. 39, CECÍLIA",
+      "secoes": [
+        252,
+        328,
+        400,
+        519
+      ],
+      "eleitores": 1546,
+      "coordenadas": {
+        "latitude": -30.080547,
+        "longitude": -51.091994
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 0,
+        "votos_helenir": 1,
+        "total_votos": 1,
+        "num_secoes": 1
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_057",
+      "zona_eleitoral": 72,
+      "nome": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL ANITA GARIBALDI",
+      "endereco": "RUA GRACILIANO RAMOS, 558, JARDIM UNIVERSITÁRIO",
+      "secoes": [
+        44,
+        78,
+        109,
+        156,
+        185,
+        216,
+        264,
+        523
+      ],
+      "eleitores": 2613,
+      "coordenadas": null,
+      "fonte_coordenadas": null,
+      "agregado": {
+        "votos_denise": 11,
+        "votos_helenir": 3,
+        "total_votos": 14,
+        "num_secoes": 6
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_058",
+      "zona_eleitoral": 72,
+      "nome": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL ARAÇÁ",
+      "endereco": "RUA JUAZEIRO, 210, PLANALTO",
+      "secoes": [
+        298,
+        317,
+        346,
+        385,
+        422,
+        440,
+        529
+      ],
+      "eleitores": 2437,
+      "coordenadas": null,
+      "fonte_coordenadas": null,
+      "agregado": {
+        "votos_denise": 5,
+        "votos_helenir": 7,
+        "total_votos": 12,
+        "num_secoes": 4
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_059",
+      "zona_eleitoral": 72,
+      "nome": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL BRASÍLIA",
+      "endereco": "RUA PLANALTO, S/N, PLANALTO",
+      "secoes": [
+        260,
+        319,
+        354,
+        435
+      ],
+      "eleitores": 1557,
+      "coordenadas": {
+        "latitude": -30.077841,
+        "longitude": -51.16078
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 11,
+        "votos_helenir": 13,
+        "total_votos": 24,
+        "num_secoes": 4
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_060",
+      "zona_eleitoral": 72,
+      "nome": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL FREI PACÍFICO",
+      "endereco": "RUA REFORMA AGRÁRIA, N. 35, ITAPUÃ",
+      "secoes": [
+        50,
+        242
+      ],
+      "eleitores": 673,
+      "coordenadas": null,
+      "fonte_coordenadas": null,
+      "agregado": {
+        "votos_denise": 3,
+        "votos_helenir": 1,
+        "total_votos": 4,
+        "num_secoes": 1
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_061",
+      "zona_eleitoral": 72,
+      "nome": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL JERÔNIMO PORTO",
+      "endereco": "RODOVIA ACRÍSIO MARTINS PRATES, 3600, PASSO DA AREIA",
+      "secoes": [
+        49,
+        154
+      ],
+      "eleitores": 441,
+      "coordenadas": null,
+      "fonte_coordenadas": null,
+      "agregado": {
+        "votos_denise": 2,
+        "votos_helenir": 2,
+        "total_votos": 4,
+        "num_secoes": 1
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_062",
+      "zona_eleitoral": 72,
+      "nome": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL JOSÉ LOUREIRO DA SILVA",
+      "endereco": "ESTRADA JOÃO PEDRO DELGADO SOBRINHO, 100, SÍTIOS",
+      "secoes": [
+        301,
+        383,
+        429
+      ],
+      "eleitores": 1160,
+      "coordenadas": {
+        "latitude": -30.15076,
+        "longitude": -51.076014
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 1,
+        "votos_helenir": 1,
+        "total_votos": 2,
+        "num_secoes": 1
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_063",
+      "zona_eleitoral": 72,
+      "nome": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL LAURO PEREIRA RODRIGUES",
+      "endereco": "RUA ISABEL MIRIDIU, 42, AUGUSTA",
+      "secoes": [
+        476,
+        477,
+        478,
+        479,
+        480,
+        481,
+        482,
+        483
+      ],
+      "eleitores": 2815,
+      "coordenadas": null,
+      "fonte_coordenadas": null,
+      "agregado": {
+        "votos_denise": 7,
+        "votos_helenir": 4,
+        "total_votos": 11,
+        "num_secoes": 6
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_064",
+      "zona_eleitoral": 72,
+      "nome": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL LUCIANA DE ABREU",
+      "endereco": "RUA DÁRIO GONÇALVES MOLHO, S/N, AUGUSTA",
+      "secoes": [
+        484,
+        485,
+        486,
+        487,
+        488,
+        489,
+        490,
+        491,
+        492,
+        493,
+        494,
+        495,
+        496,
+        497,
+        498,
+        499,
+        500
+      ],
+      "eleitores": 5283,
+      "coordenadas": {
+        "latitude": -30.059519,
+        "longitude": -51.080825
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 19,
+        "votos_helenir": 6,
+        "total_votos": 25,
+        "num_secoes": 14
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_065",
+      "zona_eleitoral": 72,
+      "nome": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL MONTE ALEGRE JUNTO AO CAIC",
+      "endereco": "RUA ESPÍRITO SANTO, 200, JARI",
+      "secoes": [
+        452,
+        453,
+        454,
+        455,
+        456,
+        457,
+        458,
+        459
+      ],
+      "eleitores": 3055,
+      "coordenadas": {
+        "latitude": -30.056924,
+        "longitude": -51.097605
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 14,
+        "votos_helenir": 4,
+        "total_votos": 18,
+        "num_secoes": 5
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_066",
+      "zona_eleitoral": 72,
+      "nome": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL NOSSA SENHORA APARECIDA",
+      "endereco": "RUA SÃO CARLOS, 199, NOSSA SENHORA APARECIDA",
+      "secoes": [
+        267,
+        525
+      ],
+      "eleitores": 422,
+      "coordenadas": {
+        "latitude": -30.064631,
+        "longitude": -51.116949
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 1,
+        "votos_helenir": 0,
+        "total_votos": 1,
+        "num_secoes": 1
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_067",
+      "zona_eleitoral": 72,
+      "nome": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL OLÍMPIO COELHO DE OLIVEIRA",
+      "endereco": "ESTRADA DA CAPOROROCA, S/N, LOMBA DO PINHEIRO",
+      "secoes": [
+        3,
+        126,
+        320,
+        518
+      ],
+      "eleitores": 1392,
+      "coordenadas": null,
+      "fonte_coordenadas": null,
+      "agregado": {
+        "votos_denise": 5,
+        "votos_helenir": 5,
+        "total_votos": 10,
+        "num_secoes": 4
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_068",
+      "zona_eleitoral": 72,
+      "nome": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL PRESIDENTE GETÚLIO VARGAS",
+      "endereco": "RUA OLGA BENÁRIO, 91, MARTINICA",
+      "secoes": [
+        296,
+        337,
+        401,
+        451,
+        520
+      ],
+      "eleitores": 1882,
+      "coordenadas": {
+        "latitude": -30.112122,
+        "longitude": -51.060773
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 5,
+        "votos_helenir": 4,
+        "total_votos": 9,
+        "num_secoes": 4
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_069",
+      "zona_eleitoral": 72,
+      "nome": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL PRESIDENTE JOÃO GOULART",
+      "endereco": "AV. PARAISO, S/N, AUGUSTA",
+      "secoes": [
+        514,
+        524
+      ],
+      "eleitores": 883,
+      "coordenadas": {
+        "latitude": -30.093545,
+        "longitude": -51.088891
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 0,
+        "votos_helenir": 0,
+        "total_votos": 0,
+        "num_secoes": 0
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Nenhum registro de votação correspondente no arquivo de seções processado."
+      }
+    },
+    {
+      "id": "hist_070",
+      "zona_eleitoral": 72,
+      "nome": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL QUATORZE DE SETEMBRO",
+      "endereco": "ESTRADA DA QUEBRADA, AVIPAL, CURRAL DA MACEGA, PASSO DA AREIA",
+      "secoes": [
+        55
+      ],
+      "eleitores": 188,
+      "coordenadas": null,
+      "fonte_coordenadas": null,
+      "agregado": {
+        "votos_denise": 1,
+        "votos_helenir": 0,
+        "total_votos": 1,
+        "num_secoes": 1
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_071",
+      "zona_eleitoral": 72,
+      "nome": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL RICARDO FAICKER NUNES",
+      "endereco": "AVENIDA PARAGUASSÚ, S/N, JARI",
+      "secoes": [
+        501,
+        502,
+        503,
+        504,
+        505,
+        506,
+        507,
+        508,
+        509,
+        510,
+        511,
+        512,
+        513
+      ],
+      "eleitores": 3772,
+      "coordenadas": {
+        "latitude": -30.05418,
+        "longitude": -51.096956
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 20,
+        "votos_helenir": 6,
+        "total_votos": 26,
+        "num_secoes": 12
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_072",
+      "zona_eleitoral": 72,
+      "nome": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL SANTA CECÍLIA",
+      "endereco": "RUA COLORADO, 450, CECÍLIA",
+      "secoes": [
+        251,
+        285,
+        304,
+        315,
+        332,
+        345,
+        376,
+        405
+      ],
+      "eleitores": 2684,
+      "coordenadas": {
+        "latitude": -30.061304,
+        "longitude": -51.088857
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 7,
+        "votos_helenir": 8,
+        "total_votos": 15,
+        "num_secoes": 6
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_073",
+      "zona_eleitoral": 72,
+      "nome": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL SANTA ISABEL",
+      "endereco": "RUA RINCÃO DA QUERÊNCIA, 59, SANTA ISABEL",
+      "secoes": [
+        278,
+        283,
+        293,
+        352,
+        409,
+        522
+      ],
+      "eleitores": 2302,
+      "coordenadas": {
+        "latitude": -30.065362,
+        "longitude": -51.106177
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 3,
+        "votos_helenir": 2,
+        "total_votos": 5,
+        "num_secoes": 4
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_074",
+      "zona_eleitoral": 72,
+      "nome": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL VINTE DE SETEMBRO",
+      "endereco": "AVENIDA PLÁCIDO MOTTIN, 1097, CECÍLIA",
+      "secoes": [
+        28,
+        77,
+        140,
+        176,
+        196,
+        217,
+        235,
+        421,
+        444,
+        526
+      ],
+      "eleitores": 3341,
+      "coordenadas": null,
+      "fonte_coordenadas": null,
+      "agregado": {
+        "votos_denise": 14,
+        "votos_helenir": 3,
+        "total_votos": 17,
+        "num_secoes": 8
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_075",
+      "zona_eleitoral": 72,
+      "nome": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL ÉRICO VERISSIMO",
+      "endereco": "RUA DA HIDRÁULICA, 773, CECÍLIA",
+      "secoes": [
+        297
+      ],
+      "eleitores": 381,
+      "coordenadas": {
+        "latitude": -30.081584,
+        "longitude": -51.110777
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 0,
+        "votos_helenir": 2,
+        "total_votos": 2,
+        "num_secoes": 1
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_076",
+      "zona_eleitoral": 72,
+      "nome": "INSTITUTO ESTADUAL DE EDUCAÇÃO ISABEL DE ESPANHA",
+      "endereco": "AVENIDA SENADOR SALGADO FILHO, 1579, CECÍLIA",
+      "secoes": [
+        17,
+        61,
+        80,
+        96,
+        117,
+        141,
+        169,
+        187,
+        205,
+        223,
+        255,
+        273,
+        288,
+        340,
+        348,
+        402,
+        461
+      ],
+      "eleitores": 5088,
+      "coordenadas": null,
+      "fonte_coordenadas": null,
+      "agregado": {
+        "votos_denise": 5,
+        "votos_helenir": 12,
+        "total_votos": 17,
+        "num_secoes": 12
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Agregado calculado diretamente das seções correspondentes."
+      }
+    },
+    {
+      "id": "hist_077",
+      "zona_eleitoral": 72,
+      "nome": "SALÃO PAROQUIAL SANTO ANTÔNIO",
+      "endereco": "COSTA DO OVEIRO, 2 DISTRITO, ITAPUÃ",
+      "secoes": [
+        40
+      ],
+      "eleitores": 177,
+      "coordenadas": {
+        "latitude": -30.123063,
+        "longitude": -51.103459
+      },
+      "fonte_coordenadas": "base coordenadas locais processada",
+      "agregado": {
+        "votos_denise": 0,
+        "votos_helenir": 0,
+        "total_votos": 0,
+        "num_secoes": 0
+      },
+      "qualidade_dados": {
+        "anomalias": [],
+        "status": "OK",
+        "observacao": "Nenhum registro de votação correspondente no arquivo de seções processado."
+      }
+    }
+  ]
+}
