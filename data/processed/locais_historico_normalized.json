@@ -2,7 +2,7 @@
   "schema": "viamao.locais-votacao.historico.v1",
   "municipio": "VIAMÃO",
   "fonte": "PDF Locais de Votação fornecido no projeto",
-  "observacao": "77 locais extraídos do PDF; zona, seções e eleitores preservados da fonte. Coordenadas apenas quando há correspondência no cadastro de coordenadas processado; coordenadas mecânicas claramente corrigidas têm nota no histórico do processamento.",
+  "observacao": "77 locais extraídos do PDF; zona, seções e eleitores preservados da fonte. Coordenadas apenas quando há correspondência no cadastro de coordenadas processado. Correções mecânicas de sinal/decimal foram aplicadas somente quando inequívocas; coordenadas sem confirmação permanecem ausentes.",
   "locais": [
     {
       "id": "hist_001",
@@ -833,10 +833,9 @@
       "endereco": "RUA ITAPIRANGA, S/N, COCÃO",
       "secoes": [
         427,
-        541,
         585
       ],
-      "eleitores": 523,
+      "eleitores": 541,
       "coordenadas": {
         "latitude": -30.030606,
         "longitude": -51.050824
@@ -956,7 +955,8 @@
       "endereco": "RUA DO ARPOADOR, 37, ELSA",
       "secoes": [
         18,
-        286
+        286,
+        575
       ],
       "eleitores": 1103,
       "coordenadas": {
@@ -1240,7 +1240,7 @@
     },
     {
       "id": "hist_041",
-      "zona_eleitoral": 72,
+      "zona_eleitoral": 59,
       "nome": "(POLI) ESCOLA ESTADUAL ALCEBIADES AZEREDO DOS SANTOS",
       "endereco": "RUA ALCEBIADES AZEREDO DOS SANTOS, S/N, CECÍLIA",
       "secoes": [
@@ -1602,10 +1602,9 @@
       "endereco": "RUA TRIÂNGULO, S/N, SANTA ISABEL",
       "secoes": [
         367,
-        447,
-        531
+        447
       ],
-      "eleitores": 413,
+      "eleitores": 531,
       "coordenadas": {
         "latitude": -30.066741,
         "longitude": -51.10313
@@ -1629,10 +1628,9 @@
       "nome": "ESCOLA MUNICIPAL DE EDUCAÇÃO INFANTIL SANTA CECÍLIA",
       "endereco": "R. MOISÉS BONETT, 29, CECÍLIA",
       "secoes": [
-        263,
-        443
+        263
       ],
-      "eleitores": 169,
+      "eleitores": 443,
       "coordenadas": {
         "latitude": -30.061304,
         "longitude": -51.088857
@@ -2260,10 +2258,9 @@
       "nome": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL ÉRICO VERISSIMO",
       "endereco": "RUA DA HIDRÁULICA, 773, CECÍLIA",
       "secoes": [
-        297,
-        381
+        297
       ],
-      "eleitores": 422,
+      "eleitores": 381,
       "coordenadas": {
         "latitude": -30.081584,
         "longitude": -51.110777
@@ -2326,10 +2323,9 @@
       "nome": "SALÃO PAROQUIAL SANTO ANTÔNIO",
       "endereco": "COSTA DO OVEIRO, 2 DISTRITO, ITAPUÃ",
       "secoes": [
-        40,
-        177
+        40
       ],
-      "eleitores": 188,
+      "eleitores": 177,
       "coordenadas": {
         "latitude": -30.123063,
         "longitude": -51.103459
