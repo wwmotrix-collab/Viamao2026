@@ -121,15 +121,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (p.genero) {
       const total = p.total;
       const age = p.faixa_etaria || {}, edu = p.escolaridade || {};
-      const ageGroups = [
-        ['16–29', ['16 anos','17 anos','18 anos','19 anos','20 anos','21 a 24 anos','25 a 29 anos']],
-        ['30–44', ['30 a 34 anos','35 a 39 anos','40 a 44 anos']],
-        ['45–59', ['45 a 49 anos','50 a 54 anos','55 a 59 anos']],
-        ['60+', ['60 a 64 anos','65 a 69 anos','70 a 74 anos','75 a 79 anos','80 a 84 anos','85 a 89 anos','90 a 94 anos','95 a 99 anos','100 anos ou mais']]
-      ];
-      const ageHtml = ageGroups.map(([label, keys]) => bar(label, keys.reduce((s,k)=>s+(age[k]||0),0), total)).join('');
+      const ageOrder = ['16 anos','17 anos','18 anos','19 anos','20 anos','21 a 24 anos','25 a 29 anos','30 a 34 anos','35 a 39 anos','40 a 44 anos','45 a 49 anos','50 a 54 anos','55 a 59 anos','60 a 64 anos','65 a 69 anos','70 a 74 anos','75 a 79 anos','80 a 84 anos','85 a 89 anos','90 a 94 anos','95 a 99 anos','100 anos ou mais'];
+      const ageHtml = ageOrder.map(k => age[k] != null ? bar(k, age[k], total) : '').join('');
       const eduOrder = ['ANALFABETO','LÊ E ESCREVE','ENSINO FUNDAMENTAL INCOMPLETO','ENSINO FUNDAMENTAL COMPLETO','ENSINO MÉDIO INCOMPLETO','ENSINO MÉDIO COMPLETO','SUPERIOR INCOMPLETO','SUPERIOR COMPLETO','NÃO INFORMADO'];
-      const eduHtml = eduOrder.map(k => edu[k] != null ? bar(k, edu[k], total) : '').join('');
+      const eduHtml = eduOrder.map(k => edu[k] != null && Number(edu[k]) > 0 ? bar(k, edu[k], total) : '').join('');
       perfilSecaoEl.innerHTML =
         '<div class="perfil-header"><strong>Zona ' + p.z + ' · Seção ' + p.s + '</strong><span>Total: ' + total.toLocaleString('pt-BR') + ' eleitores</span></div>' +
         '<div class="perfil-grid"><div><h5>Gênero</h5>' + bar('Feminino', p.genero.FEMININO || 0, total) + bar('Masculino', p.genero.MASCULINO || 0, total) + '</div>' +
@@ -140,7 +135,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         '<div class="perfil-metric">Deficiência: <strong>' + p.deficiencia.toLocaleString('pt-BR') + ' (' + pct(p.deficiencia,total) + ')</strong></div>' +
         '<div class="perfil-metric">Nome social: <strong>' + p.nome_social.toLocaleString('pt-BR') + ' (' + pct(p.nome_social,total) + ')</strong></div>' +
         '</div></div>' +
-        '<small class="perfil-nota">Contagens absolutas agregadas por seção a partir do arquivo TSE 2024 fornecido. Percentuais são calculados sobre o total de eleitores com perfil registrado na seção.</small>';
+        '<small class="perfil-nota">Contagens absolutas agregadas por seção a partir do arquivo TSE 2024 fornecido. Todas as faixas etárias originais são exibidas; categorias com valor zero não são exibidas.</small>';
     } else {
       const total = p.r || 0;
       perfilSecaoEl.innerHTML =
