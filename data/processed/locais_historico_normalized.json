@@ -2,7 +2,7 @@
   "schema": "viamao.locais-votacao.historico.v1",
   "municipio": "VIAMÃO",
   "fonte": "PDF Locais de Votação fornecido no projeto",
-  "observacao": "77 locais extraídos do PDF; zona, seções e eleitores preservados da fonte. Coordenadas apenas quando há correspondência no cadastro de coordenadas processado. Correções mecânicas de sinal/decimal foram aplicadas somente quando inequívocas; coordenadas sem confirmação permanecem ausentes.",
+  "observacao": "77 locais extraídos do PDF; zona, seções e eleitores preservados da fonte. Coordenadas confirmadas quando disponíveis em cadastros públicos/cadastro do projeto; quando a fonte disponível era de logradouro/CEP ou núcleo territorial, a coordenada é marcada como aproximada na fonte_coordenadas e deve ser tratada como referência cartográfica.",
   "locais": [
     {
       "id": "hist_001",
@@ -155,8 +155,11 @@
         434
       ],
       "eleitores": 2620,
-      "coordenadas": null,
-      "fonte_coordenadas": null,
+      "coordenadas": {
+        "latitude": -30.08585151,
+        "longitude": -51.02333084
+      },
+      "fonte_coordenadas": "cadastro estadual RS 2017",
       "agregado": {
         "votos_denise": 18,
         "votos_helenir": 15,
@@ -178,8 +181,11 @@
         591
       ],
       "eleitores": 63,
-      "coordenadas": null,
-      "fonte_coordenadas": null,
+      "coordenadas": {
+        "latitude": -30.05024,
+        "longitude": -51.01442
+      },
+      "fonte_coordenadas": "CEP do logradouro · aproximada",
       "agregado": {
         "votos_denise": 0,
         "votos_helenir": 0,
@@ -239,8 +245,11 @@
         534
       ],
       "eleitores": 3330,
-      "coordenadas": null,
-      "fonte_coordenadas": null,
+      "coordenadas": {
+        "latitude": -30.1014,
+        "longitude": -51.06853
+      },
+      "fonte_coordenadas": "cadastro de coordenadas do projeto",
       "agregado": {
         "votos_denise": 14,
         "votos_helenir": 6,
@@ -563,8 +572,11 @@
         590
       ],
       "eleitores": 40,
-      "coordenadas": null,
-      "fonte_coordenadas": null,
+      "coordenadas": {
+        "latitude": -30.10141175,
+        "longitude": -50.7648564
+      },
+      "fonte_coordenadas": "cadastro estadual RS",
       "agregado": {
         "votos_denise": 0,
         "votos_helenir": 0,
@@ -1224,8 +1236,11 @@
         229
       ],
       "eleitores": 939,
-      "coordenadas": null,
-      "fonte_coordenadas": null,
+      "coordenadas": {
+        "latitude": -30.081697,
+        "longitude": -51.023951
+      },
+      "fonte_coordenadas": "cadastro de coordenadas do projeto · Igreja Matriz",
       "agregado": {
         "votos_denise": 8,
         "votos_helenir": 5,
@@ -1258,8 +1273,11 @@
         464
       ],
       "eleitores": 4442,
-      "coordenadas": null,
-      "fonte_coordenadas": null,
+      "coordenadas": {
+        "latitude": -30.072768,
+        "longitude": -51.096081
+      },
+      "fonte_coordenadas": "cadastro de coordenadas do projeto · correção decimal",
       "agregado": {
         "votos_denise": 27,
         "votos_helenir": 5,
@@ -1282,8 +1300,11 @@
         528
       ],
       "eleitores": 795,
-      "coordenadas": null,
-      "fonte_coordenadas": null,
+      "coordenadas": {
+        "latitude": -30.0616703,
+        "longitude": -51.0564915
+      },
+      "fonte_coordenadas": "mapa de logradouro",
       "agregado": {
         "votos_denise": 8,
         "votos_helenir": 2,
@@ -1305,8 +1326,11 @@
         533
       ],
       "eleitores": 169,
-      "coordenadas": null,
-      "fonte_coordenadas": null,
+      "coordenadas": {
+        "latitude": -30.28453979,
+        "longitude": -51.02016426
+      },
+      "fonte_coordenadas": "aproximação pelo núcleo de Itapuã · revisar no mapa",
       "agregado": {
         "votos_denise": 0,
         "votos_helenir": 0,
@@ -1388,8 +1412,11 @@
         527
       ],
       "eleitores": 2209,
-      "coordenadas": null,
-      "fonte_coordenadas": null,
+      "coordenadas": {
+        "latitude": -30.07034709,
+        "longitude": -51.10442083
+      },
+      "fonte_coordenadas": "cadastro estadual RS",
       "agregado": {
         "votos_denise": 11,
         "votos_helenir": 2,
@@ -1421,8 +1448,11 @@
         531
       ],
       "eleitores": 4154,
-      "coordenadas": null,
-      "fonte_coordenadas": null,
+      "coordenadas": {
+        "latitude": -30.060401,
+        "longitude": -51.080454
+      },
+      "fonte_coordenadas": "cadastro de coordenadas do projeto · correção decimal",
       "agregado": {
         "votos_denise": 13,
         "votos_helenir": 3,
@@ -1457,8 +1487,11 @@
         532
       ],
       "eleitores": 5000,
-      "coordenadas": null,
-      "fonte_coordenadas": null,
+      "coordenadas": {
+        "latitude": -30.112006021974,
+        "longitude": -51.070859079028
+      },
+      "fonte_coordenadas": "cadastro estadual RS 2014",
       "agregado": {
         "votos_denise": 9,
         "votos_helenir": 9,
@@ -1485,8 +1518,11 @@
         318
       ],
       "eleitores": 1993,
-      "coordenadas": null,
-      "fonte_coordenadas": null,
+      "coordenadas": {
+        "latitude": -30.28453979,
+        "longitude": -51.02104624
+      },
+      "fonte_coordenadas": "cadastro estadual RS",
       "agregado": {
         "votos_denise": 9,
         "votos_helenir": 6,
@@ -1555,8 +1591,11 @@
         373
       ],
       "eleitores": 2406,
-      "coordenadas": null,
-      "fonte_coordenadas": null,
+      "coordenadas": {
+        "latitude": -30.0931,
+        "longitude": -51.08628
+      },
+      "fonte_coordenadas": "CEP do logradouro · aproximada",
       "agregado": {
         "votos_denise": 12,
         "votos_helenir": 8,
@@ -1673,8 +1712,11 @@
         460
       ],
       "eleitores": 4517,
-      "coordenadas": null,
-      "fonte_coordenadas": null,
+      "coordenadas": {
+        "latitude": -30.06718,
+        "longitude": -51.10356
+      },
+      "fonte_coordenadas": "cadastro escolar",
       "agregado": {
         "votos_denise": 12,
         "votos_helenir": 5,
@@ -1732,8 +1774,11 @@
         523
       ],
       "eleitores": 2613,
-      "coordenadas": null,
-      "fonte_coordenadas": null,
+      "coordenadas": {
+        "latitude": -30.0695,
+        "longitude": -51.11341
+      },
+      "fonte_coordenadas": "cadastro escolar",
       "agregado": {
         "votos_denise": 11,
         "votos_helenir": 3,
@@ -1761,8 +1806,11 @@
         529
       ],
       "eleitores": 2437,
-      "coordenadas": null,
-      "fonte_coordenadas": null,
+      "coordenadas": {
+        "latitude": -30.129618,
+        "longitude": -51.092604
+      },
+      "fonte_coordenadas": "cadastro de coordenadas do projeto",
       "agregado": {
         "votos_denise": 5,
         "votos_helenir": 7,
@@ -1814,8 +1862,11 @@
         242
       ],
       "eleitores": 673,
-      "coordenadas": null,
-      "fonte_coordenadas": null,
+      "coordenadas": {
+        "latitude": -30.35348124,
+        "longitude": -50.98409657
+      },
+      "fonte_coordenadas": "cadastro municipal RS 2016",
       "agregado": {
         "votos_denise": 3,
         "votos_helenir": 1,
@@ -1838,8 +1889,11 @@
         154
       ],
       "eleitores": 441,
-      "coordenadas": null,
-      "fonte_coordenadas": null,
+      "coordenadas": {
+        "latitude": -30.18401,
+        "longitude": -50.99328
+      },
+      "fonte_coordenadas": "cadastro escolar",
       "agregado": {
         "votos_denise": 2,
         "votos_helenir": 2,
@@ -1896,8 +1950,11 @@
         483
       ],
       "eleitores": 2815,
-      "coordenadas": null,
-      "fonte_coordenadas": null,
+      "coordenadas": {
+        "latitude": -30.049919,
+        "longitude": -51.081274
+      },
+      "fonte_coordenadas": "cadastro de coordenadas do projeto",
       "agregado": {
         "votos_denise": 7,
         "votos_helenir": 4,
@@ -2024,8 +2081,11 @@
         518
       ],
       "eleitores": 1392,
-      "coordenadas": null,
-      "fonte_coordenadas": null,
+      "coordenadas": {
+        "latitude": -30.15007052,
+        "longitude": -51.03407273
+      },
+      "fonte_coordenadas": "cadastro municipal RS",
       "agregado": {
         "votos_denise": 5,
         "votos_helenir": 5,
@@ -2104,8 +2164,11 @@
         55
       ],
       "eleitores": 188,
-      "coordenadas": null,
-      "fonte_coordenadas": null,
+      "coordenadas": {
+        "latitude": -30.219339,
+        "longitude": -50.927558
+      },
+      "fonte_coordenadas": "cadastro de coordenadas do projeto",
       "agregado": {
         "votos_denise": 1,
         "votos_helenir": 0,
@@ -2238,8 +2301,11 @@
         526
       ],
       "eleitores": 3341,
-      "coordenadas": null,
-      "fonte_coordenadas": null,
+      "coordenadas": {
+        "latitude": -30.07254066,
+        "longitude": -51.09668667
+      },
+      "fonte_coordenadas": "cadastro escolar",
       "agregado": {
         "votos_denise": 14,
         "votos_helenir": 3,
@@ -2303,8 +2369,11 @@
         461
       ],
       "eleitores": 5088,
-      "coordenadas": null,
-      "fonte_coordenadas": null,
+      "coordenadas": {
+        "latitude": -30.0807,
+        "longitude": -51.1031
+      },
+      "fonte_coordenadas": "cadastro empresarial/local",
       "agregado": {
         "votos_denise": 5,
         "votos_helenir": 12,
