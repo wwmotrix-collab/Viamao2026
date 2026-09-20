@@ -8,7 +8,35 @@
 const V=[-30.084,-51.023],M=L.map('map',{minZoom:10,maxZoom:19}).setView(V,12);L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'&copy; OpenStreetMap contributors'}).addTo(M);
 const $=id=>document.getElementById(id);let locais=[],secoes=[],perfil=new Map();
 async function get(url){for(const u of [url,url.replace('/data/','../data/')]){try{const r=await fetch(u,{cache:'no-store'});if(r.ok)return await r.json()}catch(e){}}return null}
-async function loadPerfil(){const r=await fetch('/data/processed/viamao_perfil_2024_v3.json?v=20260920',{cache:'no-store'}),p=await r.json(),raw=atob(p.dados),b=Uint8Array.from(raw,c=>c.charCodeAt(0)),s=new Blob([b]).stream().pipeThrough(new DecompressionStream('gzip')),d=JSON.parse(await new Response(s).text()),a=Array.isArray(d)?d:d.secoes||[];a.forEach(x=>perfil.set(+x.zona+':'+(+x.secao),x));try{const parts=await Promise.all(Array.from({length:9},(_,i)=>fetch('/data/processed/perfil_extra_v1/part'+String(i+1).padStart(2,'0')+'.txt',{cache:'no-store'}).then(x=>{if(!x.ok)throw new Error('parte extra '+i);return x.text()}));const eraw=atob(parts.join('')),eb=Uint8Array.from(eraw,c=>c.charCodeAt(0)),es=new Blob([eb]).stream().pipeThrough(new DecompressionStream('gzip')),ed=JSON.parse(await new Response(es).text());(ed.secoes||[]).forEach(x=>{const q=perfil.get(+x.zona+':'+(+x.secao));if(q)q.extra=x})}catch(e){console.warn('Dimensões extras indisponíveis',e)}}
+async function loadPerfil(){
+  const r=await fetch('/data/processed/viamao_perfil_2024_v3.json?v=20260920',{cache:'no-store'});
+  if(!r.ok) throw new Error('perfil v3 HTTP '+r.status);
+  const p=await r.json();
+  const raw=atob(p.dados);
+  const b=Uint8Array.from(raw,c=>c.charCodeAt(0));
+  const s=new Blob([b]).stream().pipeThrough(new DecompressionStream('gzip'));
+  const d=JSON.parse(await new Response(s).text());
+  const a=Array.isArray(d)?d:d.secoes||[];
+  a.forEach(x=>perfil.set(+x.zona+':'+(+x.secao),x));
+  try{
+    const parts=[];
+    for(let i=1;i<=9;i++){
+      const q=await fetch('/data/processed/perfil_extra_v1/part'+String(i).padStart(2,'0')+'.txt',{cache:'no-store'});
+      if(!q.ok) throw new Error('parte extra '+i+' HTTP '+q.status);
+      parts.push(await q.text());
+    }
+    const eraw=atob(parts.join(''));
+    const eb=Uint8Array.from(eraw,c=>c.charCodeAt(0));
+    const es=new Blob([eb]).stream().pipeThrough(new DecompressionStream('gzip'));
+    const ed=JSON.parse(await new Response(es).text());
+    (ed.secoes||[]).forEach(x=>{
+      const q=perfil.get(+x.zona+':'+(+x.secao));
+      if(q) q.extra=x;
+    });
+  }catch(e){
+    console.warn('Dimensões extras indisponíveis',e);
+  }
+}
 const n=x=>Number(x||0),f=x=>n(x).toLocaleString('pt-BR'),pc=(x,t)=>t?n(x)/t*100:0;
 function sec(z,s){return secoes.find(x=>n(x.zona_eleitoral)==n(z)&&String(x.secao_numero)==String(s))}
 function donut(id,lid,o,keys,colors,t){let st=0,p=[];keys.forEach((k,i)=>{let e=st+pc(o[k],t);if(e>st)p.push(colors[i]+' '+st+'% '+e+'%');st=e});$(id).style.background=p.length?'conic-gradient('+p.join(',')+')':'#dfe5ec';$(lid).innerHTML=keys.map((k,i)=>'<div><span><i class="dot" style="background:'+colors[i]+'"></i>'+k+'</span><strong>'+f(o[k])+' ('+pc(o[k],t).toFixed(1)+'%)</strong></div>').join('')}
