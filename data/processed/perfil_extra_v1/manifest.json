@@ -1,0 +1,14 @@
+{
+  "schema": "viamao2024.perfil-eleitorado.extra.parts.v1",
+  "fonte": "TSE 2024 · Perfil do eleitorado por seção eleitoral",
+  "municipio": "VIAMÃO",
+  "zonas": [
+    59,
+    72
+  ],
+  "secoes": 481,
+  "encoding": "gzip+base64",
+  "partes": 9,
+  "tamanho_base64": 24532,
+  "observacao": "Payload comprimido dividido em 9 partes para publicação estática. Ao carregar, o dashboard concatena as partes, decodifica gzip+base64 e associa as dimensões extras à chave zona:seção."
+}
